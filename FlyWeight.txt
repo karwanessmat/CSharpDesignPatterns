@@ -1,0 +1,24 @@
+Flyweight pattern is used to reduce the number of objects created, to decrease memory and resource usage.
+As a result, it increases performance.
+Flyweight pattern tries to reuse already existing similar kind objects by storing them and creates 
+a new object when no matching object is found.
+ 
+
+ use: 1/5 Low
+
+1.Flyweight
+This is an interface which defines the members of the flyweight objects.
+
+2.ConcreteFlyweight
+This is a class which Inherits from the Flyweight class.
+
+3.UnsharedFlyweight
+This is a class which Inherits from the Flyweight class and enables sharing of information, it is possible to create instances of concrete flyweight classes that are not shared.
+
+4.FlyweightFactory
+This is a class which holds the references of already created flyweight objects. When the GetFlyweight method is called from client code, these references are checked to determine if an appropriate flyweight object is already present or not. If present, it is returned. Otherwise, a new object is generated, added to the collection and returned.
+
+When to use it?
+1. Flyweight is used when there is a need to create a large number of objects of almost similar nature and storage cost is high.
+2.A few shared objects can replace many unshared ones.
+3. Most of the state can be kept on disk or calculated at runtime.

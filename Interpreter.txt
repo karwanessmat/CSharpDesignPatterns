@@ -1,0 +1,46 @@
+Interpreter Design Pattern in C#
+In this article, I am going to discuss the Interpreter Design Pattern in C# with examples.
+Please read our previous article where we discussed the Strategy Design Pattern in C# with
+real-time examples. The Interpreter Design Pattern falls under the category of Behavioural 
+Design Pattern. As part of this article, we are going to discuss the following pointers in
+detail.
+
+What is the Interpreter Design Pattern?
+Understanding the Class Diagram of Interpreter Design Pattern
+Implementing the Interpreter Design Pattern in C#.
+Real-time Examples of Interpreter Design Pattern
+When to use the Interpreter Design Pattern?
+What is the Interpreter Design Pattern?
+The Interpreter Design Pattern Provides a way to evaluate language grammar or expression.
+This pattern is used in SQL parsing, symbol processing engine, etc.
+
+Let us understand the interpreter design pattern with an example. Please have a look at 
+the following image. On the left-hand side, you can see the Context. The Context is nothing 
+but the value that we want to interpret. Here, the context value is the current date. 
+On the right-hand side, you can see the Date expression or you can say the grammar.
+We have different types of date expression such as (MM-DD-YYYY, DD-MM-YYYY, YYYY-MM-DD, 
+and DD-YYYY).
+
+Image description
+https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-45-768x386.png
+
+Frequency of use: 1/5 Low
+
+
+Context: This is a class that contains the data that we want to interpret.
+
+AbstractExpression: This is either an interface that defines the interpret method 
+	which should be implemented by the subclasses. This method takes the context object
+	as a parameter. This context object holds the data that we want to interpret.
+
+TerminalExpression: This is a concrete class that implements the Interpret abstract method 
+of the AbstractExpression interface. The Terminal Expression represents elements in 
+the grammar that do not get replace such as symbols.
+
+NonTerminalExpression: This is also a concrete class that implements the AbstractExpression
+interface. The NonTerminalExpression represents elements that will be replaced during 
+the evaluation such as variables or even rules.
+
+Client: This is a class that builds the abstract syntax tree for a set of instructions 
+in the given grammar. This tree builds with the help of instances of NonTerminalExpression 
+and TerminalExpression classes.

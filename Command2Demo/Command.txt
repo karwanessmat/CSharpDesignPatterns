@@ -1,0 +1,27 @@
+﻿What is the command design pattern?
+The intent of the command design pattern is to decouple the requester of an action 
+from the object that executes the action. In the command design pattern, a request 
+is encapsulated as an object that contains all information about the request. 
+This object is then passed to an invoker object. The invoker object then looks for the appropriate 
+object to handle the command and passes the command to the object.
+
+The command design pattern is a good choice when you want to implement callbacks, queuing tasks,
+tracking history, and undo/redo functionality in your application. The command pattern is a good choice
+for implementing retry mechanisms - when your application would like to reattempt connecting to a service
+at a later point in time which is not up and running at this moment. The Command pattern is also used 
+in message queuing applications, i.e., in applications that need to recover from data loss.
+
+
+
+Command design pattern participants
+In a classic implementation of the Command pattern you have four components:
+1- the command, 
+2- the invoker, 
+3- the receiver, 
+4- and the client. The participants in the command design pattern include the following:
+
+Command — provides an interface for executing an operation
+ConcreteCommand — extends the Command interface and implements the Execute method
+Client — instantiates a ConcreteCommand class
+Invoker — informs the command to execute the request
+Receiver — contains the logic for executing the operations associated with the request

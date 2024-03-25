@@ -1,0 +1,32 @@
+﻿
+https://dotnettutorials.net/lesson/proxy-design-pattern/
+
+Proxy is a structural design pattern that provides an object that acts as a substitute 
+for a real service object used by a client. A proxy receives client requests, does some work 
+(access control, caching, etc.) and then passes the request to a service object.
+
+surrogate: جێ گرتنه‌وه‌
+
+The Proxy pattern provides a surrogate or placeholder object to control access to another, 
+different object. The Proxy object can be used in the same manner as its containing object.
+
+Frequency of use: 4/5
+
+Will I Ever Use This Pattern?
+Probably. If you've ever had a need to change the behavior of an existing object without actually changing
+the definition of that object, the Proxy pattern can allow you to do that. Further, I can see this being 
+very useful in testing scenarios, where you might need to replicate a class's behavior without fully implementing it.
+The classes and objects participating in this pattern are:
+
+Proxy   (MathProxy)
+maintains a reference that lets the proxy access the real subject. Proxy may refer to a Subject if the RealSubject and Subject interfaces are the same.
+provides an interface identical to Subject's so that a proxy can be substituted for for the real subject.
+controls access to the real subject and may be responsible for creating and deleting it.
+other responsibilites depend on the kind of proxy:
+remote proxies are responsible for encoding a request and its arguments and for sending the encoded request to the real subject in a different address space.
+virtual proxies may cache additional information about the real subject so that they can postpone accessing it. For example, the ImageProxy from the Motivation caches the real images's extent.
+protection proxies check that the caller has the access permissions required to perform a request.
+Subject   (IMath)
+defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected.
+RealSubject   (Math)
+defines the real object that the proxy represents.
