@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Flyweight2Demo.Flyweight_Interface
+﻿namespace Flyweight2Demo.Flyweight_Interface
 {
 
     /// <summary>

@@ -1,5 +1,4 @@
-﻿using System;
-using Bridge1Demo.Abstraction;
+﻿using Bridge1Demo.Abstraction;
 using Bridge1Demo.ConcreteImplementation;
 using Bridge1Demo.RefinedAbstraction;
 

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AbstractFactory3Demo.Enums;
+﻿using AbstractFactory3Demo.Enums;
 
 namespace AbstractFactory3Demo.Client
 {

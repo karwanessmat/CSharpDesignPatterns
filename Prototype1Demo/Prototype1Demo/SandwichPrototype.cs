@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Prototype1Demo
+﻿namespace Prototype1Demo
 {
     /// <summary>
     /// The Prototype abstract class

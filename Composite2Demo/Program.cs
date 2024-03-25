@@ -1,5 +1,4 @@
 ﻿using System;
-using Composite2Demo.Component;
 using Composite2Demo.Composite;
 using Composite2Demo.Leaf;
 

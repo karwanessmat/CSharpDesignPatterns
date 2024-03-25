@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Flyweight3Demo.Flyweight_Abstract;
 
 namespace Flyweight3Demo.ConcreteFlyweight

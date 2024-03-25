@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Proxy6Demo
+﻿namespace Proxy6Demo
 {
     public class Employee
     {

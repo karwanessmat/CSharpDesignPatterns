@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Facade2Demo
+﻿namespace Facade2Demo
 {
     /// <summary>
     /// Customer class

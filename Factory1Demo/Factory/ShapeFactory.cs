@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Factory1Demo.Factory.ConcreteClass;
+﻿using Factory1Demo.Factory.ConcreteClass;
 
 namespace Factory1Demo.Factory
 {

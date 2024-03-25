@@ -8,9 +8,12 @@ namespace Factory2Demo
         private static void Main(string[] args)
         {
             var vf = new ConcreteVehicleFactory();
+
+
             var bike = vf.GetVehicle(VehicleType.Bike);
             bike.Drive(50);
             Console.WriteLine();
+
             var scooter = vf.GetVehicle(VehicleType.Scooter);
             scooter.Drive(10);
 

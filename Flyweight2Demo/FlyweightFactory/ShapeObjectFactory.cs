@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using Flyweight2Demo.ConcreteFlyweight;
 using Flyweight2Demo.Flyweight_Interface;
 

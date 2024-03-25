@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Flyweight1Demo
+﻿namespace Flyweight1Demo
 {
     public interface IFlyweight
     {

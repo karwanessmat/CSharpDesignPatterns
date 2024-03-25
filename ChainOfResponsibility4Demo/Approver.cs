@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ChainOfResponsibility4Demo
+﻿namespace ChainOfResponsibility4Demo
 {
     /// <summary>
     /// The 'Handler' abstract class

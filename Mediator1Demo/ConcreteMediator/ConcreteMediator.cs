@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Mediator1Demo.ColleagueColleague;
+﻿using Mediator1Demo.ColleagueColleague;
 
 namespace Mediator1Demo.ConcreteMediator
 {

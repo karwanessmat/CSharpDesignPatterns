@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30711.63
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singlitoin", "Singlitoin", "{02DA5B95-AEF6-43EA-9011-8E9D139F7717}"
 EndProject
@@ -9,6 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton1Demo", "Singleton
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Creational", "1- Creational", "{6D989255-9BE3-48EA-8D73-83B9B87B631A}"
 	ProjectSection(SolutionItems) = preProject
+		Creational.md = Creational.md
 		Description.txt = Description.txt
 	EndProjectSection
 EndProject
@@ -33,6 +34,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype1Demo", "Prototype1Demo\Prototype1Demo\Prototype1Demo.csproj", "{8B9FF917-6670-4D0A-BF32-757DEEFE009D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Structural", "2- Structural", "{11C5BC1C-0FBC-43A6-BF38-0EC500B48E28}"
+	ProjectSection(SolutionItems) = preProject
+		StructuralPattern.md = StructuralPattern.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{5B447A62-3D8B-41AF-96B4-B01AEEFBB815}"
 	ProjectSection(SolutionItems) = preProject
@@ -118,6 +122,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy6Demo", "Proxy6Demo\Proxy6Demo.csproj", "{22896949-AEE2-45D0-9639-97104B3719C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Behavioral", "3- Behavioral", "{DC5F0C6E-63B6-4A49-B826-FA60D9FCD67C}"
+	ProjectSection(SolutionItems) = preProject
+		BehavioralPattern.md = BehavioralPattern.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- ChainOfResponsibility", "1- ChainOfResponsibility", "{EE40B69F-6D7F-4702-BAA6-7B5A3D0EA19E}"
 	ProjectSection(SolutionItems) = preProject
@@ -217,9 +224,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9- Template", "9- Template"
 		TemplateDescription.txt = TemplateDescription.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template1Demo", "Template1Demo\Template1Demo.csproj", "{CE0343A0-CF81-4BA4-80CD-56EF68AB5F98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template1Demo", "Template1Demo\Template1Demo.csproj", "{CE0343A0-CF81-4BA4-80CD-56EF68AB5F98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template2Demo", "Template2Demo\Template2Demo.csproj", "{848184A4-DCD3-4333-84F0-3EA4EA77D4E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template2Demo", "Template2Demo\Template2Demo.csproj", "{848184A4-DCD3-4333-84F0-3EA4EA77D4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory3Demo", "Factory3Demo\Factory3Demo.csproj", "{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -455,6 +464,10 @@ Global
 		{848184A4-DCD3-4333-84F0-3EA4EA77D4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{848184A4-DCD3-4333-84F0-3EA4EA77D4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{848184A4-DCD3-4333-84F0-3EA4EA77D4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -539,6 +552,7 @@ Global
 		{43D99DA6-DF04-4CE6-9016-1280EC31A1F2} = {DC5F0C6E-63B6-4A49-B826-FA60D9FCD67C}
 		{CE0343A0-CF81-4BA4-80CD-56EF68AB5F98} = {43D99DA6-DF04-4CE6-9016-1280EC31A1F2}
 		{848184A4-DCD3-4333-84F0-3EA4EA77D4E2} = {43D99DA6-DF04-4CE6-9016-1280EC31A1F2}
+		{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62} = {F74AF1EF-71AD-457E-A929-43357516B3C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05AE38FD-0D6F-41E1-9FFC-784B01BAD24C}

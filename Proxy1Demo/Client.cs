@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Proxy1Demo
+﻿namespace Proxy1Demo
 {
     public class Client
     {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Decorate2Demo.Component;
+﻿using Decorate2Demo.Component;
 using Decorate2Demo.Decorate;
 
 namespace Decorate2Demo.ConcreteDecorate

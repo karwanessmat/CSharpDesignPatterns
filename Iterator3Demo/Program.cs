@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using Iterator3Demo.IteratorDesignPattern;
 
 namespace Iterator3Demo

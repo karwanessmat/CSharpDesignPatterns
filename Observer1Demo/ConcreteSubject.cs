@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Observer1Demo
+﻿namespace Observer1Demo
 {
     /// <summary>
     /// The 'ConcreteSubject' class

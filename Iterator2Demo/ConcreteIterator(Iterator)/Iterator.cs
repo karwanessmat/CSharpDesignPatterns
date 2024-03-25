@@ -1,6 +1,4 @@
-﻿using System.Collections.ObjectModel;
-using Iterator2Demo.collection;
-using Microsoft.VisualBasic;
+﻿using Iterator2Demo.collection;
 
 namespace Iterator2Demo
 {

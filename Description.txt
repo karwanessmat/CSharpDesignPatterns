@@ -1,3 +1,5 @@
+
+
 1- ABSTRACT FACTORY: Provides an interface for creating families of relegated or dependent
 objects without specifying their concrete classes. There are two types of Abstract Factories:
 The simple Abstract Factory is an abstract class defining Factory methods to answer instances 

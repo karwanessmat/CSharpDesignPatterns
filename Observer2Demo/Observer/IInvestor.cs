@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Observer2Demo.Subject;
+﻿using Observer2Demo.Subject;
 
 namespace Observer2Demo.Observer
 {

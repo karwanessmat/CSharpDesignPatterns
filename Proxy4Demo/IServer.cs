@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Proxy4Demo
+﻿namespace Proxy4Demo
 {
     /// <summary>
     /// The Subject interface which both the RealSubject and proxy will need to implement

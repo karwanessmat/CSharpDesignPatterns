@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Proxy3Demo
+﻿namespace Proxy3Demo
 {
     /// <summary>
     /// The 'Subject interface

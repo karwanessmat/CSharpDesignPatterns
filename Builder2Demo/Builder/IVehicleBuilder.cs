@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Builder2Demo.Product;
+﻿using Builder2Demo.Product;
 
 namespace Builder2Demo.Builder
 {

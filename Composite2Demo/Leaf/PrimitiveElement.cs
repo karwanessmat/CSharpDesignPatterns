@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Composite2Demo.Component;
 
 namespace Composite2Demo.Leaf

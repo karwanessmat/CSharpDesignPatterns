@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Composite3Demo.Component
+﻿namespace Composite3Demo.Component
 {
 
     /// <summary>

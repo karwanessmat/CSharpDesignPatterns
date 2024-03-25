@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Decorator1Demo.Component;
 
 namespace Decorator1Demo.ConcreteComponent

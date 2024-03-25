@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Facade1Demo
+﻿namespace Facade1Demo
 {
     /// <summary>
     /// The 'Facade' class

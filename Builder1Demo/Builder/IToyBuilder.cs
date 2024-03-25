@@ -1,5 +1,4 @@
-﻿using Builder1Demo.ConcreteBuilder;
-using Builder1Demo.Product;
+﻿using Builder1Demo.Product;
 
 namespace Builder1Demo.Builder
 {

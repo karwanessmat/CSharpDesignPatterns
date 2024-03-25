@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Adapter5Demo
+﻿namespace Adapter5Demo
 {
     /// <summary>
     /// The 'Adaptee' class

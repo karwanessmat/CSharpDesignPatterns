@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Adapter1Demo
+﻿namespace Adapter1Demo
 {
     internal class Program
     {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Decorator1Demo.Component
+﻿namespace Decorator1Demo.Component
 {
     /// <summary>
     /// The 'Component' abstract class

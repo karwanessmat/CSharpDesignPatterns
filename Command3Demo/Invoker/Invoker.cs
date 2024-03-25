@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Command3Demo.Invoker
+﻿namespace Command3Demo.Invoker
 {
    // The following code snippet illustrates the Invoker class.
    // It contains two methods, SetCommand and Execute.While SetCommand is used

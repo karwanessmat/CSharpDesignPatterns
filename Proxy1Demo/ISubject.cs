@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Proxy1Demo
+﻿namespace Proxy1Demo
 {
     // The Subject interface declares common operations for both RealSubject and
     // the Proxy. As long as the client works with RealSubject using this
