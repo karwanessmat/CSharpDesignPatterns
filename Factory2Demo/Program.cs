@@ -1,5 +1,6 @@
 ﻿using System;
 using Factory2Demo.ConcreteCreator;
+using Factory2Demo.Creator;
 
 namespace Factory2Demo
 {
@@ -7,7 +8,7 @@ namespace Factory2Demo
     {
         private static void Main(string[] args)
         {
-            var vf = new ConcreteVehicleFactory();
+            CreatorVehicleFactory vf = new ConcreteVehicleFactory();
 
 
             var bike = vf.GetVehicle(VehicleType.Bike);
