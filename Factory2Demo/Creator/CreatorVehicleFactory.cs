@@ -1,4 +1,4 @@
-﻿namespace Factory2Demo.ConcreteFactory
+﻿namespace Factory2Demo.Creator
 {
 
     // abstract class creator 

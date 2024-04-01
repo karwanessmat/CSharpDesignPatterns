@@ -1,5 +1,5 @@
 ﻿using System;
-using Factory2Demo.ConcreteFactory;
+using Factory2Demo.ConcreteCreator;
 
 namespace Factory2Demo
 {

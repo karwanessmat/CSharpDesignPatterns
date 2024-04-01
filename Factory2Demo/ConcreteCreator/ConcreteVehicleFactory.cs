@@ -1,6 +1,7 @@
 ﻿using Factory2Demo.Concretes;
+using Factory2Demo.Creator;
 
-namespace Factory2Demo.ConcreteFactory
+namespace Factory2Demo.ConcreteCreator
 {
   public  class ConcreteVehicleFactory:CreatorVehicleFactory
     {

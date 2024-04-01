@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Factory3Demo.Concretes;
+﻿using Factory3Demo.Concretes;
+using Factory3Demo.Creator;
 
 namespace Factory3Demo.ConcreteFactory
 {

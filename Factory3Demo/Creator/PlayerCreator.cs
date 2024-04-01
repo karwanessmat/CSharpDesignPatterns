@@ -1,4 +1,4 @@
-﻿namespace Factory3Demo.ConcreteFactory;
+﻿namespace Factory3Demo.Creator;
 
 public abstract class PlayerCreator
 {
