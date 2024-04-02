@@ -1,6 +1,6 @@
-﻿using AbstractFactory1Demo.Step1_Abstract_Product;
+﻿using AbstractFactory1Demo.Step1_Abstract_Products;
 
-namespace AbstractFactory1Demo.Step2_Concrete_Product;
+namespace AbstractFactory1Demo.Step2_Concrete_Products;
 
 public class ConcreteProductA2 : ProductA
 {

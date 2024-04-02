@@ -1,4 +1,4 @@
-﻿using AbstractFactory1Demo.Step1_Abstract_Product;
+﻿using AbstractFactory1Demo.Step1_Abstract_Products;
 
 namespace AbstractFactory1Demo.Step3_Abstract_Factory;
 
