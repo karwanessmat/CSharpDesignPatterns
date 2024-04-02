@@ -1,4 +1,4 @@
-﻿namespace Iterator3Demo
+﻿namespace Iterator3Demo.Iterator_AbstractIterator_
 {
 namespace IteratorDesignPattern
 {

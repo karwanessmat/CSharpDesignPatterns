@@ -1,4 +1,6 @@
-﻿namespace Iterator2Demo
+﻿using Iterator2Demo.ConcreteIterator_Iterator_;
+
+namespace Iterator2Demo.Aggregate_AbstractCollection_
 {
 
     /// <summary>

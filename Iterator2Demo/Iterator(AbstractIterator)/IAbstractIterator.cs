@@ -1,6 +1,6 @@
 ﻿using Iterator2Demo.collection;
 
-namespace Iterator2Demo
+namespace Iterator2Demo.Iterator_AbstractIterator_
 {
     /// <summary>
     /// The 'Iterator' interface

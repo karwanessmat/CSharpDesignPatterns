@@ -1,4 +1,6 @@
-﻿namespace Iterator1Demo
+﻿using Iterator1Demo.Iterator_AbstractIterator_;
+
+namespace Iterator1Demo.Aggregate_AbstractCollection_
 {
 
     /// <summary>

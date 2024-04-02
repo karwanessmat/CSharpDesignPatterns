@@ -1,5 +1,5 @@
 ﻿using System;
-using Iterator3Demo.IteratorDesignPattern;
+using Iterator3Demo.ConcreteAggregate_Collection_.IteratorDesignPattern;
 
 namespace Iterator3Demo
 {

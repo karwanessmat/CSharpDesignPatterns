@@ -1,4 +1,6 @@
-﻿namespace Iterator3Demo
+﻿using Iterator3Demo.ConcreteIterator_Iterator_;
+
+namespace Iterator3Demo.Aggregate_AbstractCollection_
 {
    public interface IAbstractCollection
     {

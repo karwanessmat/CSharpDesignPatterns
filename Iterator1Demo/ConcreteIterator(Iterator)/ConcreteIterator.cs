@@ -1,4 +1,7 @@
-﻿namespace Iterator1Demo
+﻿using Iterator1Demo.ConcreteAggregate_Collection_;
+using Iterator1Demo.Iterator_AbstractIterator_;
+
+namespace Iterator1Demo.ConcreteIterator_Iterator_
 {
     /// <summary>
     /// The 'ConcreteIterator' class

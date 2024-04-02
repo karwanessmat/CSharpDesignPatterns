@@ -1,7 +1,9 @@
-﻿namespace Iterator3Demo
-{
-    using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Iterator3Demo.Aggregate_AbstractCollection_;
+using Iterator3Demo.ConcreteIterator_Iterator_;
 
+namespace Iterator3Demo.ConcreteAggregate_Collection_
+{
     namespace IteratorDesignPattern
     {
       public  class ConcreteCollection : IAbstractCollection

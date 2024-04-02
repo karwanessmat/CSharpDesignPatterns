@@ -1,7 +1,6 @@
 ﻿using System;
 using Bridge3Demo.Abstraction;
 using Bridge3Demo.ConcreteImplementation;
-using Bridge3Demo.Refined_Abstraction;
 using Bridge3Demo.RefinedAbstraction;
 
 namespace Bridge3Demo

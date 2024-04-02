@@ -1,7 +1,7 @@
 ﻿using System;
 using Bridge3Demo.Implementor;
 
-namespace Bridge3Demo.Refined_Abstraction
+namespace Bridge3Demo.RefinedAbstraction
 {
     internal class RedColor:IColor
     {

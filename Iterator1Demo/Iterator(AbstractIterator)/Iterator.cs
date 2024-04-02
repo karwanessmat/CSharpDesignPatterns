@@ -1,4 +1,4 @@
-﻿namespace Iterator1Demo
+﻿namespace Iterator1Demo.Iterator_AbstractIterator_
 {
     /// <summary>
     /// The 'Iterator' abstract class

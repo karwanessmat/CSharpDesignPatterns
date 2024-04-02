@@ -1,6 +1,8 @@
 ﻿using System.Collections;
+using Iterator2Demo.Aggregate_AbstractCollection_;
+using Iterator2Demo.ConcreteIterator_Iterator_;
 
-namespace Iterator2Demo
+namespace Iterator2Demo.ConcreteAggregate_Collection_
 {
     /// <summary>
     /// The 'ConcreteAggregate' class
