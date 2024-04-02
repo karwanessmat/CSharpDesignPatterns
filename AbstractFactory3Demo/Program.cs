@@ -1,6 +1,6 @@
 ﻿using System;
-using AbstractFactory3Demo.Client;
-using AbstractFactory3Demo.ConcreteFactory;
+using AbstractFactory3Demo.Step4_Concrete_Factories;
+using AbstractFactory3Demo.Step5_Client;
 
 namespace AbstractFactory3Demo
 {
