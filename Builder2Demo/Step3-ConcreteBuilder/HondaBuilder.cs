@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Builder2Demo.Builder;
-using Builder2Demo.Product;
+using Builder2Demo.step1_Product;
+using Builder2Demo.step2_Builder;
 
-namespace Builder2Demo.ConcreteBuilder
+namespace Builder2Demo.Step3_ConcreteBuilder
 {
     internal class HondaBuilder:IVehicleBuilder
     {

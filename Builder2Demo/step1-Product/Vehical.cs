@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Builder2Demo.Product
+namespace Builder2Demo.step1_Product
 {
     public class Vehicle
     {

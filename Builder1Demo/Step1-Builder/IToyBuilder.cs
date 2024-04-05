@@ -1,6 +1,6 @@
 ﻿using Builder1Demo.Product;
 
-namespace Builder1Demo.Builder
+namespace Builder1Demo.Step1_Builder
 {
     public interface IToyBuilder
     {

@@ -6,7 +6,7 @@ The simple Abstract Factory is an abstract class defining Factory methods to ans
 of concrete subclasses The second form of Abstract Factory is an abstract 
 class defining a common protocol of Factory methods.
 
-3- Factory Method: The Factory method takes care of one product whereas 
+2- Factory Method: The Factory method takes care of one product whereas 
 the abstractfactory pattern provides a way to encapsulate a family
 of products. This pattern is used to create concrete class instances
 without specifying the exact class type. We can say it is an Object creation

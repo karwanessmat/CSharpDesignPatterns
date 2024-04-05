@@ -1,4 +1,5 @@
-﻿namespace Builder1Demo.Product
+﻿
+namespace Builder1Demo.Product
 {
    public class Toy
     {

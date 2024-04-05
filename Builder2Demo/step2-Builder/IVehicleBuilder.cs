@@ -1,6 +1,6 @@
-﻿using Builder2Demo.Product;
+﻿using Builder2Demo.step1_Product;
 
-namespace Builder2Demo.Builder
+namespace Builder2Demo.step2_Builder
 {
     public interface IVehicleBuilder
     {

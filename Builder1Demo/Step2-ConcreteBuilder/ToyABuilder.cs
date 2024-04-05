@@ -1,11 +1,11 @@
-﻿using Builder1Demo.Builder;
-using Builder1Demo.Product;
+﻿using Builder1Demo.Product;
+using Builder1Demo.Step1_Builder;
 
 namespace Builder1Demo.ConcreteBuilder
 {
    public class ToyABuilder:IToyBuilder
     {
-        private readonly Toy _toy = new Toy();
+        private readonly Toy _toy = new();
         public void SetModel()
         {
             _toy.Model = "A Model";

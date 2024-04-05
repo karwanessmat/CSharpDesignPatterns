@@ -1,6 +1,6 @@
 ﻿using System;
-using Builder2Demo.ConcreteBuilder;
-using Builder2Demo.Director;
+using Builder2Demo.Step3_ConcreteBuilder;
+using Builder2Demo.step4_Director;
 
 namespace Builder2Demo
 {
