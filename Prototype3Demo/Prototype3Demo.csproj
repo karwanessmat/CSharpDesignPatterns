@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Step2-ConcretePrototypes\" />
+    <Folder Include="Step3-Prototype Registry %28Client%29\" />
+  </ItemGroup>
+
 </Project>

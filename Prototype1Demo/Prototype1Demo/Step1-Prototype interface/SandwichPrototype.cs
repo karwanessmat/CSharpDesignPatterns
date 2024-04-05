@@ -1,4 +1,4 @@
-﻿namespace Prototype1Demo
+﻿namespace Prototype1Demo.Step1_Prototype_interface
 {
     /// <summary>
     /// The Prototype abstract class
