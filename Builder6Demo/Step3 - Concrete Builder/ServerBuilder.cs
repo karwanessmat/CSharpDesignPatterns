@@ -1,6 +1,8 @@
 ﻿using Builder6Demo.Step1_Production;
 using Builder6Demo.Step2___Builder_Interface;
 
+namespace Builder6Demo.Step3___Concrete_Builder;
+
 public class ServerBuilder : IComputerBuilder
 {
     private Computer _computer = new Computer();

@@ -1,4 +1,7 @@
-﻿var director = new ComputerDirector();
+﻿using Builder6Demo.Step3___Concrete_Builder;
+using Builder6Demo.Step4___Directors;
+
+var director = new ComputerDirector();
 
 var desktopBuilder = new DesktopBuilder();
 var desktop = director.Construct(desktopBuilder);
