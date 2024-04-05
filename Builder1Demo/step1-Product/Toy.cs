@@ -1,5 +1,5 @@
 ﻿
-namespace Builder1Demo.Product
+namespace Builder1Demo.step1_Product
 {
    public class Toy
     {

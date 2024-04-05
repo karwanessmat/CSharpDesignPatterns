@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory3Demo.Step1_Abstract_Product
+﻿namespace AbstractFactory3Demo.Step1_Abstract_Products
 {
    public interface IBrand
    {

@@ -1,7 +1,7 @@
-﻿using Builder1Demo.Product;
-using Builder1Demo.Step1_Builder;
+﻿using Builder1Demo.step1_Product;
+using Builder1Demo.Step2_Builder;
 
-namespace Builder1Demo.ConcreteBuilder
+namespace Builder1Demo.Step3_ConcreteBuilder
 {
    public class ToyABuilder:IToyBuilder
     {

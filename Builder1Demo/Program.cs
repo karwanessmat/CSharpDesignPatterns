@@ -1,6 +1,6 @@
 ﻿using System;
-using Builder1Demo.ConcreteBuilder;
-using Builder1Demo.Director;
+using Builder1Demo.Step3_ConcreteBuilder;
+using Builder1Demo.Step4_Director;
 
 namespace Builder1Demo
 {

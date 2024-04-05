@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AbstractFactory2Demo.Step1_AbstractProducts;
+﻿using AbstractFactory2Demo.Step1_AbstractProducts;
 using AbstractFactory2Demo.Step2_Concrete_Products;
 using AbstractFactory2Demo.Step3_Abstract_Factories;
 

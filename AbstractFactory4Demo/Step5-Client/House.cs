@@ -1,9 +1,4 @@
 ﻿using AbstractFactory4Demo.Step1_Abstract_Products;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using AbstractFactory4Demo.Step3_Abstract_Factories;
 
 namespace AbstractFactory4Demo.Step5_Client;
