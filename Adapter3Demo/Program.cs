@@ -2,13 +2,13 @@
 
 namespace Adapter3Demo
 {
-    class Program
+    internal class Program
     {
         /// <summary>
         /// MainApp startup class for Real-World 
         /// Adapter Design Pattern.
         /// </summary>
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
 
                 // Non-adapted chemical compound

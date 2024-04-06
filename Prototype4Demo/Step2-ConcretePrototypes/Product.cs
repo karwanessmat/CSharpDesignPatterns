@@ -1,9 +1,4 @@
 ﻿using Prototype4Demo.Step1_Prototype_interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prototype4Demo.Step2_ConcretePrototypes
 {

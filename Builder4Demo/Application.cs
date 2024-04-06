@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Builder4Demo.Step1___Production;
+﻿using Builder4Demo.Step1___Production;
 using Builder4Demo.Step3___Concrete_Builder;
 using Builder4Demo.Step4___Directors;
 

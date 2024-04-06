@@ -1,22 +1,16 @@
 ﻿using System;
+using Adapter5Demo.Step1___Interface;
 
 namespace Adapter5Demo
 {
     /// <summary>
     /// The 'Client' class
     /// </summary>
-    public class ThirdPartyBillingSystem
+    public class ThirdPartyBillingSystem(ITarget employeeSource)
     {
-        private readonly ITarget _employeeSource;
-
-        public ThirdPartyBillingSystem(ITarget employeeSource)
-        {
-            this._employeeSource = employeeSource;
-        }
-
         public void ShowEmployeeList()
         {
-            var employee = _employeeSource.GetEmployeeList();
+            var employee = employeeSource.GetEmployeeList();
             //To DO: Implement you business logic
 
             Console.WriteLine("######### Employee List ##########");

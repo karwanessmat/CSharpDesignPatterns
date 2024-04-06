@@ -1,4 +1,4 @@
-1- Adapter: Usage examples: The Adapter pattern is pretty common in C# code. It’s very often used in 
+1- Adapter: Usage examples: The Adapter pattern is pretty common in C# code. Itï¿½s very often used in 
 systems based on some legacy code. In such cases, Adapters make legacy code work with modern classes.
 
 Identification: Adapter is recognizable by a constructor which takes an instance of a different abstract/interface type.
@@ -6,11 +6,11 @@ When the adapter receives a call to any of its methods, it translates parameters
 the call to one or several methods of the wrapped object.
 
 Where To Apply Adapter Pattern?
-1- You should consider using the Adapter Pattern whenever you want to use an existing class’s functionality, 
+1- You should consider using the Adapter Pattern whenever you want to use an existing classï¿½s functionality, 
 but its interface is not the one that you require.
 
-2-Another scenario, if you’re trying to create reusable code, and you don’t want to tie it too tightly to a particular 
-implementation, you should use some kind of an Adapter interface as what you’re code depends on, so that future clients
+2-Another scenario, if youï¿½re trying to create reusable code, and you donï¿½t want to tie it too tightly to a particular 
+implementation, you should use some kind of an Adapter interface as what youï¿½re code depends on, so that future clients
 could implement their own version of that Adapter and still make use of your code.
 
 3- You should remember the Open/Closed Principle, which states that modules should be open to extension but closed

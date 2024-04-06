@@ -1,11 +1,12 @@
-﻿namespace Adapter1Demo
+﻿using Adapter1Demo.step1___Client_Interface;
+
+namespace Adapter1Demo
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-            Target target = new Adapter();
-            target.Request();
+           Target target = 
         }
     }
 }

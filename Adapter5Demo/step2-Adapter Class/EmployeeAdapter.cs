@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using Adapter5Demo.Step1___Interface;
+using Adapter5Demo.Step3_Client___Adaptee;
 
-namespace Adapter5Demo
+namespace Adapter5Demo.step2_Adapter_Class
 {
     /// <summary>
     /// The 'Adapter' class
@@ -8,16 +10,13 @@ namespace Adapter5Demo
     public class EmployeeAdapter :  ITarget
     {
 
-        private readonly HrSystem _hrSystem;
+        private readonly HrSystem _hrSystem = new();
 
-        public EmployeeAdapter()
-        {
-            _hrSystem= new HrSystem();
-        }
         public List<string> GetEmployeeList()
         {
             var employeeList = new List<string>();
             var employees = _hrSystem.GetEmployees();
+           
             foreach (var employee in employees)
             {
                 employeeList.Add(employee[0]);

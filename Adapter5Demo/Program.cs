@@ -1,4 +1,6 @@
 ﻿using System;
+using Adapter5Demo.Step1___Interface;
+using Adapter5Demo.step2_Adapter_Class;
 
 namespace Adapter5Demo
 {

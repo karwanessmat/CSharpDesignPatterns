@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Prototype5Demo.Step1_Prototype_interface;
+﻿using Prototype5Demo.Step1_Prototype_interface;
 
 namespace Prototype5Demo.Step2_ConcretePrototypes;
 public class TextCampaign : ICampaign

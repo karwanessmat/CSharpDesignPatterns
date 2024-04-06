@@ -1,4 +1,4 @@
-﻿namespace Adapter5Demo
+﻿namespace Adapter5Demo.Step3_Client___Adaptee
 {
     /// <summary>
     /// The 'Adaptee' class

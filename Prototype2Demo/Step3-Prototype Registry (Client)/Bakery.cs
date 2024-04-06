@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Prototype2Demo.Step2_ConcretePrototypes;
+﻿using Prototype2Demo.Step2_ConcretePrototypes;
 
 namespace Prototype2Demo.Step3_Prototype_Registry__Client_
 {
