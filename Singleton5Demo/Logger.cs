@@ -19,13 +19,11 @@
         {
             get
             {
-                if (_instance is null)
+                lock (_lockObj)
                 {
-                    lock (_lockObj)
-                    {
-                        _instance ??= new Logger();
-                    }
+                    _instance ??= new Logger();
                 }
+        
 
                 return _instance;
             }
