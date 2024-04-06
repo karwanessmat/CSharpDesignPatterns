@@ -16,6 +16,7 @@ namespace Prototype4Demo.Step2_ConcretePrototypes
         public string ImageUrl { get; set; } = imageUrl;
 
         // Clone method for creating a new instance of Product with the same values
+        // must return new instance
         public IProductPrototype Clone()
         {
             return new Product(Name, Price, description, imageUrl);

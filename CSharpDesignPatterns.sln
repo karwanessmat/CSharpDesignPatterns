@@ -255,23 +255,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory5Demo", "Abs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory6Demo", "AbstractFactory7Demo\AbstractFactory6Demo.csproj", "{1467ABDD-FBF6-4A5D-9514-F68EF6CDC588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder3Demo", "Builder3Demo\Builder3Demo.csproj", "{04C799AE-2237-4661-B428-34C48D132B8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder3Demo", "Builder3Demo\Builder3Demo.csproj", "{04C799AE-2237-4661-B428-34C48D132B8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder4Demo", "Builder4Demo\Builder4Demo.csproj", "{02F051FF-F483-4647-B076-A590306E2698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder4Demo", "Builder4Demo\Builder4Demo.csproj", "{02F051FF-F483-4647-B076-A590306E2698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder5Demo", "Builder5Demo\Builder5Demo.csproj", "{2D36A2C3-68DF-4E58-A190-19DA8ACA0F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder5Demo", "Builder5Demo\Builder5Demo.csproj", "{2D36A2C3-68DF-4E58-A190-19DA8ACA0F2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder6Demo", "Builder6Demo\Builder6Demo.csproj", "{3BD5D16B-F2EF-4C8F-85C0-E5E9E4B74111}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder6Demo", "Builder6Demo\Builder6Demo.csproj", "{3BD5D16B-F2EF-4C8F-85C0-E5E9E4B74111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder7Demo", "Builder7Demo\Builder7Demo.csproj", "{203CAF4E-76AA-4F79-9DE4-9082C1862F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder7Demo", "Builder7Demo\Builder7Demo.csproj", "{203CAF4E-76AA-4F79-9DE4-9082C1862F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder8Demo", "Builder8Demo\Builder8Demo.csproj", "{011B4311-41A7-4E95-BCC1-1B5237821D46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder8Demo", "Builder8Demo\Builder8Demo.csproj", "{011B4311-41A7-4E95-BCC1-1B5237821D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype2Demo", "Prototype2Demo\Prototype2Demo.csproj", "{201C4276-2B42-4821-B0F5-D5237C341D73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype2Demo", "Prototype2Demo\Prototype2Demo.csproj", "{201C4276-2B42-4821-B0F5-D5237C341D73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype3Demo", "Prototype3Demo\Prototype3Demo.csproj", "{CDF8A2D5-8654-4104-8A5B-FA513FA1EBA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype3Demo", "Prototype3Demo\Prototype3Demo.csproj", "{CDF8A2D5-8654-4104-8A5B-FA513FA1EBA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype4Demo", "Prototype4Demo\Prototype4Demo.csproj", "{6D104283-2D01-446C-A894-F51AD6749112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype4Demo", "Prototype4Demo\Prototype4Demo.csproj", "{6D104283-2D01-446C-A894-F51AD6749112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype5Demo", "Prototype5Demo\Prototype5Demo.csproj", "{6B713931-9E1D-4E89-B007-A16E40A3D912}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -579,6 +581,10 @@ Global
 		{6D104283-2D01-446C-A894-F51AD6749112}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D104283-2D01-446C-A894-F51AD6749112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D104283-2D01-446C-A894-F51AD6749112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B713931-9E1D-4E89-B007-A16E40A3D912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B713931-9E1D-4E89-B007-A16E40A3D912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B713931-9E1D-4E89-B007-A16E40A3D912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B713931-9E1D-4E89-B007-A16E40A3D912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -681,6 +687,7 @@ Global
 		{201C4276-2B42-4821-B0F5-D5237C341D73} = {30CF816E-6364-498C-AA0D-39AB4BCE5323}
 		{CDF8A2D5-8654-4104-8A5B-FA513FA1EBA0} = {30CF816E-6364-498C-AA0D-39AB4BCE5323}
 		{6D104283-2D01-446C-A894-F51AD6749112} = {30CF816E-6364-498C-AA0D-39AB4BCE5323}
+		{6B713931-9E1D-4E89-B007-A16E40A3D912} = {30CF816E-6364-498C-AA0D-39AB4BCE5323}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05AE38FD-0D6F-41E1-9FFC-784B01BAD24C}

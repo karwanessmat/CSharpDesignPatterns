@@ -20,6 +20,10 @@ namespace Prototype3Demo.Step2_ConcretePrototypes
             return Color;
         }
 
+        /// <summary>
+        /// must return new instance
+        /// </summary>
+        /// <returns></returns>
         public IPrototype Clone()
         {
             return new Button(X,Y,Color);
