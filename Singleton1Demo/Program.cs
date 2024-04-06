@@ -18,13 +18,14 @@ namespace Singleton1Demo
                 var s2 = Singleton.GetInstance;
                 s2.DisplayMessage("S2");
             });
+
             Console.WriteLine("_______________");
             Console.WriteLine("Lazy Singleton");
 
             Parallel.Invoke(() =>
             {
                 var lz1 = LazySingleton.GetInstance;
-                lz1.DisplayMsg("Lazy Singleton 1");
+                lz1.DisplayMsg("Lazy Singleton1");
             }, () =>
             {
                 var lz2 = LazySingleton.GetInstance;
@@ -32,7 +33,7 @@ namespace Singleton1Demo
             }, () =>
              {
                  var lz3 = LazySingleton.GetInstance;
-                 lz3.DisplayMsg("Lazy Singleton 3");
+                 lz3.DisplayMsg("Lazy Singleton3");
 
              });
 
@@ -43,6 +44,10 @@ namespace Singleton1Demo
 
 
         }
+
+        /// <summary>
+        /// this is an example if we want to call
+        /// </summary>
 
         public static void Print()
         {

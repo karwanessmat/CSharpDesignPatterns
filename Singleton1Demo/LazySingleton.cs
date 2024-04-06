@@ -5,7 +5,7 @@ namespace Singleton1Demo
     public sealed class LazySingleton
     {
         private static int _count;
-        private static  readonly  Lazy<LazySingleton> Instance = new Lazy<LazySingleton>(()=>new LazySingleton());
+        private static  readonly  Lazy<LazySingleton> Instance = new(()=>new LazySingleton());
 
         public static LazySingleton GetInstance => Instance.Value;
 

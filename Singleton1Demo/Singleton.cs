@@ -4,26 +4,23 @@ namespace Singleton1Demo
 {
    public  class Singleton
     {
-        public static int Count = 0;
+        public static int Count;
         private static Singleton _instance;
-        private static readonly  object Obj=new object();
+        private static readonly  object Obj=new();
         public static Singleton GetInstance
         {
             get
             {
-                if (_instance != null) return _instance;
+                if (_instance != null) 
+                    return _instance;
+
                 lock (Obj)
                 {
                     _instance ??= new Singleton();
-                    //if (_instance == null)
-                    //{
-                    //    _instance = new Singleton();
-                    //}
                 }
 
                 return _instance;
             }
-            //get { return _instance ??= new Singleton(); }
         }
         private Singleton()
         {
@@ -36,10 +33,6 @@ namespace Singleton1Demo
         }
 
 
-        public class DerivedClass : Singleton
-        {
-
-        }
     }
 
 
