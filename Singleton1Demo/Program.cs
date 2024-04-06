@@ -19,28 +19,7 @@ namespace Singleton1Demo
                 s2.DisplayMessage("S2");
             });
 
-            Console.WriteLine("_______________");
-            Console.WriteLine("Lazy Singleton");
-
-            Parallel.Invoke(() =>
-            {
-                var lz1 = LazySingleton.GetInstance;
-                lz1.DisplayMsg("Lazy Singleton1");
-            }, () =>
-            {
-                var lz2 = LazySingleton.GetInstance;
-                lz2.DisplayMsg("Lazy Singleton2");
-            }, () =>
-             {
-                 var lz3 = LazySingleton.GetInstance;
-                 lz3.DisplayMsg("Lazy Singleton3");
-
-             });
-
-
-
-
-
+         
 
 
         }

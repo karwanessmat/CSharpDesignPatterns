@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Singleton1Demo
+﻿namespace Singleton7Demo
 {
     public sealed class LazySingleton
     {
@@ -11,12 +9,11 @@ namespace Singleton1Demo
 
         private LazySingleton()
         {
-            Console.WriteLine(++_count);
         }
 
         public void DisplayMsg(string msg)
         {
-            Console.WriteLine(msg);
+            Console.WriteLine($"{msg} - instance {++_count} ");
         }
 
 
