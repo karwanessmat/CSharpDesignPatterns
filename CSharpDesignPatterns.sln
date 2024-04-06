@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singlitoin", "Singlitoin", "{02DA5B95-AEF6-43EA-9011-8E9D139F7717}"
+	ProjectSection(SolutionItems) = preProject
+		LazySingletonDescription.md = LazySingletonDescription.md
+		SingletonDescription.md = SingletonDescription.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton1Demo", "Singleton1Demo\Singleton1Demo.csproj", "{A9D26559-9054-46E6-AB18-FB261DEF596C}"
 EndProject
@@ -290,6 +294,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton7Demo", "Singleton7Demo\Singleton7Demo.csproj", "{2F20E1C5-5BC4-4F21-88C5-4515DAC6469B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton8Demo", "Singleton8Demo\Singleton8Demo.csproj", "{C0B0792C-78F7-4D89-AA70-CD83F2431A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton9Demo", "Singleton9Demo\Singleton9Demo.csproj", "{23AB971A-9001-4A99-B1B2-E2066498A4EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -633,6 +639,10 @@ Global
 		{C0B0792C-78F7-4D89-AA70-CD83F2431A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B0792C-78F7-4D89-AA70-CD83F2431A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B0792C-78F7-4D89-AA70-CD83F2431A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23AB971A-9001-4A99-B1B2-E2066498A4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AB971A-9001-4A99-B1B2-E2066498A4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AB971A-9001-4A99-B1B2-E2066498A4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AB971A-9001-4A99-B1B2-E2066498A4EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -744,6 +754,7 @@ Global
 		{CD7F51C2-F427-4A9E-B91A-EA1B1BA0907E} = {02DA5B95-AEF6-43EA-9011-8E9D139F7717}
 		{2F20E1C5-5BC4-4F21-88C5-4515DAC6469B} = {02DA5B95-AEF6-43EA-9011-8E9D139F7717}
 		{C0B0792C-78F7-4D89-AA70-CD83F2431A27} = {02DA5B95-AEF6-43EA-9011-8E9D139F7717}
+		{23AB971A-9001-4A99-B1B2-E2066498A4EA} = {02DA5B95-AEF6-43EA-9011-8E9D139F7717}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05AE38FD-0D6F-41E1-9FFC-784B01BAD24C}
