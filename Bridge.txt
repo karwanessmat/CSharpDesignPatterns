@@ -1,7 +1,0 @@
-https://www.geeksforgeeks.org/bridge-design-pattern/
-
-
-Abstraction � core of the bridge design pattern and defines the crux. Contains a reference to the implementer.
-Refined Abstraction � Extends the abstraction takes the finer detail one level below. Hides the finer elements from implemetors.
-Implementer � It defines the interface for implementation classes. This interface does not need to correspond directly to the abstraction interface and can be very different. Abstraction imp provides an implementation in terms of operations provided by Implementer interface.
-Concrete Implementation � Implements the above implementer by providing concrete implementation.

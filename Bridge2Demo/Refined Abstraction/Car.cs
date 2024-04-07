@@ -5,17 +5,16 @@ using Bridge2Demo.Implementor;
 namespace Bridge2Demo.Refined_Abstraction
 {
     // Refine abstraction 1 in bridge pattern 
-    internal class Car:Vehicle
+    internal class Car(IWorkshop workShop1, IWorkshop workShop2) : Vehicle(workShop1, workShop2)
     {
-        public Car(IWorkshop workShop1, IWorkshop workShop2) : base(workShop1, workShop2)
-        {
-        }
+        private readonly IWorkshop _workShop1 = workShop1;
+        private readonly IWorkshop _workShop2 = workShop2;
 
         public override void Manufacture()
         {
             Console.Write("Car ");
-            WorkShop1.Work();
-            WorkShop2.Work();
+            _workShop1.Work();
+            _workShop2.Work();
 
         }
     } 

@@ -1,7 +1,7 @@
 ﻿using System;
 using Bridge1Demo.Implementor;
 
-namespace Bridge1Demo.RefinedAbstraction
+namespace Bridge1Demo.ConcreteImplementation
 {
    public class GreenCircle:IDraw
     {

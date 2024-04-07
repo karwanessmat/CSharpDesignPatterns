@@ -3,14 +3,13 @@
 namespace Bridge1Demo.Abstraction
 {
 
-  public abstract  class Shape
+  public abstract class Shape(IDraw draw)
   {
-      protected IDraw drawapi;
 
-      protected Shape(IDraw draw)
-      {
-          this.drawapi = draw;
-      }
+      /// <summary>
+      /// this is a bridge
+      /// </summary>
+      protected IDraw DrawApi = draw;
 
       public abstract void Draw();
   }

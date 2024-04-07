@@ -2,17 +2,13 @@
 using Bridge3Demo.Abstraction;
 using Bridge3Demo.Implementor;
 
-namespace Bridge3Demo.ConcreteImplementation
+namespace Bridge3Demo.RefinedAbstraction
 {
-   public class Sequre:Shape
+    class Rectangle(IColor color) : Shape(color)
     {
-        public Sequre(IColor color) : base(color)
-        {
-        }
-
         public override void SetColor()
         {
-            Console.Write("Sequre ");
+            Console.Write("Rectangle ");
             Color.Color();
         }
     }

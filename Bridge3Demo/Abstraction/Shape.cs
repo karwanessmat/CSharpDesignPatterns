@@ -2,14 +2,9 @@
 
 namespace Bridge3Demo.Abstraction
 {
-  public abstract class Shape
+  public abstract class Shape(IColor color)
   {
-      protected IColor Color;
-
-      protected Shape(IColor color)
-      {
-          Color = color;
-      }
+      protected IColor Color = color;
 
       public abstract void SetColor();
   }

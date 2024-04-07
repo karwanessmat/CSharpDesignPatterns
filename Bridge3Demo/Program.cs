@@ -10,13 +10,15 @@ namespace Bridge3Demo
         static void Main(string[] args)
         {
             Shape circle = new Circle(new RedColor());
-            Shape sequre = new Sequre(new GreenColor());
+            Shape sequre = new Square(new GreenColor());
+            Shape rectangle = new Rectangle(new GreenColor());
 
-            
+
 
 
             circle.SetColor();
             sequre.SetColor();
+            rectangle.SetColor();
 
 
             Console.ReadKey();
