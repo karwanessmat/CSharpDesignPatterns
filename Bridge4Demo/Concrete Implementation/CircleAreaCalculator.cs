@@ -15,4 +15,3 @@ public class CircleAreaCalculator : IAreaCalculator
 
 
 
-// Concrete Implementation
