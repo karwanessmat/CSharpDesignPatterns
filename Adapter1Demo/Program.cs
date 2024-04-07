@@ -1,4 +1,5 @@
-﻿using Adapter1Demo.step1___Client_Interface;
+﻿using System;
+using Adapter1Demo.step1___Client_Interface;
 
 namespace Adapter1Demo
 {
@@ -6,7 +7,7 @@ namespace Adapter1Demo
     {
         private static void Main(string[] args)
         {
-           Target target = 
+            Console.WriteLine("");
         }
     }
 }

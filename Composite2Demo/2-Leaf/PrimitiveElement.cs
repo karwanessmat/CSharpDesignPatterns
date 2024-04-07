@@ -1,17 +1,13 @@
 ﻿using System;
-using Composite2Demo.Component;
+using Composite2Demo._1_Component;
 
-namespace Composite2Demo.Leaf
+namespace Composite2Demo._2_Leaf
 {
     /// <summary>
     /// Leaf
     /// </summary>
-    class PrimitiveElement:DrawingElement
+    public class PrimitiveElement(string name) : DrawingElement(name)
     {
-        public PrimitiveElement(string name) : base(name)
-        {
-        }
-
         public override void Add(DrawingElement d)
         {
             Console.WriteLine("Can not add to PrimitiveElement");

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Composite2Demo.Component;
+using Composite2Demo._1_Component;
 
 namespace Composite2Demo.Composite
 {
@@ -8,28 +8,24 @@ namespace Composite2Demo.Composite
     /// <summary>
     /// Composite
     /// </summary>
-    class CompositeElement:DrawingElement
+    class CompositeElement(string name) : DrawingElement(name)
     {
-        List<DrawingElement> elements=new List<DrawingElement>();
-
-        public CompositeElement(string name) : base(name)
-        {
-        }
+        readonly List<DrawingElement> _elements=new();
 
         public override void Add(DrawingElement d)
         {
-            elements.Add(d);
+            _elements.Add(d);
         }
 
         public override void Remove(DrawingElement d)
         {
-            elements.Remove(d);
+            _elements.Remove(d);
         }
 
         public override void Display(int indent)
         {
             Console.WriteLine(new string('-', indent)+"+ "+Name);
-            foreach (var drawingElement in elements)
+            foreach (var drawingElement in _elements)
             {
                 drawingElement.Display(indent+1);
             }

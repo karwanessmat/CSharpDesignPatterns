@@ -1,4 +1,6 @@
 ﻿using System;
+using Composite1Demo.Step2___Composite_Class;
+using Composite1Demo.Step3___Leaf_Class;
 
 namespace Composite1Demo
 {
@@ -27,8 +29,7 @@ namespace Composite1Demo
            // root.Remove(leaf);
 
             // Recursively display tree
-
-            root.Display(10);
+            root.Display(0);
 
             // Wait for user
 

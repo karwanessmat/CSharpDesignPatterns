@@ -1,6 +1,6 @@
 ﻿using System;
+using Composite2Demo._2_Leaf;
 using Composite2Demo.Composite;
-using Composite2Demo.Leaf;
 
 namespace Composite2Demo
 {
