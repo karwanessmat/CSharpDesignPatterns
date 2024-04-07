@@ -276,35 +276,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype3Demo", "Prototype
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype4Demo", "Prototype4Demo\Prototype4Demo.csproj", "{6D104283-2D01-446C-A894-F51AD6749112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype5Demo", "Prototype5Demo\Prototype5Demo.csproj", "{6B713931-9E1D-4E89-B007-A16E40A3D912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype5Demo", "Prototype5Demo\Prototype5Demo.csproj", "{6B713931-9E1D-4E89-B007-A16E40A3D912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype6Demo", "Prototype6Demo\Prototype6Demo.csproj", "{E1847A36-E858-47A9-97A5-E9E4D9E2108F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype6Demo", "Prototype6Demo\Prototype6Demo.csproj", "{E1847A36-E858-47A9-97A5-E9E4D9E2108F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton2Demo", "Singleton2Demo\Singleton2Demo.csproj", "{B853EF3C-F811-422E-A27B-95CE8694E47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton2Demo", "Singleton2Demo\Singleton2Demo.csproj", "{B853EF3C-F811-422E-A27B-95CE8694E47D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton3Demo", "Singleton3Demo\Singleton3Demo.csproj", "{1BA1F8F3-4428-46D5-8E40-02A8CD7C6527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton3Demo", "Singleton3Demo\Singleton3Demo.csproj", "{1BA1F8F3-4428-46D5-8E40-02A8CD7C6527}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton4Demo", "Singleton4Demo\Singleton4Demo.csproj", "{FF033DD5-72CC-4C96-ADBA-4E8DC89CBDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton4Demo", "Singleton4Demo\Singleton4Demo.csproj", "{FF033DD5-72CC-4C96-ADBA-4E8DC89CBDD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton5Demo", "Singleton5Demo\Singleton5Demo.csproj", "{062C8A30-010F-488D-B6D5-31604366582A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton5Demo", "Singleton5Demo\Singleton5Demo.csproj", "{062C8A30-010F-488D-B6D5-31604366582A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton6Demo", "Singleton6Demo\Singleton6Demo.csproj", "{CD7F51C2-F427-4A9E-B91A-EA1B1BA0907E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton6Demo", "Singleton6Demo\Singleton6Demo.csproj", "{CD7F51C2-F427-4A9E-B91A-EA1B1BA0907E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton7Demo", "Singleton7Demo\Singleton7Demo.csproj", "{2F20E1C5-5BC4-4F21-88C5-4515DAC6469B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton7Demo", "Singleton7Demo\Singleton7Demo.csproj", "{2F20E1C5-5BC4-4F21-88C5-4515DAC6469B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton8Demo", "Singleton8Demo\Singleton8Demo.csproj", "{C0B0792C-78F7-4D89-AA70-CD83F2431A27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton8Demo", "Singleton8Demo\Singleton8Demo.csproj", "{C0B0792C-78F7-4D89-AA70-CD83F2431A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton9Demo", "Singleton9Demo\Singleton9Demo.csproj", "{23AB971A-9001-4A99-B1B2-E2066498A4EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton9Demo", "Singleton9Demo\Singleton9Demo.csproj", "{23AB971A-9001-4A99-B1B2-E2066498A4EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter6Demo", "Adapter6Demo\Adapter6Demo.csproj", "{FB62FFAA-C019-47D4-AD49-1014B6EB14D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter6Demo", "Adapter6Demo\Adapter6Demo.csproj", "{FB62FFAA-C019-47D4-AD49-1014B6EB14D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter7Demo", "Adapter7Demo\Adapter7Demo.csproj", "{66C34E2A-5175-460B-9C5D-B9F9A15972CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter7Demo", "Adapter7Demo\Adapter7Demo.csproj", "{66C34E2A-5175-460B-9C5D-B9F9A15972CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter8Demo", "Adapter8Demo\Adapter8Demo.csproj", "{FBD33CB7-41B3-4642-ABDB-9F8A7DD40EE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter8Demo", "Adapter8Demo\Adapter8Demo.csproj", "{FBD33CB7-41B3-4642-ABDB-9F8A7DD40EE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter9Demo", "Adapter9Demo\Adapter9Demo.csproj", "{263998BD-C213-4CD1-867D-E007BC1540A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter9Demo", "Adapter9Demo\Adapter9Demo.csproj", "{263998BD-C213-4CD1-867D-E007BC1540A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter10Demo", "Adapter10Demo\Adapter10Demo.csproj", "{7C1E9DEA-0CE6-4742-9AEC-BA74353D775F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter10Demo", "Adapter10Demo\Adapter10Demo.csproj", "{7C1E9DEA-0CE6-4742-9AEC-BA74353D775F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge4Demo", "Bridge4Demo\Bridge4Demo.csproj", "{52E6F700-B889-4604-92E7-403B40187CD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -672,6 +674,10 @@ Global
 		{7C1E9DEA-0CE6-4742-9AEC-BA74353D775F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C1E9DEA-0CE6-4742-9AEC-BA74353D775F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C1E9DEA-0CE6-4742-9AEC-BA74353D775F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E6F700-B889-4604-92E7-403B40187CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E6F700-B889-4604-92E7-403B40187CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E6F700-B889-4604-92E7-403B40187CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E6F700-B889-4604-92E7-403B40187CD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -789,6 +795,7 @@ Global
 		{FBD33CB7-41B3-4642-ABDB-9F8A7DD40EE2} = {5B447A62-3D8B-41AF-96B4-B01AEEFBB815}
 		{263998BD-C213-4CD1-867D-E007BC1540A8} = {5B447A62-3D8B-41AF-96B4-B01AEEFBB815}
 		{7C1E9DEA-0CE6-4742-9AEC-BA74353D775F} = {5B447A62-3D8B-41AF-96B4-B01AEEFBB815}
+		{52E6F700-B889-4604-92E7-403B40187CD0} = {0ED96CD5-7161-4FE2-811D-213E5720C8E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05AE38FD-0D6F-41E1-9FFC-784B01BAD24C}
