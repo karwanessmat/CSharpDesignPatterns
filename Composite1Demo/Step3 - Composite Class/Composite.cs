@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Composite1Demo.Step1__Component_Interface;
 
-namespace Composite1Demo.Step3___Leaf_Class;
+namespace Composite1Demo.Step3___Composite_Class;
 
 /// <summary>
 /// The 'Composite' class

@@ -1,6 +1,6 @@
-﻿using Decorator1Demo.Component;
+﻿using Decorator3Demo._1.Component;
 
-namespace Decorator1Demo.Decorator
+namespace Decorator3Demo._3.Decorator
 {
 
     /// <summary>

@@ -1,7 +1,7 @@
-﻿using Decorate2Demo.Component;
-using Decorate2Demo.Decorate;
+﻿using Decorator2Demo._1.Component;
+using Decorator2Demo._3.Decorate;
 
-namespace Decorate2Demo.ConcreteDecorate
+namespace Decorator2Demo._4.ConcreteDecorate
 {
    public class AdvancedAccessories(ICar car) : CarAccessoriesDecorator(car)
    {

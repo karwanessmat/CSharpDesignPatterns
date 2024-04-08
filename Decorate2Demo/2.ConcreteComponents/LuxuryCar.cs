@@ -1,6 +1,6 @@
-﻿using Decorate2Demo.Component;
+﻿using Decorator2Demo._1.Component;
 
-namespace Decorate2Demo.ConcreteComponent
+namespace Decorator2Demo._2.ConcreteComponents
 {
     class LuxuryCar:ICar
     {

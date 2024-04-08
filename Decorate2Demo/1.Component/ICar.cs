@@ -1,4 +1,4 @@
-﻿namespace Decorate2Demo.Component
+﻿namespace Decorator2Demo._1.Component
 {
     public interface ICar
     {

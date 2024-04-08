@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Decorator1Demo.Component;
+using Decorator3Demo._1.Component;
+using Decorator3Demo._3.Decorator;
 
-namespace Decorator1Demo.ConcreteDecorator
+namespace Decorator3Demo._4.ConcreteDecorator
 {
-    internal class Borrowable(LibraryItem libraryItem) : Decorator.Decorator(libraryItem)
+    internal class Borrowable(LibraryItem libraryItem) : Decorator(libraryItem)
     {
         protected List<string> Borrowers = [];
 

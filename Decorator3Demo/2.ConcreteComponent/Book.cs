@@ -1,12 +1,12 @@
 ﻿using System;
-using Decorator1Demo.Component;
+using Decorator3Demo._1.Component;
 
-namespace Decorator1Demo.ConcreteComponent
+namespace Decorator3Demo._2.ConcreteComponent
 {
     /// <summary>
-    /// The 'ConcreteComponent' class
+    /// The 'ConcreteComponent' class implementing Interface or abstract
     /// </summary>
-    public class Book : LibraryItem
+    public class Book : LibraryItem // LibraryItem is abstract
     {
         private readonly string _author;
         private readonly string _title;

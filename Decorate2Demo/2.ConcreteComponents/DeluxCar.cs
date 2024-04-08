@@ -1,21 +1,21 @@
-﻿using Decorate2Demo.Component;
+﻿using Decorator2Demo._1.Component;
 
-namespace Decorate2Demo.ConcreteComponent
+namespace Decorator2Demo._2.ConcreteComponents
 {
 
     /// <summary>
     /// Concrete Component
     /// </summary>
-  public  class EconomyCar:ICar
+    public class DeluxCar:ICar
     {
         public string GetDescription()
         {
-            return "Economy Car";
+            return "Delux Car";
         }
 
         public double GetCost()
         {
-            return 450000.0;
+            return 750000.0;
         }
     }
 }

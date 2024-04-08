@@ -1,6 +1,6 @@
 ﻿using System;
 using Composite1Demo.Step2___Composite_Class;
-using Composite1Demo.Step3___Leaf_Class;
+using Composite1Demo.Step3___Composite_Class;
 
 namespace Composite1Demo
 {

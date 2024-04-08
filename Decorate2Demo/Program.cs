@@ -1,10 +1,10 @@
 ﻿using System;
-using Decorate2Demo.Component;
-using Decorate2Demo.ConcreteComponent;
-using Decorate2Demo.ConcreteDecorate;
-using Decorate2Demo.Decorate;
+using Decorator2Demo._1.Component;
+using Decorator2Demo._2.ConcreteComponents;
+using Decorator2Demo._3.Decorate;
+using Decorator2Demo._4.ConcreteDecorate;
 
-namespace Decorate2Demo
+namespace Decorator2Demo
 {
     class Program
     {

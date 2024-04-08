@@ -1,7 +1,7 @@
 ﻿using System;
-using Decorator1Demo.Component;
+using Decorator3Demo._1.Component;
 
-namespace Decorator1Demo.ConcreteComponent
+namespace Decorator3Demo._2.ConcreteComponent
 {
     /// <summary>
     /// The 'ConcreteComponent' class
@@ -24,7 +24,7 @@ namespace Decorator1Demo.ConcreteComponent
         {
             Console.WriteLine("\nVideos");
             Console.WriteLine($"Director {Director}");
-            Console.WriteLine($"Title {Title}");
+             Console.WriteLine($"Title {Title}");
             Console.WriteLine($"Play Time {PlayTime}");
             Console.WriteLine($"# Copies {NumCopies}");
         }

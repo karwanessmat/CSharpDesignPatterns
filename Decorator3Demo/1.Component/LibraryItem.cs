@@ -1,4 +1,4 @@
-﻿namespace Decorator1Demo.Component
+﻿namespace Decorator3Demo._1.Component
 {
     /// <summary>
     /// The 'Component' abstract class

@@ -1,8 +1,8 @@
 ﻿using System;
-using Decorator1Demo.ConcreteComponent;
-using Decorator1Demo.ConcreteDecorator;
+using Decorator3Demo._2.ConcreteComponent;
+using Decorator3Demo._4.ConcreteDecorator;
 
-namespace Decorator1Demo
+namespace Decorator3Demo
 {
     class Program
     {

@@ -92,9 +92,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{
 		DecoratorExplain.md = DecoratorExplain.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator1Demo", "Decorator1Demo\Decorator1Demo.csproj", "{C67E9067-45E4-47FA-864E-38333F007049}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator3Demo", "Decorator3Demo\Decorator3Demo.csproj", "{C67E9067-45E4-47FA-864E-38333F007049}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorate2Demo", "Decorate2Demo\Decorate2Demo.csproj", "{73E2915A-7F72-4B2E-AF76-74F422D8EC69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator2Demo", "Decorate2Demo\Decorator2Demo.csproj", "{73E2915A-7F72-4B2E-AF76-74F422D8EC69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{61AAE9DB-2E1A-407F-81E5-7EC27DD5E044}"
 	ProjectSection(SolutionItems) = preProject
@@ -312,9 +312,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge5Demo", "Bridge5Demo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge6Demo", "Bridge6Demo\Bridge6Demo.csproj", "{37F9352A-A095-4D5B-8E0B-A78D65EAFE61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite4Demo", "Composite4Demo\Composite4Demo.csproj", "{51994186-0E08-4F32-BA46-67063E011D3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite4Demo", "Composite4Demo\Composite4Demo.csproj", "{51994186-0E08-4F32-BA46-67063E011D3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite5Demo", "Composite5Demo\Composite5Demo.csproj", "{45152A5F-0996-4BBA-92DB-3A9669DC10DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite5Demo", "Composite5Demo\Composite5Demo.csproj", "{45152A5F-0996-4BBA-92DB-3A9669DC10DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
