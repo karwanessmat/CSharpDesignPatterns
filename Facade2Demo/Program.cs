@@ -1,24 +1,17 @@
-﻿using System;
+﻿
 
-namespace Facade2Demo
-{
-    internal class Program
-    {
-        private static void Main()
-        {
+using Facade2Demo;
+using System;
 
-            // Facade
-            var mortgage = new Mortgage();
+// Facade
+var mortgage = new Mortgage();
 
-            // Evaluate mortgage eligibility for customer
-            var customer = new Customer("Ann McKinsey");
-            var eligible = mortgage.IsEligible(customer, 125000);
+// Evaluate mortgage eligibility for customer
+var customer = new Customer("Ann McKinsey");
+var eligible = mortgage.IsEligible(customer, 125000);
 
-            Console.WriteLine("\n" + customer.Name +
-                              " has been " + (eligible ? "Approved" : "Rejected"));
+Console.WriteLine("\n" + customer.Name +
+                  " has been " + (eligible ? "Approved" : "Rejected"));
 
-            // Wait for user
-            Console.ReadKey();
-        }
-    }
-}
+// Wait for user
+Console.ReadKey();

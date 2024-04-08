@@ -5,16 +5,9 @@
     /// </summary>
  public   class Facade
     {
-        private readonly SubSystemOne _subSystemOne;
-        private readonly SubSystemThree _subSystemThree;
-        private readonly SubSystemTwo _subSystemTwo;
-
-        public Facade()
-        {
-            _subSystemOne = new SubSystemOne();
-            _subSystemThree = new SubSystemThree();
-            _subSystemTwo = new SubSystemTwo();
-        }
+        private readonly SubSystemOne _subSystemOne = new();
+        private readonly SubSystemThree _subSystemThree = new();
+        private readonly SubSystemTwo _subSystemTwo = new();
 
 
         public void CallSubSystemsMethod()

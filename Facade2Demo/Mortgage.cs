@@ -9,9 +9,9 @@ namespace Facade2Demo
    public class Mortgage
 
     {
-        private readonly Bank _bank = new Bank();
-        private readonly Loan _loan = new Loan();
-        private readonly Credit _credit = new Credit();
+        private readonly Bank _bank = new();
+        private readonly Loan _loan = new();
+        private readonly Credit _credit = new();
 
         public bool IsEligible(Customer customer, int amount)
         {

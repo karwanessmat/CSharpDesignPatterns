@@ -3,19 +3,12 @@
     /// <summary>
     /// Customer class
     /// </summary>
-   public class Customer
-
-    {
+   public class Customer(string name)
+   {
 
         // Gets the name
-        public string Name { get; }
+        public string Name { get; } = name;
 
         // Constructor
-        public Customer(string name)
-        {
-            Name = name;
-        }
-
-      
-    }
+   }
 }

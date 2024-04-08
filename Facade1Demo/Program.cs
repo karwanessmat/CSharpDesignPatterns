@@ -1,20 +1,9 @@
-﻿using System;
+﻿using Facade1Demo;
+using System;
 
-namespace Facade1Demo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+var facade = new Facade();
 
-            var facade = new Facade();
+facade.CallSubSystemsMethod();
 
-            facade.CallSubSystemsMethod();
-
-            // Wait for user
-
-            Console.ReadKey();
-
-        }
-    }
-}
+// Wait for user
+Console.ReadKey();
