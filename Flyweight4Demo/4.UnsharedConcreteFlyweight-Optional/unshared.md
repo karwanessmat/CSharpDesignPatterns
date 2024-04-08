@@ -1,0 +1,1 @@
+# In some cases, if there are flyweight objects that cannot be shared because their state cannot be externalized completely, you would implement an UnsharedConcreteFlyweight. In our game example, we don't have such a case since all Particle objects can be shared.

@@ -10,7 +10,7 @@ namespace Flyweight2Demo.FlyweightFactory
     /// </summary>
     internal class ShapeObjectFactory
     {
-        private readonly Dictionary<string,IShape> _shapes=new Dictionary<string, IShape>();
+        private readonly Dictionary<string,IShape> _shapes=new();
 
         public int TotalObjectsCreated => _shapes.Count;
 
@@ -18,9 +18,9 @@ namespace Flyweight2Demo.FlyweightFactory
         {
             shapeName = shapeName.ToLower().Trim();
             IShape shape = null;
-            if (_shapes.ContainsKey(shapeName))
+            if (_shapes.TryGetValue(shapeName, out var shapeValue))
             {
-                shape = _shapes[shapeName];
+                shape = shapeValue;
             }
             else
             {

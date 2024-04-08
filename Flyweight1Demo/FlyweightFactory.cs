@@ -12,15 +12,12 @@ namespace Flyweight1Demo
             {
                 return _flyweights[key] as IFlyweight;
             }
-            else
-            {
-                var newFlyweight = new ConcreteFlyweight();
 
-                // set properties of new flyweight here.
-                _flyweights.Add(key,newFlyweight);
-                return newFlyweight;
+            var newFlyweight = new ConcreteFlyweight();
 
-            }
+            // set properties of new flyweight here.
+            _flyweights.Add(key,newFlyweight);
+            return newFlyweight;
         }
     }
 }

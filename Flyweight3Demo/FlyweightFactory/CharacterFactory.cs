@@ -6,7 +6,7 @@ namespace Flyweight3Demo.FlyweightFactory
 {
     internal class CharacterFactory
     {
-        private  readonly Dictionary<string,Character> _characters = new Dictionary<string, Character>();
+        private  readonly Dictionary<string,Character> _characters = new();
 
         public int TotalObjectsCreated => _characters.Count;
         public Character GetCharacter(string key)
@@ -14,9 +14,9 @@ namespace Flyweight3Demo.FlyweightFactory
             key = key.ToLower().Trim();
             // Uses "lazy initialization"
             Character character = null;
-            if (_characters.ContainsKey(key))
+            if (_characters.TryGetValue(key, out var characterValue))
             {
-                character = _characters[key];
+                character = characterValue;
             }
             else
             {
