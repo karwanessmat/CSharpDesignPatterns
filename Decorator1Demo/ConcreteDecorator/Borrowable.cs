@@ -4,23 +4,19 @@ using Decorator1Demo.Component;
 
 namespace Decorator1Demo.ConcreteDecorator
 {
-    class Borrowable: Decorator.Decorator
+    internal class Borrowable(LibraryItem libraryItem) : Decorator.Decorator(libraryItem)
     {
-        protected List<string> borrowers = new List<string>();
-
-        public Borrowable(LibraryItem libraryItem) : base(libraryItem)
-        {
-        }
+        protected List<string> Borrowers = [];
 
         public void BorrowItem(string name)
         {
-            borrowers.Add(name);
+            Borrowers.Add(name);
             LibraryItem.NumCopies--;
         }
 
         public void ReturnItem(string name)
         {
-            borrowers.Remove(name);
+            Borrowers.Remove(name);
             LibraryItem.NumCopies++;
         }
 
@@ -28,7 +24,7 @@ namespace Decorator1Demo.ConcreteDecorator
         {
             base.Display();
 
-            foreach (var borrower in borrowers)
+            foreach (var borrower in Borrowers)
             {
                 Console.WriteLine("borrower: "+borrower);
             }

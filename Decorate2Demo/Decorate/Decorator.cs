@@ -6,23 +6,16 @@ namespace Decorate2Demo.Decorate
     /// <summary>
     /// Abstract Decorator   
     /// </summary>
-    public abstract class CarAccessoriesDecorator : ICar
+    public abstract class CarAccessoriesDecorator(ICar car) : ICar
     {
-        private readonly ICar _car;
-
-        protected CarAccessoriesDecorator(ICar car)
-        {
-            _car = car;
-        }
-
         public virtual string GetDescription()
         {
-            return _car.GetDescription();
+            return car.GetDescription();
         }
 
         public virtual double GetCost()
         {
-            return _car.GetCost();
+            return car.GetCost();
         }
     }
 }

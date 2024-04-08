@@ -7,13 +7,9 @@ namespace Decorate2Demo.ConcreteDecorate
     /// <summary>   
     /// Concrete Decorator   
     /// </summary>  
-   public class BasicAccessories:CarAccessoriesDecorator
-    {
-        public BasicAccessories(ICar car) : base(car)
-        {
-        }
-
-        public override string GetDescription()
+   public class BasicAccessories(ICar car) : CarAccessoriesDecorator(car)
+   {
+       public override string GetDescription()
         {
             return base.GetDescription() +", Basic Accessories Package";
         }

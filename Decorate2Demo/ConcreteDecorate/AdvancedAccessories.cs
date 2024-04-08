@@ -3,13 +3,9 @@ using Decorate2Demo.Decorate;
 
 namespace Decorate2Demo.ConcreteDecorate
 {
-   public class AdvancedAccessories:CarAccessoriesDecorator
-    {
-        public AdvancedAccessories(ICar car) : base(car)
-        {
-        }
-
-        public override string GetDescription()
+   public class AdvancedAccessories(ICar car) : CarAccessoriesDecorator(car)
+   {
+       public override string GetDescription()
         {
             return base.GetDescription()+", Advanced Accessories Package";
         }

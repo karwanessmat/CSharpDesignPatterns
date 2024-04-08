@@ -3,12 +3,8 @@ using Decorate2Demo.Decorate;
 
 namespace Decorate2Demo.ConcreteDecorate
 {
-    class SportAccessories:CarAccessoriesDecorator
+    public class SportAccessories(ICar car) : CarAccessoriesDecorator(car)
     {
-        public SportAccessories(ICar car) : base(car)
-        {
-        }
-
         public override string GetDescription()
         {
             return base.GetDescription()+", Sports Accessories Package";

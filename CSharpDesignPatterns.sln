@@ -89,7 +89,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite3Demo", "Composite
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{B02ACDD1-47B2-4719-A171-A4D32BA4FCA9}"
 	ProjectSection(SolutionItems) = preProject
-		DecoratorExplain.txt = DecoratorExplain.txt
+		DecoratorExplain.md = DecoratorExplain.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator1Demo", "Decorator1Demo\Decorator1Demo.csproj", "{C67E9067-45E4-47FA-864E-38333F007049}"

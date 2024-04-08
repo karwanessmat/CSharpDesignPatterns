@@ -5,13 +5,7 @@
     /// </summary>
   public  abstract class LibraryItem
     {
-        private int _numCopies;
-
-        public int NumCopies
-        {
-            get => _numCopies;
-            set => _numCopies = value;
-        }
+        public int NumCopies { get; set; }
 
 
         public abstract void Display();
