@@ -141,6 +141,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- ChainOfResponsibility", "1- ChainOfResponsibility", "{EE40B69F-6D7F-4702-BAA6-7B5A3D0EA19E}"
 	ProjectSection(SolutionItems) = preProject
 		ChainOfResponsibility.md = ChainOfResponsibility.md
+		Demo4VsDemo5.md = Demo4VsDemo5.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility1Demo", "ChainOfResponsibility1Demo\ChainOfResponsibility1Demo.csproj", "{E89C6AB6-E60F-4F2E-BFEF-AB768E8D1138}"

@@ -1,9 +1,3 @@
-Frequency of use: 2/5 Medium low
-
-
-Creating a `README.md` for a project implementing the Chain of Responsibility pattern can be structured as follows:
-
----
 
 # Chain of Responsibility Pattern Implementation
 
