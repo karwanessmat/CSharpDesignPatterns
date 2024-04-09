@@ -4,14 +4,10 @@
     /// The 'Handler' abstract class
     /// </summary>
 
-   public abstract class Approver
-    {
-        protected Approver Successor;
+   public abstract class Approver(Approver successor)
+   {
+        protected Approver Successor = successor;
 
-        public void SetSuccessor(Approver successor)
-        {
-            this.Successor = successor;
-        }
 
         public abstract void ProcessRequest(Purchase purchase);
     }

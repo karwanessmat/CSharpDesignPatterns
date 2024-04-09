@@ -5,19 +5,18 @@ namespace ChainOfResponsibility4Demo
     /// <summary>
     /// The 'ConcreteHandler' class
     /// </summary>
-
-   public class Director : Approver
+    class VicePresident(Approver successor) : Approver(successor)
     {
         public override void ProcessRequest(Purchase purchase)
         {
-            if (purchase.Amount < 10000.0)
+            if (purchase.Amount < 20000.0)
             {
                 Console.WriteLine("{0} approved request# {1}",
                     this.GetType().Name, purchase.Number);
             }
-            else if (Successor != null)
+            else
             {
-                Successor.ProcessRequest(purchase);
+                Successor?.ProcessRequest(purchase);
             }
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace ChainOfResponsibility2Demo
+﻿using ChainOfResponsibility2Demo.Step1_Interface;
+
+namespace ChainOfResponsibility2Demo
 {
     internal class DogHandler : AbstractHandler
     {

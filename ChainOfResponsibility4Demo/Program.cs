@@ -7,24 +7,23 @@ namespace ChainOfResponsibility4Demo
         static void Main(string[] args)
         {
             // Setup Chain of Responsibility
+            Approver tammy = new President(null);
+            Approver sam = new VicePresident(tammy);
+            Approver larry = new Director(sam);
 
-            Approver larry = new Director();
-            Approver sam = new VicePresident();
-            Approver tammy = new President();
-
-            larry.SetSuccessor(sam);
-            sam.SetSuccessor(tammy);
 
             // Generate and process purchase requests
+            var purchase = new Purchase(2034, 5000, "Assets");
+            larry.ProcessRequest(purchase);
 
-            var p = new Purchase(2034, 350.00, "Assets");
-            larry.ProcessRequest(p);
+            purchase = new Purchase(2035, 15000, "Project X");
+            larry.ProcessRequest(purchase);
 
-            p = new Purchase(2035, 32590.10, "Project X");
-            larry.ProcessRequest(p);
+            purchase = new Purchase(2036, 25000, "Project Y");
+            larry.ProcessRequest(purchase);
 
-            p = new Purchase(2036, 122100.00, "Project Y");
-            larry.ProcessRequest(p);
+            purchase = new Purchase(2036, 55000, "Project Y");
+            larry.ProcessRequest(purchase);
 
             // Wait for user
 

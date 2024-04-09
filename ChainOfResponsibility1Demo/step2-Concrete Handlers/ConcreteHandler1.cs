@@ -1,6 +1,7 @@
 ﻿using System;
+using ChainOfResponsibility1Demo.Step1_Interface;
 
-namespace ChainOfResponsibility1Demo
+namespace ChainOfResponsibility1Demo.step3_Concrete_Handlers
 {
     public class ConcreteHandler1 : ChainHandler
     {
@@ -10,9 +11,9 @@ namespace ChainOfResponsibility1Demo
             {
                 Console.WriteLine($"{this.GetType().Name} Handled request {request}");
             }
-            else if (successor == null)
+            else if (Successor == null)
             {
-                successor.HandlerRequest(request);
+                Successor.HandlerRequest(request);
             }
         }
     }

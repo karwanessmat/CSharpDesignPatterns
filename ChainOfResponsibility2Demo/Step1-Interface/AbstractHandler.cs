@@ -1,4 +1,4 @@
-﻿namespace ChainOfResponsibility2Demo
+﻿namespace ChainOfResponsibility2Demo.Step1_Interface
 {
     // The default chaining behavior can be implemented inside a base handler
     // class.

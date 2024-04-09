@@ -15,16 +15,15 @@ namespace ChainOfResponsibility2Demo
 
             // The client should be able to send a request to any handler, not
             // just the first one in the chain.
-            Console.WriteLine("Chain: Monkey > Squirrel > Dog\n");
-            var client = new Client(); // I can create instance and use it.
+            Console.WriteLine("Chain: Monkey > Squirrel > Dog");
             Client.ClientCode(monkey);
             Console.WriteLine("_______________________");
 
-            Console.WriteLine("Sub chain: Squirrel > Dog\n");
+            Console.WriteLine("Sub chain: Squirrel > Dog");
             Client.ClientCode(squirrel);
             Console.WriteLine("_______________________");
 
-            Console.WriteLine("Sub chain: Dog > Squirrel\n");
+            Console.WriteLine("Sub chain: Dog > Squirrel");
             Client.ClientCode(dog);
             Console.WriteLine("_______________________");
 

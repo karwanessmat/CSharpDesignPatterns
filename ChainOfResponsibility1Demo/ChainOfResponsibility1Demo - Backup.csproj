@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Step2-Set Up%28Client%29\" />
+    <Folder Include="Step1\" />
   </ItemGroup>
 
 </Project>

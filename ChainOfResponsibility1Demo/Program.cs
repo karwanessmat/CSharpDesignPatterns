@@ -1,4 +1,6 @@
 ﻿using System;
+using ChainOfResponsibility1Demo.Step1_Interface;
+using ChainOfResponsibility1Demo.step3_Concrete_Handlers;
 
 namespace ChainOfResponsibility1Demo
 {
@@ -6,8 +8,7 @@ namespace ChainOfResponsibility1Demo
     {
         static void Main(string[] args)
         {
-
-            //ChainHandler h1 = new ConcreteHandler1();
+            //Set Up the Chain
             ChainHandler h1 = new ConcreteHandler1();
             ChainHandler h2 = new ConcreteHandler2();
             ChainHandler h3 = new ConcreteHandler3();

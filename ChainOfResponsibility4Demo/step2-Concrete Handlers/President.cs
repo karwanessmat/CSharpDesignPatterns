@@ -6,11 +6,11 @@ namespace ChainOfResponsibility4Demo
     /// The 'ConcreteHandler' class
     /// </summary>
 
-   public class President : Approver
-    {
+   public class President(Approver successor) : Approver(successor)
+   {
         public override void ProcessRequest(Purchase purchase)
         {
-            if (purchase.Amount < 100000.0)
+            if (purchase.Amount < 30000)
             {
                 Console.WriteLine("{0} approved request# {1}",
                     this.GetType().Name, purchase.Number);
