@@ -4,15 +4,9 @@ using Observer4Demo.Observer;
 
 namespace Observer4Demo.Subject
 {
-    public class Vegetable
+    public class Vegetable(double pricePerPound)
     {
-        private double _pricePerPound;
         private List<IRestaurant> _restaurants = new List<IRestaurant>();
-
-        public Vegetable(double pricePerPound)
-        {
-            _pricePerPound = pricePerPound;
-        }
 
         public void Attach(IRestaurant restaurant)
         {
@@ -36,12 +30,12 @@ namespace Observer4Demo.Subject
 
         public double PricePerPound
         {
-            get { return _pricePerPound; }
+            get { return pricePerPound; }
             set
             {
-                if (_pricePerPound != value)
+                if (pricePerPound != value)
                 {
-                    _pricePerPound = value;
+                    pricePerPound = value;
                     Notify(); //Automatically notify our observers of price changes
                 }
             }

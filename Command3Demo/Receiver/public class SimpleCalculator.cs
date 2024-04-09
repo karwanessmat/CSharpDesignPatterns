@@ -1,30 +1,22 @@
 ﻿namespace Command3Demo.Receiver
 {
-    public class SimpleCalculator
+    public class SimpleCalculator(int a, int b)
     {
-        private readonly int _x;
-        private readonly int _y;
-
-        public SimpleCalculator(int a, int b)
-        {
-            _x = a;
-            _y = b;
-        }
         public int Add()
         {
-            return _x + _y;
+            return a + b;
         }
         public int Subtract()
         {
-            return _x - _y;
+            return a - b;
         }
         public int Multiply()
         {
-            return _x * _y;
+            return a * b;
         }
         public int Divide()
         {
-            return _x / _y;
+            return a / b;
         }
     }
 }

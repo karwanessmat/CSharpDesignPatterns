@@ -2,13 +2,9 @@
 
 namespace Command3Demo.ConcreteCommandClasses
 {
-    public class AddCommand:Command.Command
+    public class AddCommand(SimpleCalculator receiver) : Command.Command(receiver)
     {
-        private readonly SimpleCalculator _calculator;
-        public AddCommand(SimpleCalculator receiver) : base(receiver)
-        {
-            _calculator = receiver;
-        }
+        private readonly SimpleCalculator _calculator = receiver;
 
         public override int Execute()
         {

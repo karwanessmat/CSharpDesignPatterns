@@ -2,14 +2,10 @@
 
 namespace Command3Demo.Command
 {
-    public abstract class Command
+    public abstract class Command(SimpleCalculator receiver)
     {
-        protected SimpleCalculator Receiver;
+        protected SimpleCalculator Receiver = receiver;
 
-        protected Command(SimpleCalculator receiver)
-        {
-            this.Receiver = receiver;
-        }
         public abstract int Execute();
     }
 

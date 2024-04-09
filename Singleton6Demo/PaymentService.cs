@@ -1,15 +1,10 @@
 ﻿namespace Singleton6Demo
 {
-    public class PaymentService
+    public class PaymentService(string environment)
     {
-        private readonly string _apiKey;
+        private readonly string _apiKey = ServiceConfigurationManager.Instance.GetConfiguration(environment, "PaymentGatewayApiKey");
 
-        public PaymentService(string environment)
-        {
-            _apiKey = ServiceConfigurationManager.Instance.GetConfiguration(environment, "PaymentGatewayApiKey");
-            // Use the _apiKey for payment transactions
-
-        }
+        // Use the _apiKey for payment transactions
 
         public void ProcessPayment()
         {

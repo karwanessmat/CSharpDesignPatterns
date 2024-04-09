@@ -2,13 +2,9 @@
 
 namespace Interpreter1Demo.Context
 {
-    public class Context
+    public class Context(DateTime date)
     {
         public string Expression { get; set; }
-        public DateTime Date { get; set; }
-        public Context(DateTime date)
-        {
-            Date = date;
-        }
+        public DateTime Date { get; set; } = date;
     }
 }

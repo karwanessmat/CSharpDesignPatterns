@@ -5,13 +5,8 @@ namespace Command1Demo.Invoker
 {
     public class ModifyPrice
     {
-        private readonly List<ICommand> _commands;
+        private readonly List<ICommand> _commands = new();
         private ICommand _command;
-
-        public ModifyPrice()
-        {
-            _commands = new List<ICommand>();
-        }
 
         public void SetCommand(ICommand command) => _command = command;
 

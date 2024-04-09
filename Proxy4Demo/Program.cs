@@ -1,15 +1,7 @@
-﻿using System;
+﻿using Proxy4Demo._3.Proxy;
+using System;
 
-namespace Proxy4Demo
-{
-    internal class Program
-    {
-        private static void Main(string[] args)
-        {
-            var proxy = new NewServerProxy();
+var proxy = new NewServerProxy();
 
-            proxy.TakeOrder("121");
-            Console.ReadLine();
-        }
-    }
-}
+proxy.TakeOrder("121");
+Console.ReadLine();

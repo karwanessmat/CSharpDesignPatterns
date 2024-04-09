@@ -13,15 +13,11 @@
     ///   produces the memento would be permitted to access the memento's internal state.
     /// </summary>
 
-    public class Memento
+    public class Memento(string state)
     {
         // Constructor
-        public Memento(string state)
-        {
-            this.State = state;
-        }
 
         // Gets or sets state
-        public string State { get; }
+        public string State { get; } = state;
     }
 }

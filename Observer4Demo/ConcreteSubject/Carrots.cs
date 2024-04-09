@@ -2,11 +2,5 @@
 
 namespace Observer4Demo.ConcreteSubject
 {
-    public class Carrots: Vegetable
-    {
-        public Carrots(double pricePerProduct) :base(pricePerProduct)
-        {
-            
-        }
-    }
+    public class Carrots(double pricePerProduct) : Vegetable(pricePerProduct);
 }

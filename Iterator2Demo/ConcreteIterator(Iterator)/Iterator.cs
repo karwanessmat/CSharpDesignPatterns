@@ -8,25 +8,19 @@ namespace Iterator2Demo.ConcreteIterator_Iterator_
     /// <summary>
     /// The 'ConcreteIterator' class
     /// </summary>
-    internal class Iterator : IAbstractIterator
+    internal class Iterator(Collection collection) : IAbstractIterator
 
     {
-        private readonly Collection _collection;
         private int _current = 0;
 
         // Constructor
-
-        public Iterator(Collection collection)
-        {
-            this._collection = collection;
-        }
 
         // Gets first item
 
         public Item First()
         {
             _current = 0;
-            return _collection[_current] as Item;
+            return collection[_current] as Item;
         }
 
         // Gets next item
@@ -35,7 +29,7 @@ namespace Iterator2Demo.ConcreteIterator_Iterator_
         {
             _current += Step;
             if (!IsDone)
-                return _collection[_current] as Item;
+                return collection[_current] as Item;
             return null;
         }
 
@@ -45,10 +39,10 @@ namespace Iterator2Demo.ConcreteIterator_Iterator_
 
         // Gets current iterator item
 
-        public Item CurrentItem => _collection[_current] as Item;
+        public Item CurrentItem => collection[_current] as Item;
 
         // Gets whether iteration is complete
 
-        public bool IsDone => _current >= _collection.Count;
+        public bool IsDone => _current >= collection.Count;
     }
 }

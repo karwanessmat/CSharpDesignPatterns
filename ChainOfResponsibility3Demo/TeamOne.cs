@@ -3,12 +3,9 @@ using System.Threading;
 
 namespace ChainOfResponsibility3Demo
 {
-   public class TeamOne: HandlerBase
-    {
-        public TeamOne(HandlerBase nextHandler, ContextObject question)
-            : base(nextHandler, question) { }
-
-        public override void HandleRequest()
+   public class TeamOne(HandlerBase nextHandler, ContextObject question) : HandlerBase(nextHandler, question)
+   {
+       public override void HandleRequest()
         {
             Console.WriteLine("Question : {0}", Question.Question);
             Console.WriteLine("*******************************************");
@@ -21,11 +18,8 @@ namespace ChainOfResponsibility3Demo
         }
     }
 
-   public class TeamTwo : HandlerBase
+   public class TeamTwo(HandlerBase nextHandler, ContextObject question) : HandlerBase(nextHandler, question)
    {
-       public TeamTwo(HandlerBase nextHandler, ContextObject question) 
-           : base(nextHandler, question) { }
-
        public override void HandleRequest()
        {
            Console.WriteLine("Wating for team two to respond");
@@ -37,11 +31,8 @@ namespace ChainOfResponsibility3Demo
        }
    }
 
-   public class TeamThree : HandlerBase
+   public class TeamThree(HandlerBase nextHandler, ContextObject question) : HandlerBase(nextHandler, question)
    {
-       public TeamThree(HandlerBase nextHandler, ContextObject question) 
-           : base(nextHandler, question) { }
-
        public override void HandleRequest()
        {
            Console.WriteLine("Waiting for team three to respond");

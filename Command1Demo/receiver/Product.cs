@@ -2,16 +2,10 @@
 
 namespace Command1Demo.receiver
 {
-    public class Product
+    public class Product(string name, int price)
     {
-        public string Name { get; set; }
-        public int Price { get; set; }
-
-        public Product(string name, int price)
-        {
-            Name = name;
-            Price = price;
-        }
+        public string Name { get; set; } = name;
+        public int Price { get; set; } = price;
 
         public void IncreasePrice(int amount)
         {

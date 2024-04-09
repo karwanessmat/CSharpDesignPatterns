@@ -118,7 +118,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight3Demo", "Flyweight
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{1B89E9D8-9245-4A79-AC23-306707F6B05F}"
 	ProjectSection(SolutionItems) = preProject
-		Proxy.txt = Proxy.txt
+		Proxy.md = Proxy.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy1Demo", "Proxy1Demo\Proxy1Demo.csproj", "{44F6D02C-E492-46FC-91AF-055C762F4F9C}"
@@ -338,9 +338,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade7Demo", "Facade7Demo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade8Demo", "Facade8Demo\Facade8Demo.csproj", "{0F2556DE-7012-4491-ADBD-17F95329D52E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight4Demo", "Flyweight4Demo\Flyweight4Demo.csproj", "{5CAC516F-7CAC-402E-AF15-E9E02F87896E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight4Demo", "Flyweight4Demo\Flyweight4Demo.csproj", "{5CAC516F-7CAC-402E-AF15-E9E02F87896E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight5Demo", "Flyweight5Demo\Flyweight5Demo.csproj", "{253DAB57-F5B8-4330-94D1-2E8961B50B82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight5Demo", "Flyweight5Demo\Flyweight5Demo.csproj", "{253DAB57-F5B8-4330-94D1-2E8961B50B82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -42,31 +42,20 @@ namespace Command1Demo
     //    }
     //}
 
-    public class ProductCommand : ICommand
+    public class ProductCommand(Product product, PriceAction priceAction, int amount) : ICommand
     {
-        private readonly Product _product;
-        private readonly PriceAction _priceAction;
-        private readonly int _amount;
-
         public bool IsCommandExecuted { get; private set; }
-
-        public ProductCommand(Product product, PriceAction priceAction, int amount)
-        {
-            _product = product;
-            _priceAction = priceAction;
-            _amount = amount;
-        }
 
         public void ExecuteAction()
         {
-            if (_priceAction == PriceAction.Increase)
+            if (priceAction == PriceAction.Increase)
             {
-                _product.IncreasePrice(_amount);
+                product.IncreasePrice(amount);
                 IsCommandExecuted = true;
             }
             else
             {
-                IsCommandExecuted = _product.DecreasePrice(_amount);
+                IsCommandExecuted = product.DecreasePrice(amount);
             }
         }
 
@@ -75,13 +64,13 @@ namespace Command1Demo
             if (!IsCommandExecuted)
                 return;
 
-            if (_priceAction == PriceAction.Increase)
+            if (priceAction == PriceAction.Increase)
             {
-                _product.DecreasePrice(_amount);
+                product.DecreasePrice(amount);
             }
             else
             {
-                _product.IncreasePrice(_amount);
+                product.IncreasePrice(amount);
             }
         }
     }

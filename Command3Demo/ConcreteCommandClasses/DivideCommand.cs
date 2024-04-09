@@ -2,14 +2,9 @@
 
 namespace Command3Demo.ConcreteCommandClasses
 {
-    public class DivideCommand:Command.Command
+    public class DivideCommand(SimpleCalculator receiver) : Command.Command(receiver)
     {
-        private readonly SimpleCalculator _calculator;
-
-        public DivideCommand(SimpleCalculator receiver) : base(receiver)
-        {
-            _calculator = receiver;
-        }
+        private readonly SimpleCalculator _calculator = receiver;
 
         public override int Execute()
         {

@@ -1,4 +1,6 @@
 ﻿using System;
+using Proxy3Demo._1._Subject_Interface;
+using Proxy3Demo._3.Proxy;
 
 namespace Proxy3Demo
 {
@@ -6,26 +8,15 @@ namespace Proxy3Demo
     {
         static void Main(string[] args)
         {
-            
-            // Create math proxy
-            IMath proxy = new MathProxy();
 
-            // Do the math
-            Console.WriteLine("Proxy: 4 + 2 = " + proxy.Add(4, 2));
-            Console.WriteLine("Proxy: 4 - 2 = " + proxy.Sub(4, 2));
-            Console.WriteLine("Proxy: 4 * 2 = " + proxy.Mul(4, 2));
-            Console.WriteLine("Proxy: 4 / 2 = " + proxy.Div(4, 2));
+            // Create a proxy object
+            IMath mathProxy = new MathProxy();
 
-            Console.WriteLine();
-
-            // Create math proxy
-            IMath math = new Math();
-
-            // Do the math
-            Console.WriteLine("math: 4 + 2 = " + math.Add(4, 2));
-            Console.WriteLine("math: 4 - 2 = " + math.Sub(4, 2));
-            Console.WriteLine("math: 4 * 2 = " + math.Mul(4, 2));
-            Console.WriteLine("math: 4 / 2 = " + math.Div(4, 2));
+            // Perform operations via the proxy
+            Console.WriteLine($"Adding 5 and 2: {mathProxy.Add(5, 2)}");  // Outputs: Adding 5 and 2: 7
+            Console.WriteLine($"Subtracting 5 from 2: {mathProxy.Sub(5, 2)}");  // Outputs: Subtracting 5 from 2: 3
+            Console.WriteLine($"Multiplying 5 by 2: {mathProxy.Mul(5, 2)}");  // Outputs: Multiplying 5 by 2: 10
+            Console.WriteLine($"Dividing 5 by 2: {mathProxy.Div(5, 2)}");  // Outputs: Dividing 5 by 2: 2.5
 
 
             // Wait for user

@@ -7,13 +7,9 @@ namespace Mediator2Demo.ColleagueColleague
     /// A 'ConcreteColleague' class
     /// </summary>
 
-    class Beatle : Participant
+    class Beatle(string name) : Participant(name)
     {
         // Constructor
-        public Beatle(string name)
-            : base(name)
-        {
-        }
 
         public override void Receive(string from, string message)
         {

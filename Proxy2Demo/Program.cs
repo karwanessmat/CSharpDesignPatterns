@@ -1,4 +1,5 @@
 ﻿using System;
+using Proxy2Demo._3.Proxy;
 
 namespace Proxy2Demo
 {

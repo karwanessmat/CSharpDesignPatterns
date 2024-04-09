@@ -8,15 +8,9 @@ namespace Observer2Demo.ConcreteObserver
     /// <summary>
     /// The 'ConcreteObserver' class
     /// </summary>
-    public class Investor: IInvestor
+    public class Investor(string name) : IInvestor
     {
-        private string name;
         public Stock Stock { get; set; }
-
-        public Investor(string name)
-        {
-            this.name = name;
-        }
 
         public void Update(Stock stock)
         {

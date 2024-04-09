@@ -3,19 +3,11 @@ using Factory6Demo.Step3_Creator;
 
 namespace Factory6Demo
 {
-    public class Forex
+    public class Forex(Exchange exchange, ProcessFactory processFactory)
     {
-        private Exchange _exchange;
-        private ProcessFactory _processFactory;
-        public Forex(Exchange exchange, ProcessFactory processFactory)
-        {
-            _exchange = exchange;
-            _processFactory = processFactory;
-        }
-
         public List<double> GetForecastData()
         {
-            var processor = _processFactory.GetProcessor(_exchange.Name, _exchange.Volume_1day_usd);
+            var processor = processFactory.GetProcessor(exchange.Name, exchange.Volume_1day_usd);
 
             return processor.Predict();
         }

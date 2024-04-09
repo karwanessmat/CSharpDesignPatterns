@@ -1,17 +1,10 @@
 ﻿namespace Command2Demo
 {
-    public class SellStock: IOrder
+    public class SellStock(Stock abcStock) : IOrder
     {
-    private readonly Stock _abcStock;
-
-    public SellStock(Stock abcStock)
+        public void Execute(int value)
     {
-        this._abcStock = abcStock;
-    }
-
-    public void Execute(int value)
-    {
-        _abcStock.Sell(value);
+        abcStock.Sell(value);
     }
     }
 }

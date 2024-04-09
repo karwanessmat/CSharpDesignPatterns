@@ -6,16 +6,12 @@ namespace Mediator2Demo.Colleague
     /// <summary>
     /// The 'AbstractColleague' class
     /// </summary>
-    internal class Participant
+    internal class Participant(string name)
     {
         // Constructor
-        public Participant(string name)
-        {
-            Name = name;
-        }
 
         // Gets participant name
-        public string Name { get; }
+        public string Name { get; } = name;
 
         // Gets chatRoom
         public ChatRoom ChatRoom { set; get; }

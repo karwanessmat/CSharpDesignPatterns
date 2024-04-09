@@ -5,20 +5,14 @@ using Observer3Demo.Subject;
 
 namespace Observer3Demo.ConcreteSubject
 {
-    public class Subject:ISubject
+    public class Subject(string productName, double productPrice, string availability)
+        : ISubject
     {
-        public string ProductName { get; set; }
-        public double ProductPrice { get; set; }
-        public string Availability { get; set; }
+        public string ProductName { get; set; } = productName;
+        public double ProductPrice { get; set; } = productPrice;
+        public string Availability { get; set; } = availability;
 
         readonly List<IObserver> _observers = new List<IObserver>();
-
-        public Subject(string productName, double productPrice, string availability)
-        {
-            ProductName = productName;
-            ProductPrice = productPrice;
-            Availability = availability;
-        }
 
         public string GetAvailability()
         {

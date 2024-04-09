@@ -5,15 +5,10 @@ namespace Mediator1Demo.ColleagueColleague
     /// <summary>
     /// A 'ConcreteColleague' class
     /// </summary>
-    internal class ConcreteColleague1 : Colleague.Colleague
+    internal class ConcreteColleague1(Mediator.Mediator mediator) : Colleague.Colleague(mediator)
 
     {
         // Constructor
-
-        public ConcreteColleague1(Mediator.Mediator mediator)
-            : base(mediator)
-        {
-        }
 
         public void Send(string message)
         {

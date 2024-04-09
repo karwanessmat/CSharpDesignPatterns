@@ -3,15 +3,10 @@
     /// <summary>
     /// The 'Colleague' abstract class
     /// </summary>
-    public abstract class Colleague
-
+    public abstract class Colleague(Mediator.Mediator mediator)
     {
-        protected Mediator.Mediator Mediator;
+        protected Mediator.Mediator Mediator = mediator;
 
         // Constructor
-        protected Colleague(Mediator.Mediator mediator)
-        {
-            this.Mediator = mediator;
-        }
     }
 }

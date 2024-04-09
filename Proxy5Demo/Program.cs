@@ -1,4 +1,6 @@
 ﻿using System;
+using Proxy5Demo._2.RealSubject;
+using Proxy5Demo._3.Proxy;
 
 namespace Proxy5Demo
 {
@@ -6,10 +8,15 @@ namespace Proxy5Demo
     {
         static void Main(string[] args)
         {
-            var proxy = new ProxyClient();
-            Console.WriteLine("Data from Proxy Client = {0}", proxy.GetData());
+            SensitiveDocument sensitiveDoc = new SensitiveDocument("Top Secret Document Content");
 
-            Console.ReadKey();
+            // Assuming the user's security level is 4
+            SecureDocumentProxy proxy = new SecureDocumentProxy(sensitiveDoc, 4);
+            Console.WriteLine(proxy.GetContent()); // Outputs: Access Denied: You do not have the necessary security clearance.
+
+            // Assuming the user's security level is 5
+            proxy = new SecureDocumentProxy(sensitiveDoc, 5);
+            Console.WriteLine(proxy.GetContent()); // Outputs: Top Secret Document Content
         }
     }
 

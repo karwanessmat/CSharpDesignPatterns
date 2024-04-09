@@ -6,18 +6,13 @@ namespace Adapter3Demo
     /// <summary>
     /// The 'Target' class
     /// </summary>
-    public class Compound
+    public class Compound(string chemical)
     {
-        protected string Chemical;
+        protected string Chemical = chemical;
         protected float BoilingPoint;
         protected float MeltingPoint;
         protected double MolecularWeight;
         protected string MolecularFormula;
-
-        public Compound(string chemical)
-        {
-            Chemical = chemical;
-        }
 
         public virtual void Display()
         {

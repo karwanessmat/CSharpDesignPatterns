@@ -6,31 +6,26 @@ namespace Iterator1Demo.ConcreteIterator_Iterator_
     /// <summary>
     /// The 'ConcreteIterator' class
     /// </summary>
-    internal class ConcreteIterator : Iterator
+    internal class ConcreteIterator(ConcreteAggregate aggregate) : Iterator
 
     {
-        private readonly ConcreteAggregate _aggregate;
         private int _current;
 
         // Constructor
-        public ConcreteIterator(ConcreteAggregate aggregate)
-        {
-            _aggregate = aggregate;
-        }
 
         // Gets first iteration item
         public override object First()
         {
-            return _aggregate[0];
+            return aggregate[0];
         }
 
         // Gets next iteration item
         public override object Next()
         {
             object ret = null;
-            if (_current < _aggregate.Count - 1)
+            if (_current < aggregate.Count - 1)
             {
-                ret = _aggregate[++_current];
+                ret = aggregate[++_current];
             }
 
             return ret;
@@ -39,13 +34,13 @@ namespace Iterator1Demo.ConcreteIterator_Iterator_
         // Gets current iteration item
         public override object CurrentItem()
         {
-            return _aggregate[_current];
+            return aggregate[_current];
         }
 
         // Gets whether iterations are complete
         public override bool IsDone()
         {
-            return _current >= _aggregate.Count;
+            return _current >= aggregate.Count;
         }
     }
 }

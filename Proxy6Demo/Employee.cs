@@ -1,16 +1,9 @@
 ﻿namespace Proxy6Demo
 {
-    public class Employee
+    public class Employee(string username, string password, string role)
     {
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public string Role { get; set; }
-
-        public Employee(string username, string password, string role)
-        {
-            Username = username;
-            Password = password;
-            Role = role;
-        }
+        public string Username { get; set; } = username;
+        public string Password { get; set; } = password;
+        public string Role { get; set; } = role;
     }
 }

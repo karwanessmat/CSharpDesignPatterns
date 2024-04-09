@@ -1,4 +1,7 @@
 ﻿using System;
+using Proxy1Demo._2.RealSubject;
+using Proxy1Demo._3.Proxy;
+using Proxy1Demo._4.Client;
 
 namespace Proxy1Demo
 {

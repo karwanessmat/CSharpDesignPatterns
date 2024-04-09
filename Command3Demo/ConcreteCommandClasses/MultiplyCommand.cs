@@ -2,14 +2,9 @@
 
 namespace Command3Demo.ConcreteCommandClasses
 {
-    public class MultiplyCommand:Command.Command
+    public class MultiplyCommand(SimpleCalculator receiver) : Command.Command(receiver)
     {
-        private readonly SimpleCalculator _calculator;
-
-        public MultiplyCommand(SimpleCalculator receiver) : base(receiver)
-        {
-            _calculator = receiver;
-        }
+        private readonly SimpleCalculator _calculator = receiver;
 
         public override int Execute()
         {

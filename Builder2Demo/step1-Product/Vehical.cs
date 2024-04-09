@@ -8,12 +8,7 @@ namespace Builder2Demo.step1_Product
         public string Engine { get; set; }
         public string Body { get; set; }
 
-        public List<string> Accessors { get; set; }
-
-        public Vehicle()
-        {
-            Accessors = new List<string>();
-        }
+        public List<string> Accessors { get; set; } = new();
 
 
         public override string ToString()

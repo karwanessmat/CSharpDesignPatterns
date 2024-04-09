@@ -1,13 +1,8 @@
 ﻿namespace Iterator3Demo
 {
-  public class Employee
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public Employee(string name, int id)
-        {
-            Name = name;
-            Id = id;
-        }
-    }
+  public class Employee(string name, int id)
+  {
+        public int Id { get; set; } = id;
+        public string Name { get; set; } = name;
+  }
 }
