@@ -24,6 +24,8 @@ public class ConcreteHandler1:IHandler
         }
         else
         {
+            Console.WriteLine($"class {GetType().Name}");
+            Thread.Sleep(1000);
             _nextHandler?.HandleRequest(request);
         }
     }

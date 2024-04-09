@@ -19,6 +19,10 @@ public class ConcreteHandler2 : IHandler
         }
         else
         {
+            Thread.Sleep(1000);
+
+            Console.WriteLine($"class {GetType().Name}");
+
             _nextHandler?.HandleRequest(request);
         }
     }

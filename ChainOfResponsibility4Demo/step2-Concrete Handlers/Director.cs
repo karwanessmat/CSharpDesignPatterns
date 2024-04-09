@@ -1,6 +1,7 @@
 ﻿using System;
+using ChainOfResponsibility4Demo.Step1_Interface;
 
-namespace ChainOfResponsibility4Demo
+namespace ChainOfResponsibility4Demo.step2_Concrete_Handlers
 {
     /// <summary>
     /// The 'ConcreteHandler' class

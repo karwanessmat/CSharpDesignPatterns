@@ -1,4 +1,4 @@
-﻿namespace ChainOfResponsibility4Demo
+﻿namespace ChainOfResponsibility4Demo.Step1_Interface
 {
     /// <summary>
     /// The 'Handler' abstract class

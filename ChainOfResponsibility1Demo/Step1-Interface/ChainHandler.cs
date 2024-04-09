@@ -5,7 +5,7 @@
        public ChainHandler Successor;
         public void SetSuccessor(ChainHandler successor)
         {
-            this.Successor = successor;
+            Successor = successor;
         }
         public abstract void HandlerRequest(int request);
     }
