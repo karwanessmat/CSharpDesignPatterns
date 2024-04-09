@@ -5,4 +5,11 @@
 	  <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="1. Subject Interface\" />
+    <Folder Include="2.RealSubject\" />
+    <Folder Include="3.Proxy\" />
+    <Folder Include="4.Client\" />
+  </ItemGroup>
+
 </Project>
