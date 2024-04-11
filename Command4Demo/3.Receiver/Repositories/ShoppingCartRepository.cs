@@ -1,4 +1,4 @@
-﻿namespace Command4Demo.Repositories;
+﻿namespace Command4Demo._3.Receiver.Repositories;
 
 
 public class ShoppingCartRepository : IShoppingCartRepository

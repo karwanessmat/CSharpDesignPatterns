@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="4.Invoker\" />
     <Folder Include="5.Client\" />
   </ItemGroup>
 
