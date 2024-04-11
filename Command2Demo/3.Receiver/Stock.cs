@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Command2Demo
+namespace Command2Demo._3.Receiver
 {
     //request Class
     public class Stock

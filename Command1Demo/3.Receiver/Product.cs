@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Command1Demo.receiver
+namespace Command1Demo._3.Receiver
 {
     public class Product(string name, int price)
     {
@@ -10,7 +10,7 @@ namespace Command1Demo.receiver
         public void IncreasePrice(int amount)
         {
             Price += amount;
-            Console.WriteLine($"The price for the {Name} has been increased by {amount}$.");
+            Console.WriteLine($"The price for the {Name} has been increased by {amount:c0}. Current Price is{Price:C0}");
         }
 
         // the big amount will be wrong 
@@ -26,7 +26,7 @@ namespace Command1Demo.receiver
         {
             if (amount >= Price) return false;
             Price -= amount;
-            Console.WriteLine($"The price for the {Name} has been decreased by {amount}$.");
+            Console.WriteLine($"The price for the {Name} has been decreased by {amount:C0}. Current Price is{Price:C0}");
             return true;
         }
 

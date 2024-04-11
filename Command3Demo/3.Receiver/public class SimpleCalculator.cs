@@ -1,4 +1,4 @@
-﻿namespace Command3Demo.Receiver
+﻿namespace Command3Demo._3.Receiver
 {
     public class SimpleCalculator(int a, int b)
     {

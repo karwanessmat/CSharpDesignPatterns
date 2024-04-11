@@ -1,4 +1,7 @@
 ﻿using System;
+using Command2Demo._2.Concrete_Commands;
+using Command2Demo._3.Receiver;
+using Command2Demo._4.Invoker;
 
 namespace Command2Demo
 {
@@ -14,7 +17,7 @@ namespace Command2Demo
 
             Broker broker = new Broker();
             broker.TakeOrder(buyStockOrder);
-            //broker.TakeOrder(sellStockOrder);
+            broker.TakeOrder(sellStockOrder);
 
             broker.PlaceOrders(50);
 

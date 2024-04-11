@@ -1,6 +1,6 @@
-﻿using Command3Demo.Receiver;
+﻿using Command3Demo._3.Receiver;
 
-namespace Command3Demo.Command
+namespace Command3Demo._1.Command_Interface
 {
     public abstract class Command(SimpleCalculator receiver)
     {

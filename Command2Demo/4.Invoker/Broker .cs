@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
+using Command2Demo._1.Command_Interface;
 
-namespace Command2Demo
+namespace Command2Demo._4.Invoker
 {
     // command invoker class.
     public class Broker
     {
-        private readonly List<IOrder> _orderList = new List<IOrder>();
+        private readonly List<IOrder> _orderList = [];
 
         public void TakeOrder(IOrder order)
         {

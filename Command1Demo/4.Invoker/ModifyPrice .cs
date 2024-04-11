@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Command1Demo._1.Command_Interface;
 
-namespace Command1Demo.Invoker
+namespace Command1Demo._4.Invoker
 {
     public class ModifyPrice
     {

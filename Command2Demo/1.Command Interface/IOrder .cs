@@ -1,4 +1,4 @@
-﻿namespace Command2Demo
+﻿namespace Command2Demo._1.Command_Interface
 {
     public interface IOrder
     {
