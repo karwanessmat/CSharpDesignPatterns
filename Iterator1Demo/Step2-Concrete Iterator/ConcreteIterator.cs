@@ -1,7 +1,7 @@
-﻿using Iterator1Demo.ConcreteAggregate_Collection_;
-using Iterator1Demo.Iterator_AbstractIterator_;
+﻿using Iterator1Demo.Step1_Iterator_Interface;
+using Iterator1Demo.step4_Concrete_Collection;
 
-namespace Iterator1Demo.ConcreteIterator_Iterator_
+namespace Iterator1Demo.Step2_Concrete_Iterator
 {
     /// <summary>
     /// The 'ConcreteIterator' class
@@ -22,6 +22,9 @@ namespace Iterator1Demo.ConcreteIterator_Iterator_
         // Gets next iteration item
         public override object Next()
         {
+            return HasNext() ? aggregate[_current++] : null;
+
+
             object ret = null;
             if (_current < aggregate.Count - 1)
             {
@@ -35,6 +38,11 @@ namespace Iterator1Demo.ConcreteIterator_Iterator_
         public override object CurrentItem()
         {
             return aggregate[_current];
+        }
+
+        public override bool HasNext()
+        {
+            return _current < aggregate.Count;
         }
 
         // Gets whether iterations are complete

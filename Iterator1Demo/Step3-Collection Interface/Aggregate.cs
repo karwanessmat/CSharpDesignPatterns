@@ -1,6 +1,6 @@
-﻿using Iterator1Demo.Iterator_AbstractIterator_;
+﻿using Iterator1Demo.Step1_Iterator_Interface;
 
-namespace Iterator1Demo.Aggregate_AbstractCollection_
+namespace Iterator1Demo.Step3_Collection_Interface
 {
 
     /// <summary>

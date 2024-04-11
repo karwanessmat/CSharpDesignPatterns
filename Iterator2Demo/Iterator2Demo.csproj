@@ -5,4 +5,11 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Step1-Iterator Interface\" />
+    <Folder Include="Step2-Concrete Iterator\" />
+    <Folder Include="Step3-Collection Interface\" />
+    <Folder Include="step4-Concrete Collection\" />
+  </ItemGroup>
+
 </Project>

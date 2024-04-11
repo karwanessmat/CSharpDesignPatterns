@@ -1,5 +1,5 @@
 ﻿using System;
-using Iterator1Demo.ConcreteAggregate_Collection_;
+using Iterator1Demo.step4_Concrete_Collection;
 
 namespace Iterator1Demo
 {
@@ -16,15 +16,14 @@ namespace Iterator1Demo
             };
 
             // Create Iterator and provide aggregate
-            var i = a.CreateIterator();
+            var iterator  = a.CreateIterator();
 
             Console.WriteLine("Iterating over collection:");
 
-            var item = i.First();
-            while (item != null)
+            while (iterator.HasNext())
             {
+                object item = iterator.Next();
                 Console.WriteLine(item);
-                item = i.Next();
             }
 
             // Wait for user
