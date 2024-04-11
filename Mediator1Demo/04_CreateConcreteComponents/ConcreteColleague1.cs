@@ -14,7 +14,7 @@ namespace Mediator1Demo._04_CreateConcreteComponents
         public void SendMessage(string message)
         {
 
-            mediator.Send(message, this);
+            Mediator.Send(message, this);
         }
 
         public void Notify(string message)

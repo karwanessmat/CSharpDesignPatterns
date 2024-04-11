@@ -1,22 +1,22 @@
 ﻿using System.Collections.Generic;
-using Mediator2Demo.Colleague;
-using Mediator2Demo.Mediator;
+using Mediator2Demo._01_DefineMediatorInterface;
+using Mediator2Demo._03_DefineComponentBaseClass;
 
-namespace Mediator2Demo.ConcreteMediator
+namespace Mediator2Demo._02_CreateConcreteMediator
 {
     /// <summary>
     /// The 'ConcreteMediator' class
     /// Inheritance of AbstractChatRoom
     /// </summary>
-    internal class ChatRoom : AbstractChatRoom
+    public class ChatRoom : ICharRoom
     {
 
         /// <summary>
         /// An object to get Concrete Colleagues
         /// </summary>
-        private readonly Dictionary<string, Participant> _participants = new Dictionary<string, Participant>();
+        private readonly Dictionary<string, Participant> _participants = new();
 
-        public override void Register(Participant participant)
+        public  void Register(Participant participant)
         {
             if (!_participants.ContainsValue(participant))
             {
@@ -26,11 +26,11 @@ namespace Mediator2Demo.ConcreteMediator
             participant.ChatRoom = this;
         }
 
-        public override void Send(string from, string to, string message)
+        public  void Send(string from, string to, string message)
         {
             var participant = _participants[to];
 
-            participant?.Receive(@from, message);
+            participant?.ReceiveFrom(@from, message);
         }
     }
 }

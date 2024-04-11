@@ -1,12 +1,12 @@
 ﻿using System;
-using Mediator2Demo.ConcreteMediator;
+using Mediator2Demo._02_CreateConcreteMediator;
 
-namespace Mediator2Demo.Colleague
+namespace Mediator2Demo._03_DefineComponentBaseClass
 {
     /// <summary>
     /// The 'AbstractColleague' class
     /// </summary>
-    internal class Participant(string name)
+    public abstract class Participant(string name)
     {
         // Constructor
 
@@ -17,13 +17,13 @@ namespace Mediator2Demo.Colleague
         public ChatRoom ChatRoom { set; get; }
 
         // Sends message to given participant
-        public void Send(string to, string message)
+        public void SendTo(string to, string message)
         {
             ChatRoom.Send(Name, to, message);
         }
         
         // Receives message from given participant
-        public virtual void Receive(string from, string message)
+        public virtual void ReceiveFrom(string from, string message)
         {
             Console.WriteLine("{0} to {1}: '{2}'",
                 from, Name, message);

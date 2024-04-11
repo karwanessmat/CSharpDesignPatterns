@@ -5,15 +5,17 @@ namespace Mediator0Demo._04_CreateConcreteComponents;
 
 public class Component1(IMediator mediator) : BaseComponent(mediator)
 {
+    private readonly IMediator _mediator = mediator;
+
     public void DoA()
     {
         Console.WriteLine("Component 1 does A.");
-        mediator?.Notify(this, "A");
+        _mediator?.Notify(this, "A");
     }
 
     public void DoB()
     {
         Console.WriteLine("Component 1 does B.");
-        mediator?.Notify(this, "B");
+        _mediator?.Notify(this, "B");
     }
 }

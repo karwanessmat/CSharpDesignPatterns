@@ -7,7 +7,6 @@ namespace Mediator1Demo._03_DefineComponentBaseClass
     /// </summary>
     public abstract class Colleague(Mediator mediator)
     {
-
-  
+        public Mediator Mediator { get; } = mediator;
     }
 }
