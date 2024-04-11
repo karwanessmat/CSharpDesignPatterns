@@ -8,7 +8,8 @@ namespace Iterator3Demo
         static void Main(string[] args)
         {
             // Build a collection
-            var collection = new ConcreteCollection();
+            var collection = new EmployeeCollection();
+
             collection.AddEmployee(new Employee("Anurag", 100));
             collection.AddEmployee(new Employee("Pranaya", 101));
             collection.AddEmployee(new Employee("Santosh", 102));
@@ -26,7 +27,7 @@ namespace Iterator3Demo
             {
                 Console.WriteLine($"ID : {emp.Id} & Name : {emp.Name}");
             }
-            Console.Read();
+       
         }
     }
 }

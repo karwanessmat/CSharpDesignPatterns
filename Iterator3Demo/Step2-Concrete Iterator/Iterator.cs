@@ -4,9 +4,9 @@ using Iterator3Demo.step4_Concrete_Collection.IteratorDesignPattern;
 namespace Iterator3Demo.Step2_Concrete_Iterator
 {
 
-      public class Iterator(ConcreteCollection collection) : IAbstractIterator
+      public class Iterator(EmployeeCollection employees) : IAbstractIterator
       {
-          private int _current;
+            private int _current;
             private const int Step = 1;
 
             // Constructor
@@ -15,18 +15,18 @@ namespace Iterator3Demo.Step2_Concrete_Iterator
             public Employee First()
             {
                 _current = 0;
-                return collection.GetEmployee(_current);
+                return employees.GetEmployee(_current);
             }
 
             // Gets next item
             public Employee Next()
             {
-                _current += Step;
-                return !IsCompleted ? collection.GetEmployee(_current) : null;
+                
+                return !IsCompleted ? employees.GetEmployee(_current++) : null;
             }
 
             // Check whether iteration is complete
-            public bool IsCompleted => _current >= collection.Count;
+            public bool IsCompleted => _current >= employees.Count;
         }
     
 }
