@@ -1,5 +1,7 @@
 ﻿using System;
-using Mediator1Demo.ColleagueColleague;
+using Mediator1Demo._01_DefineMediatorInterface;
+using Mediator1Demo._02_CreateConcreteMediator;
+using Mediator1Demo._04_CreateConcreteComponents;
 
 namespace Mediator1Demo
 {
@@ -7,19 +9,19 @@ namespace Mediator1Demo
     {
         static void Main()
         {
-            var m = new ConcreteMediator.ConcreteMediator();
+            var mediator = new ConcreteMediator();
 
-            var c1 = new ConcreteColleague1(m);
-            var c2 = new ConcreteColleague2(m);
+            var c1 = new ConcreteColleague1(mediator);
+            var c2 = new ConcreteColleague2(mediator);
 
-            m.Colleague1 = c1;
-            m.Colleague2 = c2;
+            mediator.Colleague1 = c1;
+            mediator.Colleague2 = c2;
 
-            c1.Send("How are you?");
-            c2.Send("Fine, thanks");
+            c1.SendMessage("How are you?");
+            c2.SendMessage("Fine, thanks");
             
-            c1.Send("Are you coming with us to play football");
-            c2.Send("I will let you know");
+            c1.SendMessage("Are you coming with us to play football");
+            c2.SendMessage("I will let you know");
 
             // Wait for user
 

@@ -1,11 +1,13 @@
-﻿using Mediator1Demo.ColleagueColleague;
+﻿using Mediator1Demo._01_DefineMediatorInterface;
+using Mediator1Demo._03_DefineComponentBaseClass;
+using Mediator1Demo._04_CreateConcreteComponents;
 
-namespace Mediator1Demo.ConcreteMediator
+namespace Mediator1Demo._02_CreateConcreteMediator
 {
     /// <summary>
     /// The 'ConcreteMediator' class
     /// </summary>
-    internal class ConcreteMediator : Mediator.Mediator
+    internal class ConcreteMediator : Mediator
 
     {
         private ConcreteColleague1 _colleague1;
@@ -21,7 +23,7 @@ namespace Mediator1Demo.ConcreteMediator
             set => _colleague2 = value;
         }
 
-        public override void Send(string message, Colleague.Colleague colleague)
+        public override void Send(string message, Colleague colleague)
         {
             if (colleague == _colleague1)
             {
