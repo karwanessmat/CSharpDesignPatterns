@@ -1,8 +1,7 @@
-﻿using Iterator2Demo.collection;
-using Iterator2Demo.ConcreteAggregate_Collection_;
-using Iterator2Demo.Iterator_AbstractIterator_;
+﻿using Iterator2Demo.Step1_Iterator_Interface;
+using Iterator2Demo.step4_Concrete_Collection;
 
-namespace Iterator2Demo.ConcreteIterator_Iterator_
+namespace Iterator2Demo.Step2_Concrete_Iterator
 {
 
     /// <summary>

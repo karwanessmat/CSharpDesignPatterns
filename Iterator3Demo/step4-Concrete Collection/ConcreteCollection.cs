@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
-using Iterator3Demo.Aggregate_AbstractCollection_;
-using Iterator3Demo.ConcreteIterator_Iterator_;
+using Iterator3Demo.Step2_Concrete_Iterator;
+using Iterator3Demo.Step3_Collection_Interface;
 
-namespace Iterator3Demo.ConcreteAggregate_Collection_
+namespace Iterator3Demo.step4_Concrete_Collection
 {
     namespace IteratorDesignPattern
     {
       public  class ConcreteCollection : IAbstractCollection
         {
-            private readonly List<Employee> _listEmployees = new List<Employee>();
+            private readonly List<Employee> _listEmployees = new();
 
             //Create Iterator
             public Iterator CreateIterator()

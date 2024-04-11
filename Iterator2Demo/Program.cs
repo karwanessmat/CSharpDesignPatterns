@@ -1,6 +1,5 @@
 ﻿using System;
-using Iterator2Demo.collection;
-using Iterator2Demo.ConcreteAggregate_Collection_;
+using Iterator2Demo.step4_Concrete_Collection;
 
 namespace Iterator2Demo
 {

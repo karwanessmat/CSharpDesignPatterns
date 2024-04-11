@@ -1,7 +1,7 @@
-﻿using Iterator3Demo.ConcreteAggregate_Collection_.IteratorDesignPattern;
-using Iterator3Demo.Iterator_AbstractIterator_.IteratorDesignPattern;
+﻿using Iterator3Demo.Step1_Iterator_Interface.IteratorDesignPattern;
+using Iterator3Demo.step4_Concrete_Collection.IteratorDesignPattern;
 
-namespace Iterator3Demo.ConcreteIterator_Iterator_
+namespace Iterator3Demo.Step2_Concrete_Iterator
 {
 
       public class Iterator(ConcreteCollection collection) : IAbstractIterator

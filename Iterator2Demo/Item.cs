@@ -1,7 +1,7 @@
-﻿namespace Iterator2Demo.collection
+﻿namespace Iterator2Demo
 {
-   public class Item(string name)
-   {
+    public class Item(string name)
+    {
         // Constructor
 
         // Gets name
