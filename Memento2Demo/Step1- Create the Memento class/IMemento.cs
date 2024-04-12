@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Memento2Demo
+namespace Memento2Demo.Step1__Create_the_Memento_class
 {
 
     // The Memento interface provides a way to retrieve the memento's metadata,

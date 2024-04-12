@@ -1,4 +1,6 @@
 ﻿using System;
+using Memento2Demo.Step2__Define_the_Originator_class;
+using Memento2Demo.Step3__Implement_the_Caretaker_Class;
 
 namespace Memento2Demo
 {
@@ -7,16 +9,20 @@ namespace Memento2Demo
         static void Main(string[] args)
         {
             // Client code.
-            Originator originator = new Originator("Super-duper-super-puper-super.");
+            Originator originator = new Originator("Step");
             Caretaker caretaker = new Caretaker(originator);
 
             caretaker.Backup();
-            originator.DoSomething();
 
-            caretaker.Backup();
             originator.DoSomething();
-
             caretaker.Backup();
+            Console.WriteLine();
+
+            originator.DoSomething();
+            caretaker.Backup();
+            Console.WriteLine();
+
+
             originator.DoSomething();
 
             Console.WriteLine();

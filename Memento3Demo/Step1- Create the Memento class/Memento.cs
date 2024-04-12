@@ -1,4 +1,4 @@
-﻿namespace Memento3Demo
+﻿namespace Memento3Demo.Step1__Create_the_Memento_class
 {
     /// <summary>
     ///  Memento  (Memento)
@@ -15,9 +15,6 @@
 
     public class Memento(string state)
     {
-        // Constructor
-
-        // Gets or sets state
         public string State { get; } = state;
     }
 }

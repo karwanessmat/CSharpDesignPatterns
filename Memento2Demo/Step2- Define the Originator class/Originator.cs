@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Threading;
+using Memento2Demo.Step1__Create_the_Memento_class;
 
-namespace Memento2Demo
+namespace Memento2Demo.Step2__Define_the_Originator_class
 {
 
     // The Originator holds some important state that may change over time. It
@@ -12,11 +13,11 @@ namespace Memento2Demo
         // For the sake of simplicity, the originator's state is stored inside a
         // single variable.
         private string _state;
-
+        private int step = 1;
         public Originator(string state)
         {
-            this._state = state;
-            Console.WriteLine("Originator: My initial state is: " + state);
+            _state = state;
+            Console.WriteLine($"Current stat: {_state} {step}");
         }
 
         // The Originator's business logic may affect its internal state.
@@ -25,31 +26,16 @@ namespace Memento2Demo
         public void DoSomething()
         {
             Console.WriteLine("Originator: I'm doing something important.");
-            this._state = GenerateRandomString(30);
-            Console.WriteLine($"Originator: and my state has changed to: {_state}");
+            _state = $" updated {_state} {step++}";
+            Console.WriteLine($"{_state}");
         }
 
-        private  string GenerateRandomString(int length = 10)
-        {
-            const string allowedSymbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            var result = string.Empty;
-
-            while (length > 0)
-            {
-                result += allowedSymbols[new Random().Next(0, allowedSymbols.Length)];
-
-                Thread.Sleep(12);
-
-                length--;
-            }
-
-            return result;
-        }
 
         // Saves the current state inside a memento.
-        public IMemento Save()
+        public IMemento SaveStateToMemento()
         {
-            return new ConcreteMemento(this._state);
+            var memento = new ConcreteMemento(_state);
+            return memento;
         }
 
         // Restores the Originator's state from a memento object.
@@ -60,7 +46,7 @@ namespace Memento2Demo
                 throw new Exception("Unknown memento class " + memento.ToString());
             }
 
-            this._state = memento.GetState();
+            _state = memento.GetState();
             Console.Write($"Originator: My state has changed to: {_state}");
         }
     }

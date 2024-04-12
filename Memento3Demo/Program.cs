@@ -1,4 +1,7 @@
 ﻿using System;
+using Memento3Demo.Step1__Create_the_Memento_class;
+using Memento3Demo.Step2__Define_the_Originator_class;
+using Memento3Demo.Step3__Implement_the_Caretaker_Class;
 
 namespace Memento3Demo
 {
@@ -6,23 +9,46 @@ namespace Memento3Demo
     {
         static void Main(string[] args)
         {
-            Originator o = new Originator();
-            o.State = "On";
+            Originator originator = new Originator();
+            var caretaker = new Caretaker();
 
-            // Store internal state
 
-            Caretaker c = new Caretaker();
-            c.Memento = o.CreateMemento();
+            originator.SetMemento(new Memento("On1"));
+            var savedMemento = originator.CreateMemento();
+            caretaker.Add(savedMemento);
 
-            // Continue changing originator
 
-            o.State = "Off";
+            originator.SetMemento(new Memento("Off2"));
+             savedMemento = originator.CreateMemento();
+            caretaker.Add(savedMemento);
 
-            // Restore saved state
 
-            o.SetMemento(c.Memento);
+            originator.SetMemento(new Memento("On3"));
+             savedMemento = originator.CreateMemento();
+            caretaker.Add(savedMemento);
 
-            // Wait for user
+
+            originator.SetMemento(new Memento("Off4"));
+             savedMemento = originator.CreateMemento();
+            caretaker.Add(savedMemento);
+
+
+
+            originator.SetMemento(new Memento("On5"));
+             savedMemento = originator.CreateMemento();
+            caretaker.Add(savedMemento);
+
+
+
+
+            foreach (var memento in caretaker.GetMementoHistory())
+            {
+                Console.WriteLine($"State: {memento.State}");
+            }
+
+            Console.WriteLine(caretaker.GetMementoStep(5).State);
+
+
 
             Console.ReadKey();
         }

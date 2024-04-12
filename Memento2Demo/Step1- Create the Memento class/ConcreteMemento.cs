@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Memento2Demo
+namespace Memento2Demo.Step1__Create_the_Memento_class
 {
     // The Concrete Memento contains the infrastructure for storing the
     // Originator's state.
@@ -18,12 +18,12 @@ namespace Memento2Demo
         // metadata.
         public string GetName()
         {
-            return $"{this._date} / ({state.Substring(0, 9)})...";
+            return $"{_date} / ({state})...";
         }
 
         public DateTime GetDate()
         {
-            return this._date;
+            return _date;
         }
     }
 }

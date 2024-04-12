@@ -1,48 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Memento2Demo.Step1__Create_the_Memento_class;
+using Memento2Demo.Step2__Define_the_Originator_class;
 
-namespace Memento2Demo
+namespace Memento2Demo.Step3__Implement_the_Caretaker_Class
 {
     // The Caretaker doesn't depend on the Concrete Memento class. Therefore, it
     // doesn't have access to the originator's state, stored inside the memento.
     // It works with all mementos via the base Memento interface.
-    public class Caretaker
+    public class Caretaker(Originator originator)
     {
-        private readonly List<IMemento> _mementos = new List<IMemento>();
-
-        private readonly Originator _originator = null;
-
-        public Caretaker(Originator originator)
-        {
-            this._originator = originator;
-        }
+        private readonly List<IMemento> _mementos = [];
 
         public void Backup()
         {
-            Console.WriteLine("\nCaretaker: Saving Originator's state...");
-            this._mementos.Add(this._originator.Save());
+            var memento = originator.SaveStateToMemento();
+            _mementos.Add(memento);
+            Console.WriteLine("Saved stated");
         }
 
         public void Undo()
         {
-            if (this._mementos.Count == 0)
+            if (_mementos.Count == 0)
             {
                 return;
             }
 
-            var memento = this._mementos.Last();
-            this._mementos.Remove(memento);
+            var memento = _mementos.Last() as ConcreteMemento;
 
-            Console.WriteLine("Caretaker: Restoring state to: " + memento.GetName());
+            _mementos.Remove(memento);
+
+            Console.WriteLine("Caretaker: Restoring state to: " + memento?.GetName());
 
             try
             {
-                this._originator.Restore(memento);
+                
+                originator.Restore(memento);
             }
             catch (Exception)
             {
-                this.Undo();
+                Undo();
             }
         }
 
@@ -50,7 +48,7 @@ namespace Memento2Demo
         {
             Console.WriteLine("Caretaker: Here's the list of mementos:");
 
-            foreach (var memento in this._mementos)
+            foreach (var memento in _mementos)
             {
                 Console.WriteLine(memento.GetName());
             }
