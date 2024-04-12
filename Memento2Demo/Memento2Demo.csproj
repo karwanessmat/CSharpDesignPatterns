@@ -5,4 +5,10 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Step1- Create the Memento class\" />
+    <Folder Include="Step2- Define the Originator class\" />
+    <Folder Include="Step3- Implement the Caretaker Class\" />
+  </ItemGroup>
+
 </Project>

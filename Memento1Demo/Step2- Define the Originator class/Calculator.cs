@@ -2,31 +2,27 @@
 {
     public class Calculator
     {
-        private int result = 0;
+        private int _result;
 
-        public Calculator(int i =0)
-        {
-            result = 0;
-        }
 
         public void SetResult(int i = 0)
         {
-            result = 0;
+            _result = i;
         }
 
         public void Add(int x)
         {
-            result += x;
+            _result += x;
         }
 
         public void Subtract(int x)
         {
-            result -= x;
+            _result -= x;
         }
 
         public int GetResult()
         {
-            return result;
+            return _result;
         }
 
 
@@ -34,14 +30,14 @@
         public Memento CreateMemento()
         {
             var memento = new Memento();
-            memento.SetState(result);
+            memento.SetState(_result);
             return memento;
         }
 
 
         public void SaveState(Memento memento)
         {
-            result = memento.GetState();
+            _result = memento.GetState();
         }
     }
 }

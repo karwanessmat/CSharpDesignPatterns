@@ -6,7 +6,8 @@ namespace Memento1Demo
     {
         static void Main(string[] args)
         {
-
+            // this application undo just one step
+            // because we did not create caretaker to save all states.
             var calculator = new Calculator();
             calculator.Add(15);
             calculator.Add(5);

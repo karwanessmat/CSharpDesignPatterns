@@ -182,7 +182,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator3Demo", "Iterator3D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Mediator", "5- Mediator", "{37D93528-AD00-49BD-9D05-588FF84ADC8A}"
 	ProjectSection(SolutionItems) = preProject
-		Mediator.txt = Mediator.txt
+		Mediator.md = Mediator.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator1Demo", "Mediator1Demo\Mediator1Demo.csproj", "{E7ACF6AF-71A0-4C23-A9F6-40A7B13A9C29}"
@@ -191,7 +191,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator2Demo", "Mediator2D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6- Memento", "6- Memento", "{D6106686-A1D4-49EF-A622-555FA5A728EC}"
 	ProjectSection(SolutionItems) = preProject
-		Memento.txt = Memento.txt
+		Memento.md = Memento.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento1Demo", "Memento1Demo\Memento1Demo.csproj", "{4C58DB0A-050E-43A3-9DB6-2E25A254256D}"
@@ -372,9 +372,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator4Demo", "Mediator4D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator5Demo", "Mediator5Demo\Mediator5Demo.csproj", "{52D1292A-A0E5-440C-A2B3-3171B5DE25B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator6Demo", "Mediator6Demo\Mediator6Demo.csproj", "{2F1E7245-3811-4DB1-B448-198D3E6B6463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator6Demo", "Mediator6Demo\Mediator6Demo.csproj", "{2F1E7245-3811-4DB1-B448-198D3E6B6463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator7Demo", "Mediator7Demo\Mediator7Demo.csproj", "{0C6103C0-E303-4C9C-A598-911A855970CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator7Demo", "Mediator7Demo\Mediator7Demo.csproj", "{0C6103C0-E303-4C9C-A598-911A855970CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento0Demo", "Memento0Demo\Memento0Demo.csproj", "{22FA579B-F3E1-4544-87FB-B7D05F384113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -878,6 +880,10 @@ Global
 		{0C6103C0-E303-4C9C-A598-911A855970CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C6103C0-E303-4C9C-A598-911A855970CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C6103C0-E303-4C9C-A598-911A855970CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FA579B-F3E1-4544-87FB-B7D05F384113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FA579B-F3E1-4544-87FB-B7D05F384113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FA579B-F3E1-4544-87FB-B7D05F384113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FA579B-F3E1-4544-87FB-B7D05F384113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1029,6 +1035,7 @@ Global
 		{52D1292A-A0E5-440C-A2B3-3171B5DE25B7} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
 		{2F1E7245-3811-4DB1-B448-198D3E6B6463} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
 		{0C6103C0-E303-4C9C-A598-911A855970CC} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
+		{22FA579B-F3E1-4544-87FB-B7D05F384113} = {D6106686-A1D4-49EF-A622-555FA5A728EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05AE38FD-0D6F-41E1-9FFC-784B01BAD24C}
