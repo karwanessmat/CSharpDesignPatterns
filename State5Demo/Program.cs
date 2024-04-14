@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using State5Demo._3_ContextClass;
+
+var trafficLight = new TrafficLight();
+
+trafficLight.Change();
+trafficLight.Change();
+trafficLight.Change();
+trafficLight.Change();
