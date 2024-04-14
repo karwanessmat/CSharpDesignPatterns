@@ -1,5 +1,6 @@
 ﻿using System;
-using Template1Demo.ConcreteClass;
+using Template1Demo._1_AbstractClass;
+using Template1Demo._2_ConcreteClass;
 
 namespace Template1Demo
 {
@@ -8,10 +9,10 @@ namespace Template1Demo
         static void Main(string[] args)
         {
 
-            AbstractClass.AbstractClass aA = new ConcreteClassA();
+            AbstractClass aA = new ConcreteClassA();
             aA.TemplateMethod();
 
-            AbstractClass.AbstractClass aB = new ConcreteClassA();
+            AbstractClass aB = new ConcreteClassA();
             aB.TemplateMethod();
 
             Console.ReadLine();
