@@ -17,6 +17,6 @@ public class ApprovedState : DocumentState
     public override void HandlePublish()
     {
         Console.WriteLine("Document published.");
-        Document!.SetState(new PublishedState());
+        Document!.TransitionTo(new PublishedState());
     }
 }

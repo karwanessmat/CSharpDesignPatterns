@@ -12,7 +12,7 @@ public class ReviewState : DocumentState
     public override void HandleApproval()
     {
         Console.WriteLine("Document approved.");
-        Document.SetState(new ApprovedState());
+        Document.TransitionTo(new ApprovedState());
     }
 
     public override void HandlePublish()

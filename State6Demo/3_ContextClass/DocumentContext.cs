@@ -10,10 +10,10 @@ public class DocumentContext
     public DocumentContext(DocumentState state)
     {
         _state = state;
-        SetState(state);
+        TransitionTo(state);
     }
 
-    public void SetState(DocumentState state)
+    public void TransitionTo(DocumentState state)
     {
         Console.WriteLine($"Transitioning to {state.GetType().Name}");
         _state = state;

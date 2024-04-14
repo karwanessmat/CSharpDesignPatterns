@@ -1,4 +1,5 @@
-﻿using State6Demo._1_CreateStateInterface;
+﻿
+using State6Demo._1_CreateStateInterface;
 
 namespace State6Demo._2_ImplementConcreteStates;
 
@@ -7,7 +8,7 @@ public class DraftState : DocumentState
     public override void HandleReview()
     {
         Console.WriteLine("Document sent for review.");
-        Document.SetState(new ReviewState());
+        Document.TransitionTo(new ReviewState());
     }
 
     public override void HandleApproval()
