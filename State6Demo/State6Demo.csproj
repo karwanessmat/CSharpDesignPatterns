@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="1_CreateStateInterface\" />
-    <Folder Include="2_ImplementConcreteStates\" />
-    <Folder Include="3_ContextClass\" />
-  </ItemGroup>
-
 </Project>
