@@ -1,6 +1,6 @@
 ﻿using System;
-using Observer2Demo.ConcreteObserver;
-using Observer2Demo.ConcreteSubject;
+using Observer2Demo.Step3_Implement_Concrete_Subject;
+using Observer2Demo.Step4_Implement_Concrete_Observers;
 
 namespace Observer2Demo
 {
@@ -8,7 +8,7 @@ namespace Observer2Demo
     {
         static void Main(string[] args)
         {
-            var ibm = new IBM("IBM",250);
+            var ibm = new Ibm("IBM",250);
             ibm.Attach(new Investor("Network"));
             ibm.Attach(new Investor("Personal Computer"));
             ibm.Attach(new Investor("Personal test"));
@@ -23,3 +23,10 @@ namespace Observer2Demo
         }
     }
 }
+
+//### Example Scenario and Result
+//### In the above implementation, the Program class acts as the client. It:
+//1. Creates an instance of the ConcreteSubject.
+//2. Creates two observers, observer1 and observer2.
+//3. Registers both observers with the subject.
+//4. Changes the state of the subject, which triggers a notification to all registered observers.
