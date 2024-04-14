@@ -1,19 +1,22 @@
-﻿using State2Demo.Context;
+﻿using State2Demo._1_CreateStateInterface;
+using State2Demo._3_ContextClass;
 
-namespace State2Demo.ConcreteState
+namespace State2Demo._2_ImplementConcreteStates
 {
-    public class SilverState : State.State
+    public class SilverState : State
     {
-        // Overloaded constructors
-        public SilverState(State.State state) :
-            this(state.Balance, state.Account)
-        {
-        }
+ 
         public SilverState(double balance, Account account)
         {
             Balance = balance;
             Account = account;
             Initialize();
+        }
+
+        // Overloaded constructors
+        public SilverState(State state) :
+            this(state.Balance, state.Account)
+        {
         }
         private void Initialize()
         {

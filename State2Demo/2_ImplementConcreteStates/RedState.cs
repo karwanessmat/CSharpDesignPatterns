@@ -1,6 +1,7 @@
 ﻿using System;
+using State2Demo._1_CreateStateInterface;
 
-namespace State2Demo.ConcreteState
+namespace State2Demo._2_ImplementConcreteStates
 {
     /// <summary>
     /// A 'ConcreteState' class
@@ -8,11 +9,11 @@ namespace State2Demo.ConcreteState
     /// Red indicates that account is overdrawn 
     /// </remarks>
     /// </summary>
-    public class RedState : State.State
+    public class RedState : State
     {
         private double _serviceFee;
         // Constructor
-        public RedState(State.State state)
+        public RedState(State state)
         {
             this.Balance = state.Balance;
             this.Account = state.Account;

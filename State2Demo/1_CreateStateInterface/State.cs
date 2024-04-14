@@ -1,6 +1,6 @@
-﻿using State2Demo.Context;
+﻿using State2Demo._3_ContextClass;
 
-namespace State2Demo.State
+namespace State2Demo._1_CreateStateInterface
 {
     /// <summary>
     /// The 'State' abstract class

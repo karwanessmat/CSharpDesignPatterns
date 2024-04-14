@@ -1,6 +1,7 @@
 ﻿using System;
+using State1Demo._1_CreateStateInterface;
 
-namespace State1Demo
+namespace State1Demo._3_ContextClass
 {
     /// <summary>
     /// The 'Context' class
@@ -10,7 +11,7 @@ namespace State1Demo
         // Constructor
         public Context(State state)
         {
-            this.State = state;
+            State = state;
         }
 
 

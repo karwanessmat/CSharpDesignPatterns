@@ -1,6 +1,7 @@
-﻿using State2Demo.Context;
+﻿using State2Demo._1_CreateStateInterface;
+using State2Demo._3_ContextClass;
 
-namespace State2Demo.ConcreteState
+namespace State2Demo._2_ImplementConcreteStates
 {
     /// <summary>
     /// A 'ConcreteState' class
@@ -8,10 +9,10 @@ namespace State2Demo.ConcreteState
     /// Gold indicates an interest bearing state
     /// </remarks>
     /// </summary>
-    public class GoldState : State.State
+    public class GoldState : State
     {
         // Overloaded constructors
-        public GoldState(State.State state)
+        public GoldState(State state)
             : this(state.Balance, state.Account)
         {
         }

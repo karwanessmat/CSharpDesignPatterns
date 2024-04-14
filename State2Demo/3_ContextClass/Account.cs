@@ -1,7 +1,8 @@
 ﻿using System;
-using State2Demo.ConcreteState;
+using State2Demo._1_CreateStateInterface;
+using State2Demo._2_ImplementConcreteStates;
 
-namespace State2Demo.Context
+namespace State2Demo._3_ContextClass
 {
     /// <summary>
     /// The 'Context' class
@@ -17,11 +18,12 @@ namespace State2Demo.Context
             State = new SilverState(0.0, this);
         }
         public double Balance => State.Balance;
-        public State.State State { get; set; }
+        public State State { get; set; }
 
         public void Deposit(double amount)
         {
             State.Deposit(amount);
+
             Console.WriteLine("Deposited {0:C} --- ", amount);
             Console.WriteLine(" Balance = {0:C}", Balance);
             Console.WriteLine(" Status  = {0}",
