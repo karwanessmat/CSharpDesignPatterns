@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Strategy2Demo.Strategy
+namespace Strategy2Demo._1_Define_Strategy_Interface
 {
     /// <summary>
     /// The 'Strategy' abstract class

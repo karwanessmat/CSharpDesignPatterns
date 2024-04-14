@@ -1,6 +1,6 @@
 ﻿using System;
-using Strategy2Demo.ConcreteStrategy;
-using Strategy2Demo.Context;
+using Strategy2Demo._2_Concrete_Strategies;
+using Strategy2Demo._3_ContextClass;
 
 namespace Strategy2Demo
 {

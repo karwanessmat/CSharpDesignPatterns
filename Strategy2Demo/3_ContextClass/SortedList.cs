@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Strategy2Demo.Strategy;
+using Strategy2Demo._1_Define_Strategy_Interface;
 
-namespace Strategy2Demo.Context
+namespace Strategy2Demo._3_ContextClass
 {
     /// <summary>
     /// The 'Context' class
@@ -11,9 +11,10 @@ namespace Strategy2Demo.Context
     {
         private readonly List<string> _list = new();
         private SortStrategy _sortStrategy;
-        public void SetSortStrategy(SortStrategy sortstrategy)
+
+        public void SetSortStrategy(SortStrategy sortStrategy)
         {
-            _sortStrategy = sortstrategy;
+            _sortStrategy = sortStrategy;
         }
 
         public void Add(string name)
@@ -23,6 +24,7 @@ namespace Strategy2Demo.Context
 
         public void Sort()
         {
+
             _sortStrategy.Sort(_list);
 
             // Iterate over list and display results

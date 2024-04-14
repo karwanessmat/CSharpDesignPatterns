@@ -1,5 +1,6 @@
 ﻿using System;
-using Strategy1Demo.ConcreteStrategy;
+using Strategy1Demo._2_Concrete_Strategies;
+using Strategy1Demo._3_ContextClass;
 
 namespace Strategy1Demo
 {
@@ -7,16 +8,13 @@ namespace Strategy1Demo
     {
         static void Main(string[] args)
         {
-
-            Context.Context context;
-
-            context = new Context.Context(new ConcreteStrategyA());
+            var context = new Context(new ConcreteStrategyA());
             context.ContextInterface();
 
-            context = new Context.Context(new ConcreteStrategyB());
+            context = new Context(new ConcreteStrategyB());
             context.ContextInterface();
 
-            context = new Context.Context(new ConcreteStrategyC());
+            context = new Context(new ConcreteStrategyC());
             context.ContextInterface();
 
             Console.ReadKey();

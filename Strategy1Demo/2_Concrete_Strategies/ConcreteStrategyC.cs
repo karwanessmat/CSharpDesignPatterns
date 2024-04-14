@@ -1,8 +1,9 @@
 ﻿using System;
+using Strategy1Demo._1_Define_Strategy_Interface;
 
-namespace Strategy1Demo.ConcreteStrategy
+namespace Strategy1Demo._2_Concrete_Strategies
 {
-    class ConcreteStrategyC:Strategy.Strategy
+    class ConcreteStrategyC:Strategy
     {
         /// <summary>
         /// A 'ConcreteStrategy' class
