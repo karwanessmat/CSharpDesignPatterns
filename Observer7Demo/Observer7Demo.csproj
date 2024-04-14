@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Step1-Define Observer Interface\" />
+    <Folder Include="Step2-Define Subject Interface\" />
+    <Folder Include="Step3-Implement Concrete Subject\" />
+    <Folder Include="Step4-Implement Concrete Observers\" />
+  </ItemGroup>
+
+</Project>
