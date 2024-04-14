@@ -52,7 +52,7 @@ public abstract class DocumentParser
     }
 }
 ```
-
+### ` #A method template that outlines the sequence of steps for the algorithm. This method is final and cannot be changed by subclasses.`
 ### 3. Implement Concrete Subclasses
 Each subclass implements the abstract methods defined in the base class.
 

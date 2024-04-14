@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="AbstractClass\" />
-    <Folder Include="ConcreteClass\" />
-  </ItemGroup>
-
 </Project>
