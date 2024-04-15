@@ -4,7 +4,7 @@ using Builder2Demo.step2_Builder;
 
 namespace Builder2Demo.Step3_ConcreteBuilder
 {
-    internal class HeroBuilder:IVehicleBuilder
+    internal class FordBuilder:IVehicleBuilder
     {
         private readonly Vehicle _vehicle = new Vehicle();
         public void SetModel()

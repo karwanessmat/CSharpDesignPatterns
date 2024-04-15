@@ -20,4 +20,5 @@ var fluentReport = inventoryBuilder
     .AddDimensions()
     .AddLogistics(DateTime.Now)
     .GetDailyReport();
+
 Console.WriteLine(fluentReport.Display());

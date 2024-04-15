@@ -11,7 +11,9 @@ namespace Builder1Demo
            var toyACreator = new ToyCreator(new ToyABuilder());
            toyACreator.CreateToy();
            Console.WriteLine(toyACreator.GetToy().ToString());
+
            Console.WriteLine();
+
            var toyBCreator = new ToyCreator(new ToyBBuilder());
            toyBCreator.CreateToy();
            Console.WriteLine(toyBCreator.GetToy());

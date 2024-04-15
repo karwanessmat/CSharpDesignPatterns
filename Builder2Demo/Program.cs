@@ -12,10 +12,11 @@ namespace Builder2Demo
             var hondaVehicle = new VehicleCreator(new HondaBuilder());
             hondaVehicle.BuildVehicle();
             Console.WriteLine(hondaVehicle.GetVehicle());
+
             Console.WriteLine();
 
 
-            var heroVehicle= new VehicleCreator(new HondaBuilder());
+            var heroVehicle= new VehicleCreator(new FordBuilder());
             heroVehicle.BuildVehicle();
             Console.WriteLine(heroVehicle.GetVehicle());
         }
