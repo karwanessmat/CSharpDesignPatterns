@@ -5,11 +5,13 @@ namespace AbstractFactory1Demo
 {
     public class Client(IAbstractFactory factory)
     {
-        private readonly ProductA _productA = factory.CreateProductA();
-        private readonly ProductB _productB = factory.CreateProductB();
+        //private readonly ProductA _productA = factory.CreateProductA();
+        //private readonly ProductB _productB = factory.CreateProductB();
 
         public string Operation()
         {
+            ProductA _productA = factory.CreateProductA();
+            ProductB _productB = factory.CreateProductB();
             var result = $"""
                           ProductA say {_productA.FunctionA()}
                           ProductB say {_productB.FunctionB()}

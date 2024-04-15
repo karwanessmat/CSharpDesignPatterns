@@ -15,17 +15,3 @@ namespace AbstractFactory6Demo.Step4_Concrete_Factories;
             return new CitiLoanAccount();
         }
     }
-
-public class NationalCreditUnionFactory:CreditUnionFactory
-{
-    public override ISavingAccount CreateSavingAccount()
-    {
-        return new NationalSavingAccount();
-    }
-
-    public override ILoanAccount CreateLoanAccount()
-    {
-        return new NationalLoanAccount();
-    }
-}
-

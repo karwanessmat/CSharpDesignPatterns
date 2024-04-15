@@ -9,7 +9,7 @@ namespace AbstractFactory3Demo
         private static void Main()
         {
 
-            var employeeSystemFactory = new EmployeeSystemFactory().Create(2, "uwp.dev");
+            var employeeSystemFactory = new EmployeeSystemFactory().Create(2, "win.dev");
             var employeeSystemManage = new EmployeeSystemManager(employeeSystemFactory);
            var getDetails= employeeSystemManage.GetSystemDetails();
            Console.WriteLine(getDetails);

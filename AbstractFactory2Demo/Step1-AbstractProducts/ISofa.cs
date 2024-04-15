@@ -5,8 +5,3 @@ public interface ISofa
 {
     void RelaxOn();
 }
-
-public interface ICoffeeTable
-{
-    void Description();
-}

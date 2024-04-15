@@ -13,7 +13,7 @@ namespace AbstractFactory3Demo.Step4_Concrete_Factories
             }
             else
             {
-                returnValue = position == "uwp.dev" ? new DellDesktopFactory() : new DellLaptopFactory();
+                returnValue = position == "win.dev" ? new DellDesktopFactory() : new DellLaptopFactory();
 
             }
 

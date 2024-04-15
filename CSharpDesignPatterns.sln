@@ -37,6 +37,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder2Demo", "Builder2Demo\Builder2Demo.csproj", "{8C7AE413-B6BA-4459-B6F9-BDA75E49FADE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{E6BBB2E8-4773-489B-B697-1849A25CA6B7}"
+	ProjectSection(SolutionItems) = preProject
+		explain.md = explain.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{30CF816E-6364-498C-AA0D-39AB4BCE5323}"
 	ProjectSection(SolutionItems) = preProject
