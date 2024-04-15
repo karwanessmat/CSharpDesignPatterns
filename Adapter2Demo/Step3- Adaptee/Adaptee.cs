@@ -1,4 +1,4 @@
-﻿namespace Adapter2Demo;
+﻿namespace Adapter2Demo.Step3__Adaptee;
 
 public class Adaptee
 {

@@ -10,6 +10,9 @@ namespace Adapter4Demo.step2_Adapter_Class;
 /// </summary>
 public class XmlToJsonAdapter(XmlConverter xmlConverter) : IXmlToJson
 {
+    // we are using this method to match between incompatible objects.
+    // for example, convert xml to json
+    // we must use ConvertXmlToJson() method that came form IXmlToJson interface
     public void ConvertXmlToJson()
     {
         var manufacturers = xmlConverter.GetXml()

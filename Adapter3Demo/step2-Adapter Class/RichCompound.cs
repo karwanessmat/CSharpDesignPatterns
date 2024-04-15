@@ -1,6 +1,8 @@
 ﻿using System;
+using Adapter3Demo.step1___Client_Interface;
+using Adapter3Demo.Step3__Adaptee;
 
-namespace Adapter3Demo;
+namespace Adapter3Demo.step2_Adapter_Class;
 
 /// <summary>
 /// The 'Adapter' class

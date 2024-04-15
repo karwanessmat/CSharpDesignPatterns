@@ -1,8 +1,4 @@
-﻿
-
-using Adapter10Demo.Framework;
-
-namespace Adapter10Demo.Plugins
+﻿namespace Adapter10Demo.Plugins
 {
     public class Earth
     {

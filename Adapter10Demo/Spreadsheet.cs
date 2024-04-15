@@ -1,4 +1,4 @@
-﻿namespace Adapter10Demo.Framework
+﻿namespace Adapter10Demo
 {
     public class Spreadsheet
     {

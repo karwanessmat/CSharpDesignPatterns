@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Adapter3Demo
+namespace Adapter3Demo.step1___Client_Interface
 {
 
     /// <summary>

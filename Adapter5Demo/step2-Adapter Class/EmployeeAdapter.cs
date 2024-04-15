@@ -12,6 +12,12 @@ namespace Adapter5Demo.step2_Adapter_Class
 
         private readonly HrSystem _hrSystem = new();
 
+
+        /// <summary>
+        /// "We use the Adapter class to write logic inside its methods that bridges the gap
+        /// between incompatible objects, allowing them to work together effectively."
+        /// </summary>
+        /// <returns></returns>
         public List<string> GetEmployeeList()
         {
             var employeeList = new List<string>();

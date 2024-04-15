@@ -21,7 +21,6 @@ public class Singleton
             // If you're using multithreading, you'll need to lock this part of the code to make sure
             // the instance is only created once
             _instance = new Singleton();
-            _instance = new Singleton();
         }
 
         // Return the existing instance

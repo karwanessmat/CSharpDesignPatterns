@@ -1,4 +1,6 @@
 ﻿using System;
+using Adapter3Demo.step1___Client_Interface;
+using Adapter3Demo.step2_Adapter_Class;
 
 namespace Adapter3Demo
 {

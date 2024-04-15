@@ -1,4 +1,4 @@
-﻿namespace Adapter3Demo;
+﻿namespace Adapter3Demo.Step3__Adaptee;
 
 /// <summary>
 /// The 'Adaptee' class

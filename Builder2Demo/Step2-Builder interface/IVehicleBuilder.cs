@@ -1,6 +1,6 @@
 ﻿using Builder2Demo.step1_Product;
 
-namespace Builder2Demo.step2_Builder
+namespace Builder2Demo.Step2_Builder_interface
 {
     public interface IVehicleBuilder
     {

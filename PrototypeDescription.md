@@ -1,6 +1,3 @@
-Here's the updated `README.md` content with the added section on the Prototype design pattern explanation, its key concepts, implementation steps, and its advantages and considerations. This comprehensive guide is now ready for anyone looking to understand and implement the Prototype pattern in C#.
-
----
 
 # Prototype Pattern Implementation in C#
 
@@ -32,7 +29,7 @@ The Prototype pattern can be implemented in any C# project where object cloning 
 
 ## Code Example
 
-### Defining the Prototype Interface
+### Defining the Prototype Interface or abstract class
 
 First, define an abstract `Shape` class that includes a method for cloning objects.
 
