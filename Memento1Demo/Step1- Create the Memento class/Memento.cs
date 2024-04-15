@@ -1,4 +1,4 @@
-﻿namespace Memento1Demo
+﻿namespace Memento1Demo.Step1__Create_the_Memento_class
 {
     public class Memento
     {

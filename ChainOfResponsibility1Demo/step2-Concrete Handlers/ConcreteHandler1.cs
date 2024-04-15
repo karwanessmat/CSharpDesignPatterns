@@ -1,7 +1,7 @@
 ﻿using System;
 using ChainOfResponsibility1Demo.Step1_Interface;
 
-namespace ChainOfResponsibility1Demo.step3_Concrete_Handlers
+namespace ChainOfResponsibility1Demo.step2_Concrete_Handlers
 {
     public class ConcreteHandler1 : ChainHandler
     {

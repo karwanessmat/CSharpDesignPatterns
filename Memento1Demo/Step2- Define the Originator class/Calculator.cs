@@ -1,4 +1,6 @@
-﻿namespace Memento1Demo
+﻿using Memento1Demo.Step1__Create_the_Memento_class;
+
+namespace Memento1Demo
 {
     public class Calculator
     {
