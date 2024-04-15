@@ -1,7 +1,7 @@
-﻿using Bridge4Demo.Abstraction;
-using Bridge4Demo.Implementor;
+﻿using Bridge4Demo._1_Define_Implementor_Interface;
+using Bridge4Demo._3_Define_Abstraction;
 
-namespace Bridge4Demo.Refined_Abstraction;
+namespace Bridge4Demo._4_Create_Refined_Abstraction;
 
 
 // Refined Abstraction

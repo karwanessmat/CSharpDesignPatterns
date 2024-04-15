@@ -1,4 +1,4 @@
-﻿namespace Bridge4Demo.Implementor;
+﻿namespace Bridge4Demo._1_Define_Implementor_Interface;
 
 // Implementation
 public interface IAreaCalculator

@@ -1,6 +1,4 @@
-﻿using Bridge4Demo.Implementor;
-
-namespace Bridge4Demo.Abstraction;
+﻿namespace Bridge4Demo._3_Define_Abstraction;
 
 //Abstraction
 public interface IShape

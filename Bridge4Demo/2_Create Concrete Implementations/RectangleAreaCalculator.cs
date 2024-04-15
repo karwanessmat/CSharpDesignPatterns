@@ -1,6 +1,6 @@
-﻿using Bridge4Demo.Implementor;
+﻿using Bridge4Demo._1_Define_Implementor_Interface;
 
-namespace Bridge4Demo.Concrete_Implementation;
+namespace Bridge4Demo._2_Create_Concrete_Implementations;
 
 // Concrete Implementation
 public class RectangleAreaCalculator : IAreaCalculator

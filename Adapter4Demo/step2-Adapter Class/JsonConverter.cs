@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Adapter4Demo;
+namespace Adapter4Demo.step2_Adapter_Class;
 
 public class JsonConverter(IEnumerable<Manufacturer> manufacturers)
 {

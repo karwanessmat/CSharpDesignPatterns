@@ -1,7 +1,7 @@
-﻿using Bridge1Demo.Abstraction;
-using Bridge1Demo.Implementor;
+﻿using Bridge1Demo._1_Define_Implementor_Interface;
+using Bridge1Demo._3_Define_Abstraction;
 
-namespace Bridge1Demo.RefinedAbstraction
+namespace Bridge1Demo._4_Create_Refined_Abstraction
 {
    public class Circle(int radius, int x, int y, IDraw draw)
        : Shape(draw)

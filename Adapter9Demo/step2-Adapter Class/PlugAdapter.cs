@@ -1,4 +1,7 @@
-﻿namespace Adapter9Demo;
+﻿using Adapter9Demo.Step1___Interface;
+using Adapter9Demo.Step3_Client___Adaptee;
+
+namespace Adapter9Demo.step2_Adapter_Class;
 
 public class PlugAdapter(EuropeanPlug plug) : IAmericanSocket
 {

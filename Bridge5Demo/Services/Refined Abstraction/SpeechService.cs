@@ -1,6 +1,6 @@
 ﻿using Bridge5Demo.Services.Implementor;
 
-namespace Bridge5Demo.Services.Abstraction
+namespace Bridge5Demo.Services
 {
     // abstract 
     public class SpeechService(ISpeechProvider speechProvider)

@@ -1,4 +1,4 @@
-﻿namespace Adapter9Demo;
+﻿namespace Adapter9Demo.Step1___Interface;
 
 public interface IAmericanSocket
 {

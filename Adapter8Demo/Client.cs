@@ -1,4 +1,6 @@
-﻿namespace Adapter8Demo
+﻿using Adapter8Demo.Step1___Interface;
+
+namespace Adapter8Demo
 {
     public class Client(ITarget target)
     {

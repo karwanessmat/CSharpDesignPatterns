@@ -1,6 +1,6 @@
-﻿using Bridge1Demo.Implementor;
+﻿using Bridge1Demo._1_Define_Implementor_Interface;
 
-namespace Bridge1Demo.Abstraction
+namespace Bridge1Demo._3_Define_Abstraction
 {
 
   public abstract class Shape(IDraw draw)

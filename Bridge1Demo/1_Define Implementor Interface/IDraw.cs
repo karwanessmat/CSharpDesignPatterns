@@ -1,4 +1,4 @@
-﻿namespace Bridge1Demo.Implementor
+﻿namespace Bridge1Demo._1_Define_Implementor_Interface
 {
    public interface IDraw
     {

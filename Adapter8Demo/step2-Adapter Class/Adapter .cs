@@ -1,4 +1,7 @@
-﻿namespace Adapter8Demo
+﻿using Adapter8Demo.Step1___Interface;
+using Adapter8Demo.Step3_Client___Adaptee;
+
+namespace Adapter8Demo.step2_Adapter_Class
 {
     public class Adapter:Adaptee, ITarget
     {

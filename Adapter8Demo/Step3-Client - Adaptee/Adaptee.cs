@@ -1,4 +1,4 @@
-﻿namespace Adapter8Demo
+﻿namespace Adapter8Demo.Step3_Client___Adaptee
 {
     public class Adaptee
     {

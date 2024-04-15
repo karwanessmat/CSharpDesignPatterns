@@ -1,7 +1,7 @@
 ﻿using System;
-using Bridge1Demo.Implementor;
+using Bridge1Demo._1_Define_Implementor_Interface;
 
-namespace Bridge1Demo.ConcreteImplementation
+namespace Bridge1Demo._2_Create_Concrete_Implementations
 {
    public class RedCircle:IDraw
     {
