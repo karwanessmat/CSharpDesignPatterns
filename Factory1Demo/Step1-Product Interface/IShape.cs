@@ -1,4 +1,4 @@
-﻿namespace Factory1Demo.Factory
+﻿namespace Factory1Demo.Step1_Product_Interface
 {
    public interface IShape
    {
