@@ -81,7 +81,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge3Demo", "Bridge3Demo\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{67C811EB-87AE-4038-9409-3851B673D2C8}"
 	ProjectSection(SolutionItems) = preProject
-		Composite.txt = Composite.txt
+		Composite.md = Composite.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite1Demo", "Composite1Demo\Composite1Demo.csproj", "{2F0DF657-5E55-47AA-8438-4D9C658A2F2C}"

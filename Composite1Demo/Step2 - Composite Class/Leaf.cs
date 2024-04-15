@@ -7,12 +7,12 @@ public class Leaf(string name) : Component(name)
 {
     public override void Add(Component c)
     {
-        Console.WriteLine("Con not add to a leaf");
+        Console.WriteLine("Cannot  not add to a leaf");
     }
 
     public override void Remove(Component c)
     {
-        Console.WriteLine("Con not remove to a leaf");
+        Console.WriteLine("Cannot not remove to a leaf");
     }
 
     public override void Display(int depth)

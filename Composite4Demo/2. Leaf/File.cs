@@ -6,8 +6,7 @@ namespace Composite4Demo._2._Leaf
     {
         public override void Display(int depth)
         {
-            Console.WriteLine(new String('-', depth) + Name);
-
+            Console.WriteLine(new string('-', depth) + Name);
         }
     }
 }
