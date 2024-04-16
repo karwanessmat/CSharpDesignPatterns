@@ -1,4 +1,5 @@
 ﻿using Proxy7Demo;
+using Proxy7Demo._3.Proxy;
 
 var control = new CoolImageControl();
 List<string> fileNames = new List<string>();

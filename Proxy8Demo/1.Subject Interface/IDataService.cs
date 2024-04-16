@@ -1,4 +1,4 @@
-﻿namespace Proxy8Demo;
+﻿namespace Proxy8Demo._1.Subject_Interface;
 
 internal interface IDataService
 {

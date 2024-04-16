@@ -1,4 +1,6 @@
-﻿namespace Proxy7Demo;
+﻿using Proxy7Demo._1.Subject_Interface;
+
+namespace Proxy7Demo;
 
 public class CoolImageControl
 {

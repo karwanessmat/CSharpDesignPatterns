@@ -1,4 +1,5 @@
 ﻿using Proxy8Demo;
+using Proxy8Demo._3.Proxy;
 
 var dataService = new DataServiceProxy();
 dataService.InsertData("item 1");

@@ -1,4 +1,6 @@
-﻿namespace Proxy8Demo;
+﻿using Proxy8Demo._1.Subject_Interface;
+
+namespace Proxy8Demo._2.RealSubject;
 
 internal class DataService : IDataService
 {

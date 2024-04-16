@@ -1,4 +1,7 @@
-﻿namespace Proxy7Demo
+﻿using Proxy7Demo._1.Subject_Interface;
+using Proxy7Demo._2.RealSubject;
+
+namespace Proxy7Demo._3.Proxy
 {
     public class Image4KProxy : IImage
     {
