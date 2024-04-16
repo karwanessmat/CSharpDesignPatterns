@@ -1,5 +1,4 @@
 ﻿using System;
-using Adapter1Demo.step1___Client_Interface;
 
 namespace Adapter1Demo
 {

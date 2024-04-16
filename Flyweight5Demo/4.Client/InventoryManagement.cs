@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Flyweight5Demo._2.FlyweightFactory;
+﻿using Flyweight5Demo._2.FlyweightFactory;
 using Flyweight5Demo._3.Context;
 
 namespace Flyweight5Demo._4.Client;

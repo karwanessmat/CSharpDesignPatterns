@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace State3Demo._1_CreateStateInterface;
+﻿namespace State3Demo._1_CreateStateInterface;
 
 public interface IAtmState
 {

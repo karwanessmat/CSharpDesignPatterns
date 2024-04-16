@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Flyweight4Demo._1.ConcreteFlyweight;
-using Flyweight4Demo._2.Flyweight_Abstract;
+﻿using Flyweight4Demo._1_Flyweight_Abastract_Interface;
 
 namespace Flyweight4Demo._5.Context;
 

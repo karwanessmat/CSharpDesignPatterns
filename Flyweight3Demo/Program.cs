@@ -1,5 +1,5 @@
 ﻿using System;
-using Flyweight3Demo.FlyweightFactory;
+using Flyweight3Demo._3_Flyweight_Factory;
 
 namespace Flyweight3Demo
 {

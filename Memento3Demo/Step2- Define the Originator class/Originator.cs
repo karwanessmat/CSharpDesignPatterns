@@ -1,5 +1,4 @@
-﻿using System;
-using Memento3Demo.Step1__Create_the_Memento_class;
+﻿using Memento3Demo.Step1__Create_the_Memento_class;
 
 namespace Memento3Demo.Step2__Define_the_Originator_class
 {

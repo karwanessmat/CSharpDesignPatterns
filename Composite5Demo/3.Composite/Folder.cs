@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Composite5Demo._1._Component;
+﻿using Composite5Demo._1._Component;
 
 namespace Composite5Demo._3.Composite;
 

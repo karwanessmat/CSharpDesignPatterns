@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ChainOfResponsibility5Demo.Step1_Interface
+﻿namespace ChainOfResponsibility5Demo.Step1_Interface
 {
     public abstract class Handler
     {

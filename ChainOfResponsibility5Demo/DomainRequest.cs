@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ChainOfResponsibility5Demo;
+﻿namespace ChainOfResponsibility5Demo;
 
 public class DomainRequest(string userName, string password, string domain, string creditCardInfo)
 {

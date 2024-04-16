@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Facade4Demo.Entities;
+﻿using Facade4Demo.Entities;
 
 namespace Facade4Demo;
 

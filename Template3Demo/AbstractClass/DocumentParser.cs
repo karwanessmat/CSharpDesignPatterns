@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Template3Demo.AbstractClass;
+﻿namespace Template3Demo.AbstractClass;
 public abstract class DocumentParser
 {
     // The template method

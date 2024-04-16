@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Mediator5Demo._01_DefineMediatorInterface;
-using Mediator5Demo._03_DefineComponentBaseClass;
+﻿using Mediator5Demo._03_DefineComponentBaseClass;
 
 namespace Mediator5Demo._04_CreateConcreteComponents
 {

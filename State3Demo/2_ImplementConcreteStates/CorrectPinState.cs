@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using State3Demo._1_CreateStateInterface;
+﻿using State3Demo._1_CreateStateInterface;
 using State3Demo._3_ContextClass;
 
 namespace State3Demo._2_ImplementConcreteStates

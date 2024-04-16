@@ -5,4 +5,8 @@
 	  <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="4.Client\" />
+  </ItemGroup>
+
 </Project>

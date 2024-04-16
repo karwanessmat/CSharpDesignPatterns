@@ -1,5 +1,4 @@
-﻿using Bridge6Demo;
-using Bridge6Demo._3_Define_Abstraction;
+﻿using Bridge6Demo._3_Define_Abstraction;
 using Bridge6Demo.Refined_Abstraction;
 
 var bridgeInterface = new BridgeInterface();

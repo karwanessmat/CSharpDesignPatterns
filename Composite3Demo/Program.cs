@@ -1,5 +1,4 @@
 ﻿using System;
-using Composite3Demo._1._Component;
 using Composite3Demo._2.Leaf;
 using Composite3Demo._3.Composite;
 

@@ -1,6 +1,4 @@
-﻿
-using Composite4Demo._1._Component;
-using Composite4Demo._3.Composite;
+﻿using Composite4Demo._3.Composite;
 using Composite4Demo._2._Leaf;
 
 var myDocuments = new DirectorySys("MyDocuments");

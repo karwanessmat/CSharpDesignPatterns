@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Template3Demo.AbstractClass;
+﻿using Template3Demo.AbstractClass;
 
 namespace Template3Demo.ConcreteClass;
 public class PdfParser : DocumentParser

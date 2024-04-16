@@ -1,4 +1,4 @@
-﻿using Flyweight4Demo._3.FlyweightFactory;
+﻿using Flyweight4Demo._3_Flyweight_Factory;
 using Flyweight4Demo._5.Context;
 
 namespace Flyweight4Demo._6.Client;

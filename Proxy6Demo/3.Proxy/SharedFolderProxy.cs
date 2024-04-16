@@ -10,15 +10,14 @@ namespace Proxy6Demo._3.Proxy
     /// </summary>
     internal class SharedFolderProxy(Employee emp) : ISharedFolder
     {
-        private ISharedFolder _folder;
 
         public void PerformReadWriteOperations()
         {
             if (emp.Role.ToUpper() == "CEO" || emp.Role.ToUpper() == "MANAGER")
             {
-                _folder = new SharedFolder();
+                var folder = new SharedFolder();
                 Console.WriteLine("Shared Folder Proxy makes call to the RealFolder 'PerformReadWriteOperations method'");
-                _folder.PerformReadWriteOperations();
+                folder.PerformReadWriteOperations();
             }
             else
             {

@@ -1,5 +1,4 @@
 ﻿using System;
-using Mediator1Demo._01_DefineMediatorInterface;
 using Mediator1Demo._02_CreateConcreteMediator;
 using Mediator1Demo._04_CreateConcreteComponents;
 

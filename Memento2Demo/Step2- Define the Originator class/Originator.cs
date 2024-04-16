@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 using Memento2Demo.Step1__Create_the_Memento_class;
 
 namespace Memento2Demo.Step2__Define_the_Originator_class

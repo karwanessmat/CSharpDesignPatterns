@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Mediator4Demo._01_DefineMediatorInterface;
+﻿using Mediator4Demo._01_DefineMediatorInterface;
 using Mediator4Demo._03_DefineComponentBaseClass;
 
 namespace Mediator4Demo._02_CreateConcreteMediator

@@ -1,6 +1,5 @@
 ﻿using Mediator5Demo._02_CreateConcreteMediator;
 using Mediator5Demo._04_CreateConcreteComponents;
-using System.Diagnostics.Metrics;
 
 var teamChat = new TeamChatroom();
 

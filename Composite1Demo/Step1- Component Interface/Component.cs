@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Composite1Demo.Step1__Component_Interface;
+﻿namespace Composite1Demo.Step1__Component_Interface;
 
 /// <summary>
 /// The 'Component' abstract class

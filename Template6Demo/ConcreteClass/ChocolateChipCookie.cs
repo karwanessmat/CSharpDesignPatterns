@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Template6Demo.AbstractClass;
+﻿using Template6Demo.AbstractClass;
 
 namespace Template6Demo.ConcreteClass;
 
