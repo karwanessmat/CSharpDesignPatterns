@@ -1,6 +1,6 @@
-﻿using Decorator5Demo._1.Component;
-using Decorator5Demo._2.ConcreteComponents;
-using Decorator5Demo._4.ConcreteDecorators;
+﻿using Decorator5Demo._1_Component_Interface;
+using Decorator5Demo._2_Create_a_Concrete_Component;
+using Decorator5Demo._4_Create_Concrete_Decorator;
 
 
 // sending by Service 1;

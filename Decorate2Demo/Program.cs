@@ -1,8 +1,8 @@
 ﻿using System;
-using Decorator2Demo._1.Component;
-using Decorator2Demo._2.ConcreteComponents;
-using Decorator2Demo._3.Decorate;
-using Decorator2Demo._4.ConcreteDecorate;
+using Decorator2Demo._1_Component_Interface;
+using Decorator2Demo._2_Create_a_Concrete_Component;
+using Decorator2Demo._3__Create_an_Abstract_Decorator;
+using Decorator2Demo._4_Create_Concrete_Decorator;
 
 namespace Decorator2Demo
 {

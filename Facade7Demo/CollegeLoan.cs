@@ -1,4 +1,6 @@
-﻿namespace Facade7Demo;
+﻿using Facade7Demo.Subsystem_Classes;
+
+namespace Facade7Demo;
 
 public class CollegeLoan
 {

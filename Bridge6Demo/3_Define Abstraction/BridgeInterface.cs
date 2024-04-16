@@ -1,4 +1,6 @@
-﻿namespace Bridge6Demo;
+﻿using Bridge6Demo._1_Define_Implementor_Interface;
+
+namespace Bridge6Demo._3_Define_Abstraction;
 
 /// <summary>
 /// Abstract

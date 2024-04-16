@@ -1,4 +1,5 @@
-﻿using Facade5Demo.Services;
+﻿using Facade5Demo;
+using Facade5Demo.Services;
 
 IServiceFacade facade = new ServiceFacade();
 

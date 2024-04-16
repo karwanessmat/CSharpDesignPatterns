@@ -1,6 +1,6 @@
-﻿using Decorator4Demo._1.Component;
-using Decorator4Demo._2.ConcreteComponents;
-using Decorator4Demo._4.ConcreteDecorators;
+﻿using Decorator4Demo._1_Component_Interface;
+using Decorator4Demo._2_Create_a_Concrete_Component;
+using Decorator4Demo._4_Create_Concrete_Decorator;
 
 // concrete component
 ITextProcessor textProcessor = new PlainTextProcessor();

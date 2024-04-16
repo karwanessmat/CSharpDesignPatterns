@@ -1,4 +1,6 @@
-﻿namespace Facade1Demo
+﻿using Facade1Demo.Subsystem_Classes;
+
+namespace Facade1Demo
 {
     /// <summary>
     /// The 'Facade' class

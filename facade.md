@@ -7,6 +7,8 @@ use: 5/5 High
 
 The Facade Design Pattern is a structural design pattern that provides a simplified interface to a complex system of classes, libraries, or frameworks. By doing so, it hides the complexity of the underlying system and makes it easier to use.
 
+## Frequency of use: `5/5`
+
 ## Key Principles 🗝️
 
 - **Simplification**: Offers a straightforward interface to complex subsystems, reducing the complexity for the client.

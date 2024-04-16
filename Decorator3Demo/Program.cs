@@ -1,6 +1,6 @@
 ﻿using System;
-using Decorator3Demo._2.ConcreteComponent;
-using Decorator3Demo._4.ConcreteDecorator;
+using Decorator3Demo._2_Create_a_Concrete_Component;
+using Decorator3Demo._4_Create_Concrete_Decorator;
 
 namespace Decorator3Demo
 {

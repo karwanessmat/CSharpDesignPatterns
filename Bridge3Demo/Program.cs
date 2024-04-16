@@ -1,7 +1,7 @@
 ﻿using System;
-using Bridge3Demo.Abstraction;
-using Bridge3Demo.ConcreteImplementation;
-using Bridge3Demo.RefinedAbstraction;
+using Bridge3Demo._2_Create_Concrete_Implementations;
+using Bridge3Demo._3_Define_Abstraction;
+using Bridge3Demo._4_Create_Refined_Abstraction;
 
 namespace Bridge3Demo
 {

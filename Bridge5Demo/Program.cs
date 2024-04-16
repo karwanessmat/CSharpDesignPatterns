@@ -1,6 +1,6 @@
-﻿using Bridge5Demo.Services.Abstraction;
-using Bridge5Demo.Services;
-using Bridge5Demo.Services.Concrete_Implementation;
+﻿using Bridge5Demo.Services;
+using Bridge5Demo.Services._2_Create_Concrete_Implementations;
+using Bridge5Demo.Services._3_Define_Abstraction;
 
 // PremiumSpeechService has a bridge property to pass others
 // <summary>

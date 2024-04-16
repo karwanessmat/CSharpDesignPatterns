@@ -1,6 +1,6 @@
-﻿using Bridge5Demo.Services.Implementor;
+﻿using Bridge5Demo.Services._1_Define_Implementor_Interface;
 
-namespace Bridge5Demo.Services.Concrete_Implementation
+namespace Bridge5Demo.Services._2_Create_Concrete_Implementations
 {
     // Refined Abstraction
     public class AzureProvider : ISpeechProvider

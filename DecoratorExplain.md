@@ -1,3 +1,4 @@
+
 # Decorator Pattern :art:
 
 ## What is the Decorator Pattern? :thinking:

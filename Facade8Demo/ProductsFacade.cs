@@ -1,4 +1,6 @@
-﻿namespace Facade8Demo;
+﻿using Facade8Demo.Subsystem_Classes;
+
+namespace Facade8Demo;
 
 internal class ProductsFacade
 {
