@@ -8,7 +8,6 @@ namespace Mediator2Demo._03_DefineComponentBaseClass
     /// </summary>
     public abstract class Participant(string name)
     {
-        // Constructor
 
         // Gets participant name
         public string Name { get; } = name;

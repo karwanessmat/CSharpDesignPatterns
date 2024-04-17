@@ -6,7 +6,7 @@ internal abstract class RequestHandler
 
     public abstract Response HandleRequest(Request request);
 
-    // use just use to set not using in derived classes
+    // we just use to set not using in derived classes
     public void SetNext(RequestHandler successor)
     {
         Successor = successor;

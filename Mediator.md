@@ -15,6 +15,8 @@ The Mediator Design Pattern is used to reduce complex communication among relate
 
 ## 🚀 How to Implement the Mediator Pattern
 
+### `we using 03_DefineComponentBaseClass because we do not want to have coupling of members to concrete componnets`
+
 ### Step 1: Define the Mediator Interface
 Create an interface that defines the communication protocol for the mediator.
 

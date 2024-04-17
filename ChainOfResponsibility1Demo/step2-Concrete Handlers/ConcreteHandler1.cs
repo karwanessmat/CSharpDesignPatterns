@@ -11,7 +11,7 @@ namespace ChainOfResponsibility1Demo.step2_Concrete_Handlers
             {
                 Console.WriteLine($"{this.GetType().Name} Handled request {request}");
             }
-            else if (Successor == null)
+            else if (Successor != null)
             {
                 Successor.HandlerRequest(request);
             }

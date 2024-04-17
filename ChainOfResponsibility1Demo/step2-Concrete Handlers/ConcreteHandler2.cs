@@ -9,8 +9,10 @@ namespace ChainOfResponsibility1Demo.step2_Concrete_Handlers
         {
             if (request>=11 && request<=20)
             {
-                Console.WriteLine($"{this.GetType().Namespace} handled request {request}");
-            }else if (Successor == null)
+                Console.WriteLine($"{this.GetType().Name} Handled request {request}");
+
+            }
+            else if (Successor != null)
             {
                 Successor?.HandlerRequest(request);
             }

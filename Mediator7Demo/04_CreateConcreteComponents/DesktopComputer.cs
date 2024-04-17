@@ -8,7 +8,7 @@ internal class DesktopComputer(string key, IMediator mediator)
 {
     public override void SendCommand(string receiver, string command)
     {
-        Console.WriteLine($"Sending {command} command to {receiver}.");
+        Console.WriteLine($"Desktop - Sending {command} command to {receiver}.");
         base.SendCommand(receiver, command);
     }
 
