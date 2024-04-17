@@ -3,6 +3,7 @@ using Visitor6Demo;
 using Visitor6Demo._2_Create_Concrete_Visitors;
 using Visitor6Demo._4__Implement_Concrete_Elements;
 
+// element
 var frm1 = new Form();
 
 frm1.AddItem(new Button("btn1"));

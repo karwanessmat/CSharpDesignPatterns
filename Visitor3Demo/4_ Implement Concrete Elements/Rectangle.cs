@@ -3,10 +3,10 @@ using Visitor3Demo._3_Define_the_Element_Interface;
 
 namespace Visitor3Demo._4__Implement_Concrete_Elements;
 
-public class Circle : IShape
+public class Rectangle : IShape
 {
     public void Accept(IShapeVisitor visitor)
     {
-        visitor.VisitCircle(this);
+        visitor.VisitRectangle(this);
     }
 }

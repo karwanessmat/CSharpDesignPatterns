@@ -4,6 +4,10 @@ namespace State8Demo._2_ImplementConcreteStates;
 
 public class PausedState : PlayerState
 {
+
+    /// <summary>
+    /// the video is paused, now if we click Play button, then the state is changed to PlayingState
+    /// </summary>
     public override void Play()
     {
         Console.WriteLine("Resuming video.");

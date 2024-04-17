@@ -19,3 +19,17 @@ foreach (var product in products)
 }
 
 Console.WriteLine($"Total Shipping Cost: {totalShippingCost}");
+
+
+Console.WriteLine();
+// we can write a code for each one separately
+IProduct book1 = new Book(10);
+IProduct book2 = new Book(20);
+IShippingVisitor shippingVisitor2 = new StandardShippingVisitor();
+double totalShippingCost2 = 0;
+
+totalShippingCost2 += book1.Accept(shippingVisitor2);
+Console.WriteLine($"Total Shipping Cost: {totalShippingCost2}");
+
+totalShippingCost2 += book2.Accept(shippingVisitor2);
+Console.WriteLine($"Total Shipping Cost: {totalShippingCost2}");

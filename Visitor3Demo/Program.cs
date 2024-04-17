@@ -16,8 +16,24 @@ IShapeVisitor renderVisitor = new RenderVisitor();
 IShapeVisitor saveVisitor  = new SaveVisitor();
 
 
+
+
 foreach (var shape in shapes)
 {
     shape.Accept(renderVisitor);
     shape.Accept(saveVisitor);
 }
+
+Console.WriteLine();
+
+var circle = new Circle();
+var rectangle = new Rectangle();
+var line = new Line();
+
+// I want renderVisitor just render Rectangle
+renderVisitor.VisitRectangle(new Rectangle());
+
+
+// I want saveVisitor just save Circle
+saveVisitor.VisitRectangle(new Rectangle());
+saveVisitor.VisitCircle(new Circle());

@@ -8,12 +8,6 @@ namespace State1Demo._3_ContextClass
     /// </summary>
     public class Context
     {
-        // Constructor
-        public Context(State state)
-        {
-            State = state;
-        }
-
 
         // Gets or sets the state
         State _state;
@@ -26,6 +20,14 @@ namespace State1Demo._3_ContextClass
                 Console.WriteLine("State: " + _state.GetType().Name);
             }
         }
+
+        // Constructor
+        public Context(State state)
+        {
+            State = state;
+        }
+
+
         public void Request()
         {
             _state.Handler(this);

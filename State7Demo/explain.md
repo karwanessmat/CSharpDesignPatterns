@@ -35,7 +35,7 @@ Handles the transition from "Placed" to "Paid".
 
 **Code:**
 ```csharp
-public class PlacedState : OrderState
+public class OrderedState : OrderState
 {
     public override void Pay()
     {
@@ -178,7 +178,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var order = new OrderContext(new PlacedState());
+        var order = new OrderContext(new OrderedState());
         order.Pay();   // Pay for the order
         order.Ship();  // Attempt to ship, will transition to ShippedState
         order.Deliver(); // Finally, mark the order as delivered

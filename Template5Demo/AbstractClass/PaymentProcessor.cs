@@ -12,14 +12,16 @@ public abstract class PaymentProcessor
         FinalizeTransaction();
     }
 
-    protected virtual void InitializeTransaction()
+    protected abstract void ExecutePayment(); // each subclass has its own logic
+
+
+    protected virtual void InitializeTransaction() // each subclass can write its own logic
     {
         Console.WriteLine("Initializing transaction.");
     }
 
-    protected abstract void ExecutePayment();
 
-    protected virtual void FinalizeTransaction()
+    protected virtual void FinalizeTransaction() // each subclass can write its own logic
     {
         Console.WriteLine("Finalizing transaction.");
         LogTransaction();

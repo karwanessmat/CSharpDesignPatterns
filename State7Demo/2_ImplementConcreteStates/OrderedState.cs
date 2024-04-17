@@ -2,7 +2,7 @@
 
 namespace State7Demo._2_ImplementConcreteStates;
 // Concrete State classes
-public class PlacedState : OrderState
+public class OrderedState : OrderState
 {
     public override void Pay()
     {

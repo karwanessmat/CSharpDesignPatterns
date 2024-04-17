@@ -4,12 +4,9 @@ namespace Strategy4Demo._3_ContextClass
 {
     public class CompressionContext(ICompressionStrategy compressionStrategy)
     {
-        private readonly ICompressionStrategy _compressionStrategy = compressionStrategy;
-
-
         public void CreateArchive(string compressedArchiveFileName)
         {
-            _compressionStrategy.CompressFolder(compressedArchiveFileName);
+            compressionStrategy.CompressFolder(compressedArchiveFileName);
         }
     }
 }

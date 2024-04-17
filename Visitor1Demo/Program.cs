@@ -7,6 +7,15 @@ var sightSeeing = new SightSeeing { Name = "Statue of Liberty" };
 
 var visitor = new XmlExportVisitor();
 
+
+// now we have city, industry, and sightseeing 
+// visitor can visit one of the above we instantiated 
+
+// visitor visits city
 city.Accept(visitor);
+
+// visitor visits industry
 industry.Accept(visitor);
+
+// visitor visit sightseeing
 sightSeeing.Accept(visitor);

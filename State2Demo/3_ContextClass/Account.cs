@@ -10,6 +10,9 @@ namespace State2Demo._3_ContextClass
     public class Account
     {
         private string _owner;
+        public double Balance => State.Balance;
+        public State State { get; set; }
+
         // Constructor
         public Account(string owner)
         {
@@ -17,8 +20,6 @@ namespace State2Demo._3_ContextClass
             _owner = owner;
             State = new SilverState(0.0, this);
         }
-        public double Balance => State.Balance;
-        public State State { get; set; }
 
         public void Deposit(double amount)
         {
