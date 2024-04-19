@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{
 		SingletonDescription.md = SingletonDescription.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton1Demo", "Singleton1Demo\Singleton1Demo.csproj", "{A9D26559-9054-46E6-AB18-FB261DEF596C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton1Demo", "1_Creational Design Patterns\Singleton\Singleton1Demo\Singleton1Demo.csproj", "{A9D26559-9054-46E6-AB18-FB261DEF596C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Creational Design Patterns", "1_Creational Design Patterns", "{6D989255-9BE3-48EA-8D73-83B9B87B631A}"
 	ProjectSection(SolutionItems) = preProject
@@ -21,9 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory M
 		FactoryMethodDescripton.md = FactoryMethodDescripton.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory1Demo", "Factory1Demo\Factory1Demo.csproj", "{3236773B-85D3-4FCC-B146-F127B9FF4856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory1Demo", "1_Creational Design Patterns\FactoryMethod\Factory1Demo\Factory1Demo.csproj", "{3236773B-85D3-4FCC-B146-F127B9FF4856}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory2Demo", "Factory2Demo\Factory2Demo.csproj", "{1770BC95-1052-453B-AFA7-782E276912A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory2Demo", "1_Creational Design Patterns\FactoryMethod\Factory2Demo\Factory2Demo.csproj", "{1770BC95-1052-453B-AFA7-782E276912A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{7B206C8D-CC2F-4883-8A7E-74C35255E228}"
 	ProjectSection(SolutionItems) = preProject
@@ -44,7 +44,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{
 		PrototypeDescription.md = PrototypeDescription.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype1Demo", "Prototype1Demo\Prototype1Demo\Prototype1Demo.csproj", "{8B9FF917-6670-4D0A-BF32-757DEEFE009D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype1Demo", "1_Creational Design Patterns\Prototype\Prototype1Demo\Prototype1Demo\Prototype1Demo.csproj", "{8B9FF917-6670-4D0A-BF32-757DEEFE009D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Structural", "2- Structural", "{11C5BC1C-0FBC-43A6-BF38-0EC500B48E28}"
 	ProjectSection(SolutionItems) = preProject
@@ -241,13 +241,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template1Demo", "Template1D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template2Demo", "Template2Demo\Template2Demo.csproj", "{848184A4-DCD3-4333-84F0-3EA4EA77D4E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory3Demo", "Factory3Demo\Factory3Demo.csproj", "{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory3Demo", "1_Creational Design Patterns\FactoryMethod\Factory3Demo\Factory3Demo.csproj", "{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory4Demo", "Factory4Demo\Factory4Demo.csproj", "{95DEA1DA-312E-4134-BD72-3021DC8B5802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory4Demo", "1_Creational Design Patterns\FactoryMethod\Factory4Demo\Factory4Demo.csproj", "{95DEA1DA-312E-4134-BD72-3021DC8B5802}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory5Demo", "Factory5Demo\Factory5Demo.csproj", "{7233C759-E524-432F-8B3B-6CD5796A6D45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory5Demo", "1_Creational Design Patterns\FactoryMethod\Factory5Demo\Factory5Demo.csproj", "{7233C759-E524-432F-8B3B-6CD5796A6D45}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory6Demo", "Factory6Demo\Factory6Demo.csproj", "{833A2A7B-8FF8-42C6-AA89-9823BCD2CF90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory6Demo", "1_Creational Design Patterns\FactoryMethod\Factory6Demo\Factory6Demo.csproj", "{833A2A7B-8FF8-42C6-AA89-9823BCD2CF90}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory1Demo", "1_Creational Design Patterns\AbstractFactory\AbstractFactory1Demo\AbstractFactory1Demo.csproj", "{05D85953-9196-4E65-B659-1B02CB479D7F}"
 EndProject
@@ -269,31 +269,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder7Demo", "1_Creationa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder8Demo", "1_Creational Design Patterns\Builder\Builder8Demo\Builder8Demo.csproj", "{011B4311-41A7-4E95-BCC1-1B5237821D46}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype2Demo", "Prototype2Demo\Prototype2Demo.csproj", "{201C4276-2B42-4821-B0F5-D5237C341D73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype2Demo", "1_Creational Design Patterns\Prototype\Prototype2Demo\Prototype2Demo.csproj", "{201C4276-2B42-4821-B0F5-D5237C341D73}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype3Demo", "Prototype3Demo\Prototype3Demo.csproj", "{CDF8A2D5-8654-4104-8A5B-FA513FA1EBA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype3Demo", "1_Creational Design Patterns\Prototype\Prototype3Demo\Prototype3Demo.csproj", "{CDF8A2D5-8654-4104-8A5B-FA513FA1EBA0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype4Demo", "Prototype4Demo\Prototype4Demo.csproj", "{6D104283-2D01-446C-A894-F51AD6749112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype4Demo", "1_Creational Design Patterns\Prototype\Prototype4Demo\Prototype4Demo.csproj", "{6D104283-2D01-446C-A894-F51AD6749112}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype5Demo", "Prototype5Demo\Prototype5Demo.csproj", "{6B713931-9E1D-4E89-B007-A16E40A3D912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype5Demo", "1_Creational Design Patterns\Prototype\Prototype5Demo\Prototype5Demo.csproj", "{6B713931-9E1D-4E89-B007-A16E40A3D912}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype6Demo", "Prototype6Demo\Prototype6Demo.csproj", "{E1847A36-E858-47A9-97A5-E9E4D9E2108F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype6Demo", "1_Creational Design Patterns\Prototype\Prototype6Demo\Prototype6Demo.csproj", "{E1847A36-E858-47A9-97A5-E9E4D9E2108F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton2Demo", "Singleton2Demo\Singleton2Demo.csproj", "{B853EF3C-F811-422E-A27B-95CE8694E47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton2Demo", "1_Creational Design Patterns\Singleton\Singleton2Demo\Singleton2Demo.csproj", "{B853EF3C-F811-422E-A27B-95CE8694E47D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton3Demo", "Singleton3Demo\Singleton3Demo.csproj", "{1BA1F8F3-4428-46D5-8E40-02A8CD7C6527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton3Demo", "1_Creational Design Patterns\Singleton\Singleton3Demo\Singleton3Demo.csproj", "{1BA1F8F3-4428-46D5-8E40-02A8CD7C6527}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton4Demo", "Singleton4Demo\Singleton4Demo.csproj", "{FF033DD5-72CC-4C96-ADBA-4E8DC89CBDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton4Demo", "1_Creational Design Patterns\Singleton\Singleton4Demo\Singleton4Demo.csproj", "{FF033DD5-72CC-4C96-ADBA-4E8DC89CBDD0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton5Demo", "Singleton5Demo\Singleton5Demo.csproj", "{062C8A30-010F-488D-B6D5-31604366582A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton5Demo", "1_Creational Design Patterns\Singleton\Singleton5Demo\Singleton5Demo.csproj", "{062C8A30-010F-488D-B6D5-31604366582A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton6Demo", "Singleton6Demo\Singleton6Demo.csproj", "{CD7F51C2-F427-4A9E-B91A-EA1B1BA0907E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton6Demo", "1_Creational Design Patterns\Singleton\Singleton6Demo\Singleton6Demo.csproj", "{CD7F51C2-F427-4A9E-B91A-EA1B1BA0907E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton7Demo", "Singleton7Demo\Singleton7Demo.csproj", "{2F20E1C5-5BC4-4F21-88C5-4515DAC6469B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton7Demo", "1_Creational Design Patterns\Singleton\Singleton7Demo\Singleton7Demo.csproj", "{2F20E1C5-5BC4-4F21-88C5-4515DAC6469B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton8Demo", "Singleton8Demo\Singleton8Demo.csproj", "{C0B0792C-78F7-4D89-AA70-CD83F2431A27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton8Demo", "1_Creational Design Patterns\Singleton\Singleton8Demo\Singleton8Demo.csproj", "{C0B0792C-78F7-4D89-AA70-CD83F2431A27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton9Demo", "Singleton9Demo\Singleton9Demo.csproj", "{23AB971A-9001-4A99-B1B2-E2066498A4EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton9Demo", "1_Creational Design Patterns\Singleton\Singleton9Demo\Singleton9Demo.csproj", "{23AB971A-9001-4A99-B1B2-E2066498A4EA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter6Demo", "Adapter6Demo\Adapter6Demo.csproj", "{FB62FFAA-C019-47D4-AD49-1014B6EB14D4}"
 EndProject
