@@ -46,7 +46,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype1Demo", "1_Creational Design Patterns\Prototype\Prototype1Demo\Prototype1Demo\Prototype1Demo.csproj", "{8B9FF917-6670-4D0A-BF32-757DEEFE009D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Structural", "2- Structural", "{11C5BC1C-0FBC-43A6-BF38-0EC500B48E28}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Structural Design Patterns", "2_Structural Design Patterns", "{11C5BC1C-0FBC-43A6-BF38-0EC500B48E28}"
 	ProjectSection(SolutionItems) = preProject
 		Structural.md = Structural.md
 	EndProjectSection
@@ -56,83 +56,83 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{5B44
 		Adapter.md = Adapter.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter1Demo", "Adapter1Demo\Adapter1Demo.csproj", "{E82233D0-3909-4195-A3D5-E41F61C0DBF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter1Demo", "2_Structural Design Patterns\Adapter\Adapter1Demo\Adapter1Demo.csproj", "{E82233D0-3909-4195-A3D5-E41F61C0DBF1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter2Demo", "Adapter2Demo\Adapter2Demo.csproj", "{378A651A-5376-42D1-9CF2-FC1F3AA2876B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter2Demo", "2_Structural Design Patterns\Adapter\Adapter2Demo\Adapter2Demo.csproj", "{378A651A-5376-42D1-9CF2-FC1F3AA2876B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter3Demo", "Adapter3Demo\Adapter3Demo.csproj", "{0DF80F22-A6B1-4C06-B6D7-E7FC81912407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter3Demo", "2_Structural Design Patterns\Adapter\Adapter3Demo\Adapter3Demo.csproj", "{0DF80F22-A6B1-4C06-B6D7-E7FC81912407}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter4Demo", "Adapter4Demo\Adapter4Demo.csproj", "{8B58F267-026B-4898-ADE2-2A305195D5BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter4Demo", "2_Structural Design Patterns\Adapter\Adapter4Demo\Adapter4Demo.csproj", "{8B58F267-026B-4898-ADE2-2A305195D5BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter5Demo", "Adapter5Demo\Adapter5Demo.csproj", "{F9CCBB0D-D2A8-44B8-BBA4-DCE9BC3F8D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter5Demo", "2_Structural Design Patterns\Adapter\Adapter5Demo\Adapter5Demo.csproj", "{F9CCBB0D-D2A8-44B8-BBA4-DCE9BC3F8D4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{0ED96CD5-7161-4FE2-811D-213E5720C8E8}"
 	ProjectSection(SolutionItems) = preProject
 		Bridge.md = Bridge.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge1Demo", "Bridge1Demo\Bridge1Demo.csproj", "{B24967D5-037A-4EF6-950A-4805933F050C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge1Demo", "2_Structural Design Patterns\Bridge\Bridge1Demo\Bridge1Demo.csproj", "{B24967D5-037A-4EF6-950A-4805933F050C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge2Demo", "Bridge2Demo\Bridge2Demo.csproj", "{BD075CEE-72E3-46DD-970D-008FD1B3FBD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge2Demo", "B2_Structural Design Patterns\Bridge\ridge2Demo\Bridge2Demo.csproj", "{BD075CEE-72E3-46DD-970D-008FD1B3FBD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge3Demo", "Bridge3Demo\Bridge3Demo.csproj", "{07EC321A-80D1-48D2-B9B6-40B5620FCE12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge3Demo", "2_Structural Design Patterns\Bridge\Bridge3Demo\Bridge3Demo.csproj", "{07EC321A-80D1-48D2-B9B6-40B5620FCE12}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{67C811EB-87AE-4038-9409-3851B673D2C8}"
 	ProjectSection(SolutionItems) = preProject
 		Composite.md = Composite.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite1Demo", "Composite1Demo\Composite1Demo.csproj", "{2F0DF657-5E55-47AA-8438-4D9C658A2F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite1Demo", "2_Structural Design Patterns\Composite\Composite1Demo\Composite1Demo.csproj", "{2F0DF657-5E55-47AA-8438-4D9C658A2F2C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite2Demo", "Composite2Demo\Composite2Demo.csproj", "{6C0654AA-88C6-4DED-9828-6D24BD2A2432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite2Demo", "2_Structural Design Patterns\Composite\Composite2Demo\Composite2Demo.csproj", "{6C0654AA-88C6-4DED-9828-6D24BD2A2432}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite3Demo", "Composite3Demo\Composite3Demo.csproj", "{2A5E269C-73D9-4BC7-8238-75CE1135D1A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite3Demo", "2_Structural Design Patterns\Composite\Composite3Demo\Composite3Demo.csproj", "{2A5E269C-73D9-4BC7-8238-75CE1135D1A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{B02ACDD1-47B2-4719-A171-A4D32BA4FCA9}"
 	ProjectSection(SolutionItems) = preProject
 		DecoratorExplain.md = DecoratorExplain.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator3Demo", "Decorator3Demo\Decorator3Demo.csproj", "{C67E9067-45E4-47FA-864E-38333F007049}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator3Demo", "2_Structural Design Patterns\Decorator\Decorator3Demo\Decorator3Demo.csproj", "{C67E9067-45E4-47FA-864E-38333F007049}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator2Demo", "Decorate2Demo\Decorator2Demo.csproj", "{73E2915A-7F72-4B2E-AF76-74F422D8EC69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator2Demo", "2_Structural Design Patterns\Decorator\Decorate2Demo\Decorator2Demo.csproj", "{73E2915A-7F72-4B2E-AF76-74F422D8EC69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{61AAE9DB-2E1A-407F-81E5-7EC27DD5E044}"
 	ProjectSection(SolutionItems) = preProject
 		facade.md = facade.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade1Demo", "Facade1Demo\Facade1Demo.csproj", "{F9FAE254-1FF7-4616-981A-7C4A90A3467E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade1Demo", "2_Structural Design Patterns\Facade\Facade1Demo\Facade1Demo.csproj", "{F9FAE254-1FF7-4616-981A-7C4A90A3467E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade2Demo", "Facade2Demo\Facade2Demo.csproj", "{3AEC0CDF-936D-44FE-91B7-A7AFE05923CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade2Demo", "2_Structural Design Patterns\Facade\Facade2Demo\Facade2Demo.csproj", "{3AEC0CDF-936D-44FE-91B7-A7AFE05923CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{A7B36C16-635B-4AA7-8397-206BF6AD969B}"
 	ProjectSection(SolutionItems) = preProject
 		FlyWeight.md = FlyWeight.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight1Demo", "Flyweight1Demo\Flyweight1Demo.csproj", "{5D247A09-29D8-4B2E-AEE0-CC2E15F4DA85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight1Demo", "2_Structural Design Patterns\Flyweight\Flyweight1Demo\Flyweight1Demo.csproj", "{5D247A09-29D8-4B2E-AEE0-CC2E15F4DA85}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight2Demo", "Flyweight2Demo\Flyweight2Demo.csproj", "{395E9102-1C3A-4E50-99B4-CE2A95ECC2E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight2Demo", "2_Structural Design Patterns\Flyweight\Flyweight2Demo\Flyweight2Demo.csproj", "{395E9102-1C3A-4E50-99B4-CE2A95ECC2E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight3Demo", "Flyweight3Demo\Flyweight3Demo.csproj", "{DE821285-6395-4B48-9A58-535405627F53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight3Demo", "2_Structural Design Patterns\Flyweight\Flyweight3Demo\Flyweight3Demo.csproj", "{DE821285-6395-4B48-9A58-535405627F53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{1B89E9D8-9245-4A79-AC23-306707F6B05F}"
 	ProjectSection(SolutionItems) = preProject
 		Proxy.md = Proxy.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy1Demo", "Proxy1Demo\Proxy1Demo.csproj", "{44F6D02C-E492-46FC-91AF-055C762F4F9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy1Demo", "2_Structural Design Patterns\Proxy\Proxy1Demo\Proxy1Demo.csproj", "{44F6D02C-E492-46FC-91AF-055C762F4F9C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy2Demo", "Proxy2Demo\Proxy2Demo.csproj", "{85B08DF0-ABD3-4608-8B59-F1108A0B64E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy2Demo", "2_Structural Design Patterns\Proxy\Proxy2Demo\Proxy2Demo.csproj", "{85B08DF0-ABD3-4608-8B59-F1108A0B64E4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy3Demo", "Proxy3Demo\Proxy3Demo.csproj", "{620F8423-6E56-40C4-86C8-FB2FD885A979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy3Demo", "2_Structural Design Patterns\Proxy\Proxy3Demo\Proxy3Demo.csproj", "{620F8423-6E56-40C4-86C8-FB2FD885A979}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy4Demo", "Proxy4Demo\Proxy4Demo.csproj", "{B359FAC4-8E55-48AA-B9EB-43C21A24D296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy4Demo", "2_Structural Design Patterns\Proxy\Proxy4Demo\Proxy4Demo.csproj", "{B359FAC4-8E55-48AA-B9EB-43C21A24D296}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy5Demo", "Proxy5Demo\Proxy5Demo.csproj", "{AF4B14BF-078F-4A80-B166-3163452F272E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy5Demo", "2_Structural Design Patterns\Proxy\Proxy5Demo\Proxy5Demo.csproj", "{AF4B14BF-078F-4A80-B166-3163452F272E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy6Demo", "Proxy6Demo\Proxy6Demo.csproj", "{22896949-AEE2-45D0-9639-97104B3719C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy6Demo", "2_Structural Design Patterns\Proxy\Proxy6Demo\Proxy6Demo.csproj", "{22896949-AEE2-45D0-9639-97104B3719C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Behavioral", "3- Behavioral", "{DC5F0C6E-63B6-4A49-B826-FA60D9FCD67C}"
 	ProjectSection(SolutionItems) = preProject
@@ -295,53 +295,53 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton8Demo", "1_Creatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton9Demo", "1_Creational Design Patterns\Singleton\Singleton9Demo\Singleton9Demo.csproj", "{23AB971A-9001-4A99-B1B2-E2066498A4EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter6Demo", "Adapter6Demo\Adapter6Demo.csproj", "{FB62FFAA-C019-47D4-AD49-1014B6EB14D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter6Demo", "2_Structural Design Patterns\Adapter\Adapter6Demo\Adapter6Demo.csproj", "{FB62FFAA-C019-47D4-AD49-1014B6EB14D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter7Demo", "Adapter7Demo\Adapter7Demo.csproj", "{66C34E2A-5175-460B-9C5D-B9F9A15972CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter7Demo", "2_Structural Design Patterns\Adapter\Adapter7Demo\Adapter7Demo.csproj", "{66C34E2A-5175-460B-9C5D-B9F9A15972CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter8Demo", "Adapter8Demo\Adapter8Demo.csproj", "{FBD33CB7-41B3-4642-ABDB-9F8A7DD40EE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter8Demo", "2_Structural Design Patterns\Adapter\Adapter8Demo\Adapter8Demo.csproj", "{FBD33CB7-41B3-4642-ABDB-9F8A7DD40EE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter9Demo", "Adapter9Demo\Adapter9Demo.csproj", "{263998BD-C213-4CD1-867D-E007BC1540A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter9Demo", "2_Structural Design Patterns\Adapter\Adapter9Demo\Adapter9Demo.csproj", "{263998BD-C213-4CD1-867D-E007BC1540A8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge4Demo", "Bridge4Demo\Bridge4Demo.csproj", "{52E6F700-B889-4604-92E7-403B40187CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge4Demo", "2_Structural Design Patterns\Bridge\Bridge4Demo\Bridge4Demo.csproj", "{52E6F700-B889-4604-92E7-403B40187CD0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge5Demo", "Bridge5Demo\Bridge5Demo.csproj", "{335B7369-63B0-4618-8A04-9A073D547D23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge5Demo", "2_Structural Design Patterns\Bridge\Bridge5Demo\Bridge5Demo.csproj", "{335B7369-63B0-4618-8A04-9A073D547D23}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge6Demo", "Bridge6Demo\Bridge6Demo.csproj", "{37F9352A-A095-4D5B-8E0B-A78D65EAFE61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge6Demo", "2_Structural Design Patterns\Bridge\Bridge6Demo\Bridge6Demo.csproj", "{37F9352A-A095-4D5B-8E0B-A78D65EAFE61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite4Demo", "Composite4Demo\Composite4Demo.csproj", "{51994186-0E08-4F32-BA46-67063E011D3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite4Demo", "2_Structural Design Patterns\Composite\Composite4Demo\Composite4Demo.csproj", "{51994186-0E08-4F32-BA46-67063E011D3D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite5Demo", "Composite5Demo\Composite5Demo.csproj", "{45152A5F-0996-4BBA-92DB-3A9669DC10DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite5Demo", "2_Structural Design Patterns\Composite\Composite5Demo\Composite5Demo.csproj", "{45152A5F-0996-4BBA-92DB-3A9669DC10DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator1Demo", "Decorator1Demo\Decorator1Demo.csproj", "{4DDB7002-56FF-42BD-80BD-E393A35CE7D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator1Demo", "2_Structural Design Patterns\Decorator\Decorator1Demo\Decorator1Demo.csproj", "{4DDB7002-56FF-42BD-80BD-E393A35CE7D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator4Demo", "Decorator4Demo\Decorator4Demo.csproj", "{46835D91-F2A8-46DD-AD41-F0F900A80982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator4Demo", "2_Structural Design Patterns\Decorator\Decorator4Demo\Decorator4Demo.csproj", "{46835D91-F2A8-46DD-AD41-F0F900A80982}"
+EndProject2_Structural Design Patterns\Decorator\
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator5Demo", "2_Structural Design Patterns\Decorator\Decorator5Demo\Decorator5Demo.csproj", "{8C14E826-CBAC-4F1A-BD35-4FCBA4B5830C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator5Demo", "Decorator5Demo\Decorator5Demo.csproj", "{8C14E826-CBAC-4F1A-BD35-4FCBA4B5830C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator6Demo", "2_Structural Design Patterns\Decorator\Decorator6Demo\Decorator6Demo.csproj", "{C6D33684-EAF9-480E-9EA5-5FBFF567E203}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator6Demo", "Decorator6Demo\Decorator6Demo.csproj", "{C6D33684-EAF9-480E-9EA5-5FBFF567E203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator7Demo", "2_Structural Design Patterns\Decorator\Decorator7Demo\Decorator7Demo.csproj", "{AEBC330F-FF14-4224-8249-CE0B9CA0AE27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator7Demo", "Decorator7Demo\Decorator7Demo.csproj", "{AEBC330F-FF14-4224-8249-CE0B9CA0AE27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade3Demo", "2_Structural Design Patterns\Facade\Facade3Demo\Facade3Demo.csproj", "{BA6EB37A-7635-4F8A-B5AF-AB68D99B9A3D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade3Demo", "Facade3Demo\Facade3Demo.csproj", "{BA6EB37A-7635-4F8A-B5AF-AB68D99B9A3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade4Demo", "2_Structural Design Patterns\Facade\Facade4Demo\Facade4Demo.csproj", "{14A39A47-E9BF-4AD8-AA16-EB9130CFB550}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade4Demo", "Facade4Demo\Facade4Demo.csproj", "{14A39A47-E9BF-4AD8-AA16-EB9130CFB550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade5Demo", "2_Structural Design Patterns\Facade\Facade5Demo\Facade5Demo.csproj", "{95CDADBA-9AA3-4ACC-A589-AB1E7FEA13B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade5Demo", "Facade5Demo\Facade5Demo.csproj", "{95CDADBA-9AA3-4ACC-A589-AB1E7FEA13B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade6Demo", "2_Structural Design Patterns\Facade\Facade6Demo\Facade6Demo.csproj", "{D4780743-C241-4B41-9EED-CA4AAE87E7EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade6Demo", "Facade6Demo\Facade6Demo.csproj", "{D4780743-C241-4B41-9EED-CA4AAE87E7EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade7Demo", "2_Structural Design Patterns\Facade\Facade7Demo\Facade7Demo.csproj", "{00F101CE-F3AA-4C0D-940E-15B5EA722749}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade7Demo", "Facade7Demo\Facade7Demo.csproj", "{00F101CE-F3AA-4C0D-940E-15B5EA722749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade8Demo", "2_Structural Design Patterns\Facade\Facade8Demo\Facade8Demo.csproj", "{0F2556DE-7012-4491-ADBD-17F95329D52E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade8Demo", "Facade8Demo\Facade8Demo.csproj", "{0F2556DE-7012-4491-ADBD-17F95329D52E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight4Demo", "2_Structural Design Patterns\Flyweight\Flyweight4Demo\Flyweight4Demo.csproj", "{5CAC516F-7CAC-402E-AF15-E9E02F87896E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight4Demo", "Flyweight4Demo\Flyweight4Demo.csproj", "{5CAC516F-7CAC-402E-AF15-E9E02F87896E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight5Demo", "2_Structural Design Patterns\Flyweight\Flyweight5Demo\Flyweight5Demo.csproj", "{253DAB57-F5B8-4330-94D1-2E8961B50B82}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight5Demo", "Flyweight5Demo\Flyweight5Demo.csproj", "{253DAB57-F5B8-4330-94D1-2E8961B50B82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy7Demo", "2_Structural Design Patterns\Proxy\Proxy7Demo\Proxy7Demo.csproj", "{263918C7-1081-4076-9F3B-E9686F1AC6EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy7Demo", "Proxy7Demo\Proxy7Demo.csproj", "{263918C7-1081-4076-9F3B-E9686F1AC6EA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy8Demo", "Proxy8Demo\Proxy8Demo.csproj", "{907BF634-0AD8-4557-98C2-82C3D357C7E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy8Demo", "2_Structural Design Patterns\Proxy\Proxy8Demo\Proxy8Demo.csproj", "{907BF634-0AD8-4557-98C2-82C3D357C7E9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility0Demo", "ChainOfResponsibility0Demo\ChainOfResponsibility0Demo.csproj", "{767E6B68-6C1B-489E-A529-F077131E6005}"
 EndProject
@@ -434,7 +434,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor6Demo", "Visitor6Dem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor7Demo", "Visitor7Demo\Visitor7Demo.csproj", "{AE96E71A-85AB-49A7-8643-53B18607CE13}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy9Demo", "Proxy9Demo\Proxy9Demo.csproj", "{1148576E-4007-442E-96A4-E1C0CFCB64B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy9Demo", "2_Structural Design Patterns\Proxy\Proxy9Demo\Proxy9Demo.csproj", "{1148576E-4007-442E-96A4-E1C0CFCB64B0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator8Demo", "Mediator8Demo\Mediator8Demo.csproj", "{3B0EAC2D-B2CA-4A22-B1FF-CDC28085DE10}"
 EndProject
