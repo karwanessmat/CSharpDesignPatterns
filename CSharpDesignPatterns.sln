@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singlitoin", "Singlitoin", "{02DA5B95-AEF6-43EA-9011-8E9D139F7717}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{02DA5B95-AEF6-43EA-9011-8E9D139F7717}"
 	ProjectSection(SolutionItems) = preProject
 		LazySingletonDescription.md = LazySingletonDescription.md
 		SingletonDescription.md = SingletonDescription.md
@@ -30,9 +30,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{7B20
 		BuilderDescription.md = BuilderDescription.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder1Demo", "Builder1Demo\Builder1Demo.csproj", "{264AC61E-6623-4AD0-9705-D1371DD66ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder1Demo", "1_Creational Design Patterns\Builder\Builder1Demo\Builder1Demo.csproj", "{264AC61E-6623-4AD0-9705-D1371DD66ABA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder2Demo", "Builder2Demo\Builder2Demo.csproj", "{8C7AE413-B6BA-4459-B6F9-BDA75E49FADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder2Demo", "1_Creational Design Patterns\Builder\Builder2Demo\Builder2Demo.csproj", "{8C7AE413-B6BA-4459-B6F9-BDA75E49FADE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{E6BBB2E8-4773-489B-B697-1849A25CA6B7}"
 	ProjectSection(SolutionItems) = preProject
@@ -257,17 +257,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory4Demo", "1_C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory5Demo", "1_Creational Design Patterns\AbstractFactory\AbstractFactory5Demo\AbstractFactory5Demo.csproj", "{CFE6F413-6B97-484C-B041-B725A6944CA2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder3Demo", "Builder3Demo\Builder3Demo.csproj", "{04C799AE-2237-4661-B428-34C48D132B8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder3Demo", "1_Creational Design Patterns\Builder\Builder3Demo\Builder3Demo.csproj", "{04C799AE-2237-4661-B428-34C48D132B8B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder4Demo", "Builder4Demo\Builder4Demo.csproj", "{02F051FF-F483-4647-B076-A590306E2698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder4Demo", "1_Creational Design Patterns\Builder\Builder4Demo\Builder4Demo.csproj", "{02F051FF-F483-4647-B076-A590306E2698}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder5Demo", "Builder5Demo\Builder5Demo.csproj", "{2D36A2C3-68DF-4E58-A190-19DA8ACA0F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder5Demo", "1_Creational Design Patterns\Builder\Builder5Demo\Builder5Demo.csproj", "{2D36A2C3-68DF-4E58-A190-19DA8ACA0F2C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder6Demo", "Builder6Demo\Builder6Demo.csproj", "{3BD5D16B-F2EF-4C8F-85C0-E5E9E4B74111}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder6Demo", "1_Creational Design Patterns\Builder\Builder6Demo\Builder6Demo.csproj", "{3BD5D16B-F2EF-4C8F-85C0-E5E9E4B74111}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder7Demo", "Builder7Demo\Builder7Demo.csproj", "{203CAF4E-76AA-4F79-9DE4-9082C1862F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder7Demo", "1_Creational Design Patterns\Builder\Builder7Demo\Builder7Demo.csproj", "{203CAF4E-76AA-4F79-9DE4-9082C1862F57}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder8Demo", "Builder8Demo\Builder8Demo.csproj", "{011B4311-41A7-4E95-BCC1-1B5237821D46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder8Demo", "1_Creational Design Patterns\Builder\Builder8Demo\Builder8Demo.csproj", "{011B4311-41A7-4E95-BCC1-1B5237821D46}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype2Demo", "Prototype2Demo\Prototype2Demo.csproj", "{201C4276-2B42-4821-B0F5-D5237C341D73}"
 EndProject
