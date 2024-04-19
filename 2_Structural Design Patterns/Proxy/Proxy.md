@@ -1,4 +1,4 @@
-﻿surrogate: جێ گرتنه‌وه‌
+surrogate: جێ گرتنه‌وه‌
 Frequency of use: 4/5
 
 Here's a detailed README.md content for the Proxy design pattern:
