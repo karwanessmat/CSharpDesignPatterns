@@ -121,14 +121,17 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy6Demo", "2_Structural Design Patterns\Proxy\Proxy6Demo\Proxy6Demo.csproj", "{22896949-AEE2-45D0-9639-97104B3719C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_Behavioral Design Patterns", "3_Behavioral Design Patterns", "{DC5F0C6E-63B6-4A49-B826-FA60D9FCD67C}"
+	ProjectSection(SolutionItems) = preProject
+		3_Behavioral Design Patterns\BehavioralPattern.md = 3_Behavioral Design Patterns\BehavioralPattern.md
+	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- ChainOfResponsibility", "1- ChainOfResponsibility", "{EE40B69F-6D7F-4702-BAA6-7B5A3D0EA19E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{EE40B69F-6D7F-4702-BAA6-7B5A3D0EA19E}"
 	ProjectSection(SolutionItems) = preProject
 		3_Behavioral Design Patterns\ChainOfResponsibility\ChainOfResponsibility.md = 3_Behavioral Design Patterns\ChainOfResponsibility\ChainOfResponsibility.md
 		3_Behavioral Design Patterns\ChainOfResponsibility\Demo4VsDemo5.md = 3_Behavioral Design Patterns\ChainOfResponsibility\Demo4VsDemo5.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Command", "2- Command", "{D7E4B63D-6E8C-44BB-823F-747BEED5B15A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{D7E4B63D-6E8C-44BB-823F-747BEED5B15A}"
 	ProjectSection(SolutionItems) = preProject
 		Command.md = Command.md
 		Steps implementation.md = Steps implementation.md
@@ -140,83 +143,72 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command2Demo", "3_Behaviora
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command3Demo", "3_Behavioral Design Patterns\Command\Command3Demo\Command3Demo.csproj", "{BCDB5B6A-A551-4A80-BBB4-C357BBF520A0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Interpreter", "3- Interpreter", "{3F0E5EE5-FB27-4C79-9E4D-C7479D5BA8F2}"
-	ProjectSection(SolutionItems) = preProject
-		Interpreter.txt = Interpreter.txt
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter1Demo", "Interpreter1Demo\Interpreter1Demo.csproj", "{117131B3-76A4-4F39-ACB4-C1639A3FAD04}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Iterator", "4- Iterator", "{F8CF19FE-EF65-4717-B099-6481489FB79C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{F8CF19FE-EF65-4717-B099-6481489FB79C}"
 	ProjectSection(SolutionItems) = preProject
 		Iterator.md = Iterator.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator1Demo", "Iterator1Demo\Iterator1Demo.csproj", "{EF0BE807-B55E-4264-9F5F-EB2CC2FB2441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator1Demo", "3_Behavioral Design Patterns\Iterator\Iterator1Demo\Iterator1Demo.csproj", "{EF0BE807-B55E-4264-9F5F-EB2CC2FB2441}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator2Demo", "Iterator2Demo\Iterator2Demo.csproj", "{4A0C853E-93EB-407C-86A5-FBEA01BFC588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator2Demo", "3_Behavioral Design Patterns\Iterator\Iterator2Demo\Iterator2Demo.csproj", "{4A0C853E-93EB-407C-86A5-FBEA01BFC588}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator3Demo", "Iterator3Demo\Iterator3Demo.csproj", "{96D6E8BA-6478-4408-8677-3A3948901EAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator3Demo", "3_Behavioral Design Patterns\Iterator\Iterator3Demo\Iterator3Demo.csproj", "{96D6E8BA-6478-4408-8677-3A3948901EAD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Mediator", "5- Mediator", "{37D93528-AD00-49BD-9D05-588FF84ADC8A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{37D93528-AD00-49BD-9D05-588FF84ADC8A}"
 	ProjectSection(SolutionItems) = preProject
-		Mediator.md = Mediator.md
+		3_Behavioral Design Patterns\MediatoR\Mediator.md = 3_Behavioral Design Patterns\MediatoR\Mediator.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator1Demo", "Mediator1Demo\Mediator1Demo.csproj", "{E7ACF6AF-71A0-4C23-A9F6-40A7B13A9C29}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator2Demo", "Mediator2Demo\Mediator2Demo.csproj", "{02C0A181-8D2A-4D3C-80E6-33352BBCFD5B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6- Memento", "6- Memento", "{D6106686-A1D4-49EF-A622-555FA5A728EC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{D6106686-A1D4-49EF-A622-555FA5A728EC}"
 	ProjectSection(SolutionItems) = preProject
-		Memento.md = Memento.md
+		3_Behavioral Design Patterns\Memento\Memento.md = 3_Behavioral Design Patterns\Memento\Memento.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento1Demo", "Memento1Demo\Memento1Demo.csproj", "{4C58DB0A-050E-43A3-9DB6-2E25A254256D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento1Demo", "3_Behavioral Design Patterns\Memento\Memento1Demo\Memento1Demo.csproj", "{4C58DB0A-050E-43A3-9DB6-2E25A254256D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento2Demo", "Memento2Demo\Memento2Demo.csproj", "{29DF88B2-763E-4C12-971A-0E958A4FB830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento2Demo", "3_Behavioral Design Patterns\Memento\Memento2Demo\Memento2Demo.csproj", "{29DF88B2-763E-4C12-971A-0E958A4FB830}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento3Demo", "Memento3Demo\Memento3Demo.csproj", "{BB85B98A-ABD1-4764-9460-AE0A99B9C4CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento3Demo", "3_Behavioral Design Patterns\Memento\Memento3Demo\Memento3Demo.csproj", "{BB85B98A-ABD1-4764-9460-AE0A99B9C4CF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7- Observer", "7- Observer", "{0AAA7DE0-6F2E-4230-B26C-6B6178FF4372}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{0AAA7DE0-6F2E-4230-B26C-6B6178FF4372}"
 	ProjectSection(SolutionItems) = preProject
-		Observer.md = Observer.md
+		3_Behavioral Design Patterns\Observer\Observer.md = 3_Behavioral Design Patterns\Observer\Observer.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer1Demo", "Observer1Demo\Observer1Demo.csproj", "{4FB57308-3E3F-4CEE-9B7D-ED95B5132681}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer1Demo", "3_Behavioral Design Patterns\Observer\Observer1Demo\Observer1Demo.csproj", "{4FB57308-3E3F-4CEE-9B7D-ED95B5132681}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer2Demo", "Observer2Demo\Observer2Demo.csproj", "{C07FF9DA-FC8A-462C-A7B1-E9565D40455C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer2Demo", "3_Behavioral Design Patterns\Observer\Observer2Demo\Observer2Demo.csproj", "{C07FF9DA-FC8A-462C-A7B1-E9565D40455C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer3Demo", "Observer3Demo\Observer3Demo.csproj", "{1AE501AA-D897-40DC-87D6-5265811E961C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer3Demo", "3_Behavioral Design Patterns\Observer\Observer3Demo\Observer3Demo.csproj", "{1AE501AA-D897-40DC-87D6-5265811E961C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer4Demo", "Observer4Demo\Observer4Demo.csproj", "{403DD981-9C05-46A1-B8E9-8633CEEB4F18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer4Demo", "3_Behavioral Design Patterns\Observer\Observer4Demo\Observer4Demo.csproj", "{403DD981-9C05-46A1-B8E9-8633CEEB4F18}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8- State", "8- State", "{C886713D-B02F-465E-8725-11B5EA24C49F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{C886713D-B02F-465E-8725-11B5EA24C49F}"
 	ProjectSection(SolutionItems) = preProject
-		state.md = state.md
+		3_Behavioral Design Patterns\State\state.md = 3_Behavioral Design Patterns\State\state.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State1Demo", "State1Demo\State1Demo.csproj", "{71782703-7D88-4A38-8C43-DB50E0405DD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State1Demo", "3_Behavioral Design Patterns\State\State1Demo\State1Demo.csproj", "{71782703-7D88-4A38-8C43-DB50E0405DD1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State2Demo", "State2Demo\State2Demo.csproj", "{98C690DB-E52C-40B6-90D5-8DA9A82B9BEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State2Demo", "3_Behavioral Design Patterns\State\State2Demo\State2Demo.csproj", "{98C690DB-E52C-40B6-90D5-8DA9A82B9BEB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8- Strategy", "8- Strategy", "{72C02E71-606E-49E7-BFAD-1BC076EC679B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{72C02E71-606E-49E7-BFAD-1BC076EC679B}"
 	ProjectSection(SolutionItems) = preProject
-		Strategy.md = Strategy.md
+		3_Behavioral Design Patterns\Strategy\Strategy.md = 3_Behavioral Design Patterns\Strategy\Strategy.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy1Demo", "Strategy1Demo\Strategy1Demo.csproj", "{4731EC8C-2506-4BBB-8A07-14C65E5C18FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy1Demo", "3_Behavioral Design Patterns\Strategy\Strategy1Demo\Strategy1Demo.csproj", "{4731EC8C-2506-4BBB-8A07-14C65E5C18FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy2Demo", "Strategy2Demo\Strategy2Demo.csproj", "{DDEDEA13-C88E-4AEC-A289-8AC25FB31C47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy2Demo", "3_Behavioral Design Patterns\Strategy\Strategy2Demo\Strategy2Demo.csproj", "{DDEDEA13-C88E-4AEC-A289-8AC25FB31C47}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9- Template Method", "9- Template Method", "{43D99DA6-DF04-4CE6-9016-1280EC31A1F2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template Method", "Template Method", "{43D99DA6-DF04-4CE6-9016-1280EC31A1F2}"
 	ProjectSection(SolutionItems) = preProject
-		TemplateDescription.md = TemplateDescription.md
+		3_Behavioral Design Patterns\Template\TemplateDescription.md = 3_Behavioral Design Patterns\Template\TemplateDescription.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template1Demo", "Template1Demo\Template1Demo.csproj", "{CE0343A0-CF81-4BA4-80CD-56EF68AB5F98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template1Demo", "3_Behavioral Design Patterns\Template\Template1Demo\Template1Demo.csproj", "{CE0343A0-CF81-4BA4-80CD-56EF68AB5F98}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template2Demo", "Template2Demo\Template2Demo.csproj", "{848184A4-DCD3-4333-84F0-3EA4EA77D4E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template2Demo", "3_Behavioral Design Patterns\Template\Template2Demo\Template2Demo.csproj", "{848184A4-DCD3-4333-84F0-3EA4EA77D4E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory3Demo", "1_Creational Design Patterns\FactoryMethod\Factory3Demo\Factory3Demo.csproj", "{D8D5BE36-18D8-4F96-BEB4-B5B13B705C62}"
 EndProject
@@ -326,88 +318,88 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command0Demo", "3_Behaviora
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command00Demo", "3_Behavioral Design Patterns\Command\Command00Demo\Command00Demo.csproj", "{AB7C1151-DFB6-4C4E-A9D2-77A8D189586A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator0Demo", "Iterator0Demo\Iterator0Demo.csproj", "{9D1F5D24-9A51-48A2-86C7-2DCC1049F137}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator0Demo", "3_Behavioral Design Patterns\Iterator\Iterator0Demo\Iterator0Demo.csproj", "{9D1F5D24-9A51-48A2-86C7-2DCC1049F137}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator4Demo", "Iterator4Demo\Iterator4Demo.csproj", "{940FEEA4-0259-43E9-B72B-098D3C58F18C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator4Demo", "3_Behavioral Design Patterns\Iterator\Iterator4Demo\Iterator4Demo.csproj", "{940FEEA4-0259-43E9-B72B-098D3C58F18C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator00Demo", "Iterator00Demo\Iterator00Demo.csproj", "{4BE96894-65CB-44B0-A93D-07FFD1128802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator00Demo", "3_Behavioral Design Patterns\Iterator\Iterator00Demo\Iterator00Demo.csproj", "{4BE96894-65CB-44B0-A93D-07FFD1128802}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator0Demo", "Mediator0Demo\Mediator0Demo.csproj", "{4D773D80-B31E-4109-83D9-09CE9973AA43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator0Demo", "3_Behavioral Design Patterns\Mediator\Mediator0Demo\Mediator0Demo.csproj", "{4D773D80-B31E-4109-83D9-09CE9973AA43}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator3Demo", "Mediator3Demo\Mediator3Demo.csproj", "{0BCCF545-DF93-4E52-8C40-2ED07AC8FD0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator3Demo", "3_Behavioral Design Patterns\Mediator\Mediator3Demo\Mediator3Demo.csproj", "{0BCCF545-DF93-4E52-8C40-2ED07AC8FD0A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator4Demo", "Mediator4Demo\Mediator4Demo.csproj", "{FD874D8B-545D-4F53-A4F6-729139B02824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator4Demo", "3_Behavioral Design Patterns\Mediator\Mediator4Demo\Mediator4Demo.csproj", "{FD874D8B-545D-4F53-A4F6-729139B02824}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator5Demo", "Mediator5Demo\Mediator5Demo.csproj", "{52D1292A-A0E5-440C-A2B3-3171B5DE25B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator5Demo", "3_Behavioral Design Patterns\Mediator\Mediator5Demo\Mediator5Demo.csproj", "{52D1292A-A0E5-440C-A2B3-3171B5DE25B7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator6Demo", "Mediator6Demo\Mediator6Demo.csproj", "{2F1E7245-3811-4DB1-B448-198D3E6B6463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator6Demo", "3_Behavioral Design Patterns\Mediator\Mediator6Demo\Mediator6Demo.csproj", "{2F1E7245-3811-4DB1-B448-198D3E6B6463}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator7Demo", "Mediator7Demo\Mediator7Demo.csproj", "{0C6103C0-E303-4C9C-A598-911A855970CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator7Demo", "3_Behavioral Design Patterns\Mediator\Mediator7Demo\Mediator7Demo.csproj", "{0C6103C0-E303-4C9C-A598-911A855970CC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento0Demo", "Memento0Demo\Memento0Demo.csproj", "{22FA579B-F3E1-4544-87FB-B7D05F384113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento0Demo", "3_Behavioral Design Patterns\Memento\Memento0Demo\Memento0Demo.csproj", "{22FA579B-F3E1-4544-87FB-B7D05F384113}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento4Demo", "Memento4Demo\Memento4Demo.csproj", "{7445EEDE-25B0-4A95-BD4B-367A0C5266D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento4Demo", "3_Behavioral Design Patterns\Memento\Memento4Demo\Memento4Demo.csproj", "{7445EEDE-25B0-4A95-BD4B-367A0C5266D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento5Demo", "Memento5Demo\Memento5Demo.csproj", "{7997B1D2-E6C4-4BFF-B916-D5BC857C1B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento5Demo", "3_Behavioral Design Patterns\Memento\Memento5Demo\Memento5Demo.csproj", "{7997B1D2-E6C4-4BFF-B916-D5BC857C1B42}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento6Demo", "Memento6Demo\Memento6Demo.csproj", "{25D6B0F9-2158-4798-8373-D6157EC85F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento6Demo", "3_Behavioral Design Patterns\Memento\Memento6Demo\Memento6Demo.csproj", "{25D6B0F9-2158-4798-8373-D6157EC85F73}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer5Demo", "Observer5Demo\Observer5Demo.csproj", "{4B45C0B9-853D-49BE-BC7C-5DCA1A8A5EBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer5Demo", "3_Behavioral Design Patterns\Observer\Observer5Demo\Observer5Demo.csproj", "{4B45C0B9-853D-49BE-BC7C-5DCA1A8A5EBD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer6Demo", "Observer6Demo\Observer6Demo.csproj", "{C91FC24B-64E2-4916-BD3C-D4A328E73341}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer6Demo", "3_Behavioral Design Patterns\Observer\Observer6Demo\Observer6Demo.csproj", "{C91FC24B-64E2-4916-BD3C-D4A328E73341}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer0Demo", "Observer0Demo\Observer0Demo.csproj", "{40977144-88BA-4BAE-A7AB-E343771E0CA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer0Demo", "3_Behavioral Design Patterns\Observer\Observer0Demo\Observer0Demo.csproj", "{40977144-88BA-4BAE-A7AB-E343771E0CA7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State3Demo", "State3Demo\State3Demo.csproj", "{2AFE2B9C-CAFA-4717-8DCC-657DEA5593EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State3Demo", "3_Behavioral Design Patterns\State\State3Demo\State3Demo.csproj", "{2AFE2B9C-CAFA-4717-8DCC-657DEA5593EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State4Demo", "State4Demo\State4Demo.csproj", "{FFFF50EC-DA1D-4712-BC43-5EDB0C2DEA62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State4Demo", "3_Behavioral Design Patterns\State\State4Demo\State4Demo.csproj", "{FFFF50EC-DA1D-4712-BC43-5EDB0C2DEA62}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State5Demo", "State5Demo\State5Demo.csproj", "{1C93131A-FC6A-4987-8B78-7918391A069C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State5Demo", "3_Behavioral Design Patterns\State\State5Demo\State5Demo.csproj", "{1C93131A-FC6A-4987-8B78-7918391A069C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State6Demo", "State6Demo\State6Demo.csproj", "{5A7F9790-B3FD-4877-9216-A1F0DC64C5B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State6Demo", "3_Behavioral Design Patterns\State\State6Demo\State6Demo.csproj", "{5A7F9790-B3FD-4877-9216-A1F0DC64C5B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State7Demo", "State7Demo\State7Demo.csproj", "{652EBE3B-50CF-44B3-99BE-E0E62797EB04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State7Demo", "3_Behavioral Design Patterns\State\State7Demo\State7Demo.csproj", "{652EBE3B-50CF-44B3-99BE-E0E62797EB04}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State8Demo", "State8Demo\State8Demo.csproj", "{02B1C9CB-7E70-47C7-AFE6-50F490F1A698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State8Demo", "3_Behavioral Design Patterns\State\State8Demo\State8Demo.csproj", "{02B1C9CB-7E70-47C7-AFE6-50F490F1A698}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy3Demo", "Strategy3Demo\Strategy3Demo.csproj", "{ED5F7F6F-0BEB-449A-B81A-2207183BBF68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy3Demo", "3_Behavioral Design Patterns\Strategy\Strategy3Demo\Strategy3Demo.csproj", "{ED5F7F6F-0BEB-449A-B81A-2207183BBF68}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy4Demo", "Strategy4Demo\Strategy4Demo.csproj", "{395D3020-CE04-43BE-8E40-12FB489F4289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy4Demo", "3_Behavioral Design Patterns\Strategy\Strategy4Demo\Strategy4Demo.csproj", "{395D3020-CE04-43BE-8E40-12FB489F4289}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy5Demo", "Strategy5Demo\Strategy5Demo.csproj", "{3212EC7B-DF97-4CE7-927A-F41FF18F24C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy5Demo", "3_Behavioral Design Patterns\Strategy\Strategy5Demo\Strategy5Demo.csproj", "{3212EC7B-DF97-4CE7-927A-F41FF18F24C2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template3Demo", "Template3Demo\Template3Demo.csproj", "{B8F2C34E-74D1-44D6-83EF-960264DE1EE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template3Demo", "3_Behavioral Design Patterns\Template\Template3Demo\Template3Demo.csproj", "{B8F2C34E-74D1-44D6-83EF-960264DE1EE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template4Demo", "Template4Demo\Template4Demo.csproj", "{371A43DF-19D5-4A9C-BE10-27266E8C76E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template4Demo", "3_Behavioral Design Patterns\Template\Template4Demo\Template4Demo.csproj", "{371A43DF-19D5-4A9C-BE10-27266E8C76E4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template5Demo", "Template5Demo\Template5Demo.csproj", "{FA43AC4A-0206-46EC-9BF7-E3A1BF708323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template5Demo", "3_Behavioral Design Patterns\Template\Template5Demo\Template5Demo.csproj", "{FA43AC4A-0206-46EC-9BF7-E3A1BF708323}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template6Demo", "Template6Demo\Template6Demo.csproj", "{F3BF653E-8671-4F6B-8FFA-94A57A521E20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template6Demo", "3_Behavioral Design Patterns\Template\Template6Demo\Template6Demo.csproj", "{F3BF653E-8671-4F6B-8FFA-94A57A521E20}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template7Demo", "Template7Demo\Template7Demo.csproj", "{C7B41D8A-0073-464F-A7B2-4BC72A61ED11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template7Demo", "3_Behavioral Design Patterns\Template\Template7Demo\Template7Demo.csproj", "{C7B41D8A-0073-464F-A7B2-4BC72A61ED11}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10- Visitor", "10- Visitor", "{DFB47BC6-E0D9-4CE7-A37E-41AB718FA975}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{DFB47BC6-E0D9-4CE7-A37E-41AB718FA975}"
 	ProjectSection(SolutionItems) = preProject
-		Visitor.md = Visitor.md
+		3_Behavioral Design Patterns\Visitor\Visitor.md = 3_Behavioral Design Patterns\Visitor\Visitor.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor1Demo", "3_Behavioral Design Patterns\10- Visitor\Visitor1Demo\Visitor1Demo.csproj", "{B11F2651-F7D6-4354-8065-53F6937709B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor1Demo", "3_Behavioral Design Patterns\Visitor\Visitor1Demo\Visitor1Demo.csproj", "{B11F2651-F7D6-4354-8065-53F6937709B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor2Demo", "3_Behavioral Design Patterns\10- Visitor\Visitor2Demo\Visitor2Demo.csproj", "{1A00A3DF-BBDF-4198-A819-D3BF03D2DAFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor2Demo", "3_Behavioral Design Patterns\Visitor\Visitor2Demo\Visitor2Demo.csproj", "{1A00A3DF-BBDF-4198-A819-D3BF03D2DAFF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor3Demo", "3_Behavioral Design Patterns\10- Visitor\Visitor3Demo\Visitor3Demo.csproj", "{C5ED7A76-9752-4CBD-92A7-2650DDA55B83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor3Demo", "3_Behavioral Design Patterns\Visitor\Visitor3Demo\Visitor3Demo.csproj", "{C5ED7A76-9752-4CBD-92A7-2650DDA55B83}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor4Demo", "3_Behavioral Design Patterns\10- Visitor\Visitor4Demo\Visitor4Demo.csproj", "{8303410A-C3E0-480B-906C-C1636A0CDCBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor4Demo", "3_Behavioral Design Patterns\Visitor\Visitor4Demo\Visitor4Demo.csproj", "{8303410A-C3E0-480B-906C-C1636A0CDCBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor5Demo", "3_Behavioral Design Patterns\10- Visitor\Visitor5Demo\Visitor5Demo.csproj", "{C937818C-B029-4F86-8A9A-6ECED6E129D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor5Demo", "3_Behavioral Design Patterns\Visitor\Visitor5Demo\Visitor5Demo.csproj", "{C937818C-B029-4F86-8A9A-6ECED6E129D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor6Demo", "3_Behavioral Design Patterns\10- Visitor\Visitor6Demo\Visitor6Demo.csproj", "{AB356A9B-5DCA-46FF-91E4-E772CF9A2135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor6Demo", "3_Behavioral Design Patterns\Visitor\Visitor6Demo\Visitor6Demo.csproj", "{AB356A9B-5DCA-46FF-91E4-E772CF9A2135}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor7Demo", "3_Behavioral Design Patterns\10- Visitor\Visitor7Demo\Visitor7Demo.csproj", "{AE96E71A-85AB-49A7-8643-53B18607CE13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor7Demo", "3_Behavioral Design Patterns\Visitor\Visitor7Demo\Visitor7Demo.csproj", "{AE96E71A-85AB-49A7-8643-53B18607CE13}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy9Demo", "2_Structural Design Patterns\Proxy\Proxy9Demo\Proxy9Demo.csproj", "{1148576E-4007-442E-96A4-E1C0CFCB64B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator8Demo", "Mediator8Demo\Mediator8Demo.csproj", "{3B0EAC2D-B2CA-4A22-B1FF-CDC28085DE10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator8Demo", "3_Behavioral Design Patterns\Mediator\Mediator8Demo\Mediator8Demo.csproj", "{3B0EAC2D-B2CA-4A22-B1FF-CDC28085DE10}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory3Demo", "1_Creational Design Patterns\AbstractFactory\AbstractFactory3Demo\AbstractFactory3Demo.csproj", "{023E4D40-7A26-473D-B8D3-3C36CAB596B5}"
 EndProject
@@ -428,6 +420,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility5Demo", "3_Behavioral Design Patterns\ChainOfResponsibility\ChainOfResponsibility5Demo\ChainOfResponsibility5Demo.csproj", "{9547DE56-038B-4383-80B1-5C21CF4460E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility6Demo", "3_Behavioral Design Patterns\ChainOfResponsibility\ChainOfResponsibility6Demo\ChainOfResponsibility6Demo.csproj", "{58281BEC-5B4F-4D85-B194-9F34ED653162}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator1Demo", "3_Behavioral Design Patterns\MediatoR\Mediator1Demo\Mediator1Demo.csproj", "{D79886B6-D24B-4299-9BAA-E3B2A5D2976B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator2Demo", "3_Behavioral Design Patterns\MediatoR\Mediator2Demo\Mediator2Demo.csproj", "{05466553-1D32-426D-85DB-34CC20F8D0C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -563,10 +559,6 @@ Global
 		{BCDB5B6A-A551-4A80-BBB4-C357BBF520A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCDB5B6A-A551-4A80-BBB4-C357BBF520A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCDB5B6A-A551-4A80-BBB4-C357BBF520A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{117131B3-76A4-4F39-ACB4-C1639A3FAD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{117131B3-76A4-4F39-ACB4-C1639A3FAD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{117131B3-76A4-4F39-ACB4-C1639A3FAD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{117131B3-76A4-4F39-ACB4-C1639A3FAD04}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EF0BE807-B55E-4264-9F5F-EB2CC2FB2441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EF0BE807-B55E-4264-9F5F-EB2CC2FB2441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF0BE807-B55E-4264-9F5F-EB2CC2FB2441}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -579,14 +571,6 @@ Global
 		{96D6E8BA-6478-4408-8677-3A3948901EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96D6E8BA-6478-4408-8677-3A3948901EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96D6E8BA-6478-4408-8677-3A3948901EAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7ACF6AF-71A0-4C23-A9F6-40A7B13A9C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7ACF6AF-71A0-4C23-A9F6-40A7B13A9C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7ACF6AF-71A0-4C23-A9F6-40A7B13A9C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7ACF6AF-71A0-4C23-A9F6-40A7B13A9C29}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02C0A181-8D2A-4D3C-80E6-33352BBCFD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02C0A181-8D2A-4D3C-80E6-33352BBCFD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02C0A181-8D2A-4D3C-80E6-33352BBCFD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02C0A181-8D2A-4D3C-80E6-33352BBCFD5B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C58DB0A-050E-43A3-9DB6-2E25A254256D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C58DB0A-050E-43A3-9DB6-2E25A254256D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C58DB0A-050E-43A3-9DB6-2E25A254256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -1051,6 +1035,14 @@ Global
 		{58281BEC-5B4F-4D85-B194-9F34ED653162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58281BEC-5B4F-4D85-B194-9F34ED653162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58281BEC-5B4F-4D85-B194-9F34ED653162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79886B6-D24B-4299-9BAA-E3B2A5D2976B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79886B6-D24B-4299-9BAA-E3B2A5D2976B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79886B6-D24B-4299-9BAA-E3B2A5D2976B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79886B6-D24B-4299-9BAA-E3B2A5D2976B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05466553-1D32-426D-85DB-34CC20F8D0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05466553-1D32-426D-85DB-34CC20F8D0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05466553-1D32-426D-85DB-34CC20F8D0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05466553-1D32-426D-85DB-34CC20F8D0C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1102,15 +1094,11 @@ Global
 		{5CCED48F-182D-4656-9E7D-C9164AE42808} = {D7E4B63D-6E8C-44BB-823F-747BEED5B15A}
 		{C7CECECC-2B03-40B7-A469-104B85645F48} = {D7E4B63D-6E8C-44BB-823F-747BEED5B15A}
 		{BCDB5B6A-A551-4A80-BBB4-C357BBF520A0} = {D7E4B63D-6E8C-44BB-823F-747BEED5B15A}
-		{3F0E5EE5-FB27-4C79-9E4D-C7479D5BA8F2} = {DC5F0C6E-63B6-4A49-B826-FA60D9FCD67C}
-		{117131B3-76A4-4F39-ACB4-C1639A3FAD04} = {3F0E5EE5-FB27-4C79-9E4D-C7479D5BA8F2}
 		{F8CF19FE-EF65-4717-B099-6481489FB79C} = {DC5F0C6E-63B6-4A49-B826-FA60D9FCD67C}
 		{EF0BE807-B55E-4264-9F5F-EB2CC2FB2441} = {F8CF19FE-EF65-4717-B099-6481489FB79C}
 		{4A0C853E-93EB-407C-86A5-FBEA01BFC588} = {F8CF19FE-EF65-4717-B099-6481489FB79C}
 		{96D6E8BA-6478-4408-8677-3A3948901EAD} = {F8CF19FE-EF65-4717-B099-6481489FB79C}
 		{37D93528-AD00-49BD-9D05-588FF84ADC8A} = {DC5F0C6E-63B6-4A49-B826-FA60D9FCD67C}
-		{E7ACF6AF-71A0-4C23-A9F6-40A7B13A9C29} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
-		{02C0A181-8D2A-4D3C-80E6-33352BBCFD5B} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
 		{D6106686-A1D4-49EF-A622-555FA5A728EC} = {DC5F0C6E-63B6-4A49-B826-FA60D9FCD67C}
 		{4C58DB0A-050E-43A3-9DB6-2E25A254256D} = {D6106686-A1D4-49EF-A622-555FA5A728EC}
 		{29DF88B2-763E-4C12-971A-0E958A4FB830} = {D6106686-A1D4-49EF-A622-555FA5A728EC}
@@ -1233,6 +1221,8 @@ Global
 		{C9AA6778-0118-4711-8BC0-583FD63326D0} = {EE40B69F-6D7F-4702-BAA6-7B5A3D0EA19E}
 		{9547DE56-038B-4383-80B1-5C21CF4460E7} = {EE40B69F-6D7F-4702-BAA6-7B5A3D0EA19E}
 		{58281BEC-5B4F-4D85-B194-9F34ED653162} = {EE40B69F-6D7F-4702-BAA6-7B5A3D0EA19E}
+		{D79886B6-D24B-4299-9BAA-E3B2A5D2976B} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
+		{05466553-1D32-426D-85DB-34CC20F8D0C0} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05AE38FD-0D6F-41E1-9FFC-784B01BAD24C}
