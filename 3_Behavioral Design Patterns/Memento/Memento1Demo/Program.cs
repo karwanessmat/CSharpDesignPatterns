@@ -1,4 +1,5 @@
 ﻿using System;
+using Memento1Demo.Step1__Create_the_Memento_class;
 
 namespace Memento1Demo;
 
@@ -13,7 +14,7 @@ class Program
         calculator.Add(5);
         calculator.Subtract(8);
 
-        var checkPoint = calculator.CreateMemento();
+        Memento checkPoint = calculator.CreateMemento();
         calculator.Add(88);
         Console.WriteLine("he value of the result variable is: "+calculator.GetResult());
 

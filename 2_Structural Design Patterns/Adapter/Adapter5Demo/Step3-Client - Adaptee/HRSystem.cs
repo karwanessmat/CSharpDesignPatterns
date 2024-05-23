@@ -7,7 +7,7 @@ public class HrSystem
 {
     public string[][] GetEmployees()
     {
-        var employees = new string[4][];
+        string[][] employees = new string[4][];
 
         employees[0] = new string[] { "100", "Deepak", "Team Leader" };
         employees[1] = new string[] { "101", "Rohit", "Developer" };

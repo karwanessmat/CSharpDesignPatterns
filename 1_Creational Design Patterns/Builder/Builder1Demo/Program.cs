@@ -4,9 +4,9 @@ using Builder1Demo.Step4_Director;
 
 namespace Builder1Demo;
 
-class Program
+internal class Program
 {
-    private static void Main(string[] args)
+    private static void Main()
     {
         var toyACreator = new ToyCreator(new ToyABuilder());
         toyACreator.CreateToy();

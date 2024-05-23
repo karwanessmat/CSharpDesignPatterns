@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
@@ -13,7 +14,7 @@ public class XmlConverter
     {
         var xDocument = new XDocument();
         var xElement = new XElement("Manufacturers");
-        var xAttributes = ManufacturerDataProvider.GetData()
+        IEnumerable<XElement> xAttributes = ManufacturerDataProvider.GetData()
             .Select(m => new XElement("Manufacturer",
                 new XAttribute("City", m.City),
                 new XAttribute("Name", m.Name),

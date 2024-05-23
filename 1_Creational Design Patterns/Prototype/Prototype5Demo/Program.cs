@@ -1,4 +1,5 @@
-﻿using Prototype5Demo.Step2_ConcretePrototypes;
+﻿using Prototype5Demo.Step1_Prototype_interface;
+using Prototype5Demo.Step2_ConcretePrototypes;
 using Prototype5Demo.Step3_Prototype_Registry__Client_;
 
 //var manager =  new CampaignManager();
@@ -28,7 +29,7 @@ var newYearCampaign = new TextCampaign
 
 newYearCampaign.PrintData();
 
-var halloweenCampaign = manager.Duplicate(newYearCampaign);
+ICampaign? halloweenCampaign = manager.Duplicate(newYearCampaign);
 halloweenCampaign.CampaignName = "Halloween Campaign";
 
 Console.WriteLine("-------------------");

@@ -13,7 +13,7 @@ List<IProduct> products = new List<IProduct>
 IShippingVisitor shippingVisitor = new StandardShippingVisitor();
 
 double totalShippingCost = 0;
-foreach (var product in products)
+foreach (IProduct? product in products)
 {
     totalShippingCost += product.Accept(shippingVisitor);
 }

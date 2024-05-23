@@ -14,12 +14,12 @@ internal class TextToHtmlConverter : IComponent
 
     public string ProcessParagraphs(string text)
     {
-        var paragraphs = Regex.Split(text, @"(\r\n?|\n)")
+        IEnumerable<string>? paragraphs = Regex.Split(text, @"(\r\n?|\n)")
             .Where(p => p.Any(char.IsLetterOrDigit));
 
         var sb = new StringBuilder();
 
-        foreach (var paragraph in paragraphs)
+        foreach (string? paragraph in paragraphs)
         {
             if (paragraph.Length == 0)
                 continue;

@@ -9,7 +9,7 @@ internal class CarBuilder:IBuilder
 
     public CarBuilder()
     {
-        this.Reset();
+        Reset();
     }
     public void Reset()
     {
@@ -40,7 +40,7 @@ internal class CarBuilder:IBuilder
     // we do not definition inside IBuilder because we have another type such as (Manual) to return.
     public Car GetCarProduct()
     {
-        var product = _car;
+        Car product = _car;
         Reset();
         return product;
     }

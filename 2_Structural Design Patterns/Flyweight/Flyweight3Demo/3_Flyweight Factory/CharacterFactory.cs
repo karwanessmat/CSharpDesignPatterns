@@ -14,7 +14,7 @@ internal class CharacterFactory
         key = key.ToLower().Trim();
         // Uses "lazy initialization"
         Character character = null;
-        if (_characters.TryGetValue(key, out var characterValue))
+        if (_characters.TryGetValue(key, out Character characterValue))
         {
             character = characterValue;
         }

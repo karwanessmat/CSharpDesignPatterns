@@ -15,7 +15,7 @@ class Program
         var buyStockOrder = new BuyStock(abcStock);
         var sellStockOrder = new SellStock(abcStock);
 
-        Broker broker = new Broker();
+        var broker = new Broker();
         broker.TakeOrder(buyStockOrder);
         broker.TakeOrder(sellStockOrder);
 

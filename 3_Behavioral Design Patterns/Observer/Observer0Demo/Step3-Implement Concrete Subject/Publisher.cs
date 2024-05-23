@@ -21,7 +21,7 @@ internal class Publisher(string name) : ISubject
 
     public void Notify(string message)
     {
-        foreach (var observer in _observers)
+        foreach (IObserver? observer in _observers)
         {
             observer.Update(this, message);
         }

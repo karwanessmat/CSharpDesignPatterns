@@ -28,7 +28,7 @@ public sealed class Board
     {
         Console.WriteLine($"Executing Program {programName} on {BoardName}");
         
-        for (var i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)
         {
             Console.WriteLine(i.ToString());
         }

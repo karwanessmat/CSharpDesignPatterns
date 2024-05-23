@@ -20,7 +20,7 @@ public class DirectorySys(string name) : FileSystemItem(name)
     {
         Console.WriteLine(new string('-', depth) + Name);
 
-        foreach (var item in _items)
+        foreach (FileSystemItem? item in _items)
         {
             item.Display(depth + 1);
         }

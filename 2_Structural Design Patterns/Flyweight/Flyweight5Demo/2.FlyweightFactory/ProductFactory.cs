@@ -8,9 +8,9 @@ public class ProductFactory
 
     public ProductDescription GetProductDescription(string description, string specifications, List<string> reviews)
     {
-        var key = $"{description}_{specifications}";
+        string? key = $"{description}_{specifications}";
 
-        if (!_descriptions.TryGetValue(key, out var productDescription))
+        if (!_descriptions.TryGetValue(key, out ProductDescription? productDescription))
         {
             productDescription = new ProductDescription(description, specifications, reviews);
             _descriptions[key] = productDescription;

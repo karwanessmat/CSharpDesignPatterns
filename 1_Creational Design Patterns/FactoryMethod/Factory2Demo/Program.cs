@@ -1,4 +1,5 @@
 ﻿using System;
+using Factory2Demo.Step1_Product_Interface;
 using Factory2Demo.Step3_Creator;
 using Factory2Demo.step4_Concrete_Creator;
 
@@ -11,11 +12,11 @@ internal class Program
         CreatorVehicleFactory vf = new ConcreteVehicleFactory();
 
 
-        var bike = vf.GetVehicle(VehicleType.Bike);
+        IVehicle bike = vf.GetVehicle(VehicleType.Bike);
         bike.Drive(50);
         Console.WriteLine();
 
-        var scooter = vf.GetVehicle(VehicleType.Scooter);
+        IVehicle scooter = vf.GetVehicle(VehicleType.Scooter);
         scooter.Drive(10);
 
     }

@@ -14,7 +14,7 @@ public class CarDirector()
         builder.SetTripComputer(true);
         builder.SetGps(true);
     }
-    public void ConstructSUV(IBuilder builder)
+    public void ConstructSuv(IBuilder builder)
     {
         builder.Reset();
         builder.SetSeats(5);

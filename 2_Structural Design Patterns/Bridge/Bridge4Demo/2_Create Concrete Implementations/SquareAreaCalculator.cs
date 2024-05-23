@@ -7,7 +7,7 @@ public class SquareAreaCalculator : IAreaCalculator
 {
     public double CalculateArea(params double[] dimensions)
     {
-        var side = dimensions[0];
+        double side = dimensions[0];
         return side * side;
     }
 }

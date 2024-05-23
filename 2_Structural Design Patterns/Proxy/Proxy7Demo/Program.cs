@@ -9,7 +9,7 @@ for (int i = 0; i < 10; i++)
     fileNames.Add($@"C:\file{i}.jpg");
 }
 
-foreach (var file in fileNames)
+foreach (string? file in fileNames)
 {
     control.Add(new Image4KProxy(file));
 }

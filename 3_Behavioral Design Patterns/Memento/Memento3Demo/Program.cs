@@ -9,12 +9,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Originator originator = new Originator();
+        var originator = new Originator();
         var caretaker = new Caretaker();
 
 
         originator.SetMemento(new Memento("On1"));
-        var savedMemento = originator.CreateMemento();
+        Memento savedMemento = originator.CreateMemento();
         caretaker.Add(savedMemento);
 
 
@@ -41,7 +41,7 @@ class Program
 
 
 
-        foreach (var memento in caretaker.GetMementoHistory())
+        foreach (Memento memento in caretaker.GetMementoHistory())
         {
             Console.WriteLine($"State: {memento.State}");
         }

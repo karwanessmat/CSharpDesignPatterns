@@ -15,7 +15,7 @@ public class TeamChatroom : Chatroom
 
     public void RegisterMembers(params TeamMember[] teamMembers)
     {
-        foreach (var member in teamMembers)
+        foreach (TeamMember? member in teamMembers)
         { 
             Register(member);
         }

@@ -26,9 +26,9 @@ var request3 = new Request
     Role = "Admin"
 };
 
-var response1 = handler1.HandleRequest(request1);
-var response2 = handler1.HandleRequest(request2);
-var response3 = handler1.HandleRequest(request3);
+Response? response1 = handler1.HandleRequest(request1);
+Response? response2 = handler1.HandleRequest(request2);
+Response? response3 = handler1.HandleRequest(request3);
 Console.WriteLine($"Response 1: Success - {response1.Success}, Message - {response1.Message}");
 Console.WriteLine($"Response 2: Success - {response2.Success}, Message - {response2.Message}");
 Console.WriteLine($"Response 3: Success - {response3.Success}, Message - {response3.Message}");

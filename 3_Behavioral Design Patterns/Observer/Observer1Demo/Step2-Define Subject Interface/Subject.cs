@@ -19,7 +19,7 @@ public abstract class Subject
     }
     public void Notify()
     {
-        foreach (var o in _observers)
+        foreach (Observer o in _observers)
         {
             o.Update();
         }

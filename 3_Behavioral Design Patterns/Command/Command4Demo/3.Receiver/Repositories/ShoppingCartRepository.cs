@@ -36,7 +36,7 @@ public class ShoppingCartRepository : IShoppingCartRepository
     {
         if (LineItems.ContainsKey(articleId))
         {
-            var lineItem = LineItems[articleId];
+            (Product Product, int Quantity) lineItem = LineItems[articleId];
 
             if (lineItem.Quantity == 1)
             {
@@ -57,7 +57,7 @@ public class ShoppingCartRepository : IShoppingCartRepository
     {
         if (LineItems.ContainsKey(articleId))
         {
-            var lineItem = LineItems[articleId];
+            (Product Product, int Quantity) lineItem = LineItems[articleId];
             LineItems[articleId] = (lineItem.Product, lineItem.Quantity + 1);
         }
         else

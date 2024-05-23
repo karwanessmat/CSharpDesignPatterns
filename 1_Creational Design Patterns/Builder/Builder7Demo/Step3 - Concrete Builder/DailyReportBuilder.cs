@@ -41,7 +41,7 @@ public class DailyReportBuilder : IFurnitureInventoryBuilder
 
     public InventoryReport GetDailyReport()
     {
-        var finishedReport = _report;
+        InventoryReport? finishedReport = _report;
         Reset();
 
         return finishedReport;

@@ -1,4 +1,4 @@
 ﻿using Singleton5Demo;
 
-SomeBusinessLogic bl = new SomeBusinessLogic();
+var bl = new SomeBusinessLogic();
 bl.Process();

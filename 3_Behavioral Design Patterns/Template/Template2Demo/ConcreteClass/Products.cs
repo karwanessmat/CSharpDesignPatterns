@@ -29,7 +29,7 @@ public class Products:DataAccessor
     {
         Console.WriteLine("Products ---- ");
             
-        foreach (var t in _products)
+        foreach (string t in _products)
         {
             Console.WriteLine(t);
         }
@@ -42,7 +42,7 @@ public class Products:DataAccessor
         Console.WriteLine("_____________");
 
         name = name.ToLower();
-        var result = _products.FirstOrDefault(x => x.ToLower() == name);
+        string result = _products.FirstOrDefault(x => x.ToLower() == name);
         Console.WriteLine(result);
     }
 

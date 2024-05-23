@@ -20,7 +20,7 @@ internal class BridgeInterface
             return;
         }
 
-        foreach (var item in Implementation.GetData())
+        foreach (string? item in Implementation.GetData())
         {
             Console.WriteLine(item);
         }

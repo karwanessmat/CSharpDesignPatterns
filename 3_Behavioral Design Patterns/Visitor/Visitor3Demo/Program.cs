@@ -18,7 +18,7 @@ IShapeVisitor saveVisitor  = new SaveVisitor();
 
 
 
-foreach (var shape in shapes)
+foreach (IShape? shape in shapes)
 {
     shape.Accept(renderVisitor);
     shape.Accept(saveVisitor);

@@ -1,6 +1,6 @@
 ﻿using Prototype4Demo.Step2_ConcretePrototypes;
 
-Product prototypeProduct = new Product("Basic T-Shirt", 19.99m, "A plain t-shirt", "/images/tshirt.png");
+var prototypeProduct = new Product("Basic T-Shirt", 19.99m, "A plain t-shirt", "/images/tshirt.png");
 
 // Clone the prototype and update the properties for a new product variation
 var redTShirt = (Product)prototypeProduct.Clone();

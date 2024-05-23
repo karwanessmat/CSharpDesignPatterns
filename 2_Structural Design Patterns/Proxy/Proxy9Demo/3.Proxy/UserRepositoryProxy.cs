@@ -19,7 +19,7 @@ public class UserRepositoryProxy(string userRole) : IUserRepository
 
         Console.WriteLine("User verified as admin. Access granted.");
         // Access the real subject
-        var data = _userRepository.GetData();
+        string? data = _userRepository.GetData();
         // Log the action
         Console.WriteLine("Data retrieved: " + data);
         return data;

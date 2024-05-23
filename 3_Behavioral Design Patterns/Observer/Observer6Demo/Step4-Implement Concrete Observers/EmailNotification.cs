@@ -7,7 +7,7 @@ public class EmailNotification : INotifier
     public void Notify(Dictionary<string, double> stockList)
     {
         Console.WriteLine("Sending Email: Opportunity to buy!");
-        foreach(var stock in stockList)
+        foreach(KeyValuePair<string, double> stock in stockList)
         {
             Console.WriteLine($"{stock.Key} - {stock.Value}");
         }               

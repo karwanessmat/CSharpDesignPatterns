@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Adapter4Demo.Step1___Interface;
 using Adapter4Demo.Step3_Client___Adaptee;
@@ -15,7 +16,7 @@ public class XmlToJsonAdapter(XmlConverter xmlConverter) : IXmlToJson
     // we must use ConvertXmlToJson() method that came form IXmlToJson interface
     public void ConvertXmlToJson()
     {
-        var manufacturers = xmlConverter.GetXml()
+        IEnumerable<Manufacturer> manufacturers = xmlConverter.GetXml()
             .Element("Manufacturers")
             ?.Elements("Manufacturer")
             .Select(m => new Manufacturer

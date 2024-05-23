@@ -1,4 +1,5 @@
-﻿using Flyweight4Demo._3_Flyweight_Factory;
+﻿using Flyweight4Demo._2__Concrete_Flyweight;
+using Flyweight4Demo._3_Flyweight_Factory;
 using Flyweight4Demo._5.Context;
 
 namespace Flyweight4Demo._6.Client;
@@ -13,7 +14,7 @@ public class Game
 
     public void AddParticle(string color, string sprite, string coordinates, string vector, string speed)
     {
-        var particleType = _particleFactory.GetParticleType(color, sprite);
+        ParticleType? particleType = _particleFactory.GetParticleType(color, sprite);
         if (particleType == null) return;
         var particle = new Particle(particleType, coordinates, vector, speed);
         _particles.Add(particle);
@@ -21,7 +22,7 @@ public class Game
 
     public void Draw()
     {
-        foreach (var particle in _particles)
+        foreach (Particle? particle in _particles)
         {
             particle.Draw();
         }

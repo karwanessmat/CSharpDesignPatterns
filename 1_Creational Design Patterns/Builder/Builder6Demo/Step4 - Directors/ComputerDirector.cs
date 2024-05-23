@@ -8,8 +8,8 @@ public class ComputerDirector
     public Computer Construct(IComputerBuilder builder)
     {
         builder.SetType();
-        builder.SetCPU();
-        builder.SetRAM();
+        builder.SetCpu();
+        builder.SetRam();
         builder.SetStorage();
         builder.SetGraphicsCard();
         return builder.Build();

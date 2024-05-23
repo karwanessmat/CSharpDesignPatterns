@@ -13,7 +13,7 @@ public class LinuxPlayer:Player
 
     private void StartBashProcess(string command)
     {
-        var escapedArgs = command.Replace("\"", "\\\"");
+        string? escapedArgs = command.Replace("\"", "\\\"");
 
         var process = new Process()
         {

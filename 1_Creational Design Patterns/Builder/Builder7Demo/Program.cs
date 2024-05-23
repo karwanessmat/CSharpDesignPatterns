@@ -1,5 +1,7 @@
-﻿using Builder7Demo.Step1_Production;
+﻿using Builder7Demo;
+using Builder7Demo.Step1_Production;
 using Builder7Demo.Step3___Concrete_Builder;
+using Builder7Demo.Step4___Directors;
 
 var items = new List<FurnitureItem>
 {
@@ -9,13 +11,15 @@ var items = new List<FurnitureItem>
 };
 
 var inventoryBuilder = new DailyReportBuilder(items);
-/*var director = new InventoryBuildDirector(inventoryBuilder);
 
-director.BuildCompleteReport();
-var directorReport = inventoryBuilder.GetDailyReport();
-Console.WriteLine(directorReport.Display());*/
+//var director = new InventoryBuildDirector(inventoryBuilder);
+//director.BuildCompleteReport();
+//var directorReport = inventoryBuilder.GetDailyReport();
+//Console.WriteLine(directorReport.Display());
 
-var fluentReport = inventoryBuilder
+
+
+InventoryReport? fluentReport = inventoryBuilder
     .AddTitle()
     .AddDimensions()
     .AddLogistics(DateTime.Now)

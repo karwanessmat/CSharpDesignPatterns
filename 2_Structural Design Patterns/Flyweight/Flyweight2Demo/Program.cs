@@ -1,4 +1,5 @@
 ﻿using System;
+using Flyweight2Demo._1_Flyweight_Interface;
 using Flyweight2Demo._3_Flyweight_Factory;
 
 namespace Flyweight2Demo;
@@ -9,7 +10,7 @@ class Program
     {
 
         var sof = new ShapeObjectFactory();
-        var shape = sof.GetShape("Rectangle");
+        IShape shape = sof.GetShape("Rectangle");
         shape.Print();
         shape = sof.GetShape("Rectangle");
         shape.Print();
@@ -22,7 +23,7 @@ class Program
 
         Console.WriteLine("_______");
 
-        var numOfObjects = sof.TotalObjectsCreated;
+        int numOfObjects = sof.TotalObjectsCreated;
         Console.WriteLine($"total no of objects created {numOfObjects}");
 
         Console.ReadLine();

@@ -42,7 +42,7 @@ public class CarManualBuilder:IBuilder
 
     public Manual GetProduct()
     {
-        var product = _manual;
+        Manual? product = _manual;
         Reset();
         return product;
     }

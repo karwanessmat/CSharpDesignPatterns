@@ -19,7 +19,7 @@ public class Caretaker(Editor editor)
     {
         if (_mementos.Count <= 0) return;
 
-        var memento = _mementos.Pop();
+        Memento? memento = _mementos.Pop();
         _undoMementos.Push(memento);
         editor.RestoreState(memento);
     }

@@ -13,7 +13,7 @@ public class History
 
     public EditorState Pop()
     {
-        var lastState = _history[^1]; // get last one
+        EditorState? lastState = _history[^1]; // get last one
         _history.RemoveAt(_history.Count - 1);
         return lastState;
     }

@@ -10,11 +10,11 @@ internal class Program
         //it created 2 instance to stop this action we should create lock in related class go to (singleton class)
         Parallel.Invoke(() =>
         {
-            var s1 = Singleton.GetInstance;
+            Singleton s1 = Singleton.GetInstance;
             s1.DisplayMessage("S1");
         }, () =>
         {
-            var s2 = Singleton.GetInstance;
+            Singleton s2 = Singleton.GetInstance;
             s2.DisplayMessage("S2");
         });
 
@@ -29,7 +29,7 @@ internal class Program
 
     public static void Print()
     {
-        var ss = Singleton.GetInstance;
+        Singleton ss = Singleton.GetInstance;
         ss.DisplayMessage("hi");
     }
 }

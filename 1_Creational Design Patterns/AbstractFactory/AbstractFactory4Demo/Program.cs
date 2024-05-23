@@ -4,5 +4,5 @@ using AbstractFactory4Demo.Step5_Client;
 var modernHouse = new House(new ModernHouseFactory());
 modernHouse.DescribeHouse();
 
-House victorianHouse = new House(new VictorianHouseFactory());
+var victorianHouse = new House(new VictorianHouseFactory());
 victorianHouse.DescribeHouse();

@@ -12,7 +12,7 @@ public class WindowsPlayer:Player
     public override Task Play(string fileName)
     {
         var sb = new StringBuilder();
-        var result = mciSendString($"Play {fileName}", sb, 1024 * 1024, IntPtr.Zero);
+        int result = mciSendString($"Play {fileName}", sb, 1024 * 1024, IntPtr.Zero);
         Console.WriteLine(result);
         return Task.CompletedTask;
     }

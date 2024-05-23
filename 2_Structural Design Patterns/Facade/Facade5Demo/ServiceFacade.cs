@@ -10,9 +10,9 @@ public class ServiceFacade : IServiceFacade
 
     public Tuple<int, double, string> CallFacade()
     {
-        var saResult = _serviceA.Method2();
-        var sbResult = _serviceB.Method2();
-        var scResult = _serviceC.Method1();
+        int saResult = _serviceA.Method2();
+        string? sbResult = _serviceB.Method2();
+        double scResult = _serviceC.Method1();
 
         return new Tuple<int, double, string>(saResult, scResult, sbResult);
     }

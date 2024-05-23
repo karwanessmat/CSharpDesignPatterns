@@ -28,7 +28,7 @@ public class ChatRoom : ICharRoom
 
     public  void Send(string from, string to, string message)
     {
-        var participant = _participants[to];
+        Participant participant = _participants[to];
 
         participant?.ReceiveFrom(@from, message);
     }

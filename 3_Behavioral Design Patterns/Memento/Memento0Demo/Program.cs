@@ -1,12 +1,13 @@
-﻿using Memento0Demo.Step2__Define_the_Originator_class;
+﻿using Memento0Demo.Step1__Create_the_Memento_class;
+using Memento0Demo.Step2__Define_the_Originator_class;
 using Memento0Demo.Step3__Implement_the_Caretaker_Class;
 
-Originator originator = new Originator();
-Caretaker caretaker = new Caretaker();
+var originator = new Originator();
+var caretaker = new Caretaker();
 
 // Set and save state
 originator.SetState("State #1");
-var savedMemento = originator.SaveStateToMemento();
+Memento? savedMemento = originator.SaveStateToMemento();
 caretaker.Add(savedMemento);
 
 // Set another state

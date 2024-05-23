@@ -7,8 +7,8 @@ public class ParticleFactory
 
     public ParticleType GetParticleType(string color, string sprite)
     {
-        var key = $"{color}_{sprite}";
-        if (_particles.TryGetValue(key, out var particleType)) 
+        string? key = $"{color}_{sprite}";
+        if (_particles.TryGetValue(key, out ParticleType? particleType)) 
             return particleType;
 
         particleType = new ParticleType(color, sprite);

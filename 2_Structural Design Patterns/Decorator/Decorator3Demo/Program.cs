@@ -20,7 +20,7 @@ class Program
 
         // make video borrowable, then borrow and display
         Console.WriteLine("\n Making video borrowable:");
-        Borrowable borrowVideo = new Borrowable(video);
+        var borrowVideo = new Borrowable(video);
         borrowVideo.BorrowItem("Customer #1");
         borrowVideo.BorrowItem("Customer #2");
 

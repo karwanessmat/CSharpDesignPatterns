@@ -9,8 +9,8 @@ class Program
     static void Main(string[] args)
     {
         // Client code.
-        Originator originator = new Originator("Step");
-        Caretaker caretaker = new Caretaker(originator);
+        var originator = new Originator("Step");
+        var caretaker = new Caretaker(originator);
 
         caretaker.Backup();
 

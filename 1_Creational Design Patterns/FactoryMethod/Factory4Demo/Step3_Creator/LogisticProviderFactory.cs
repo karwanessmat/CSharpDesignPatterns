@@ -23,7 +23,7 @@ public abstract class LogisticProviderFactory
 
     public void PlanDelivery()
     {
-        var transport = CreateTransport();
+        ITransport? transport = CreateTransport();
         transport.Deliver();
     }
 }

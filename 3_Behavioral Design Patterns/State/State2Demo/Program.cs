@@ -2,7 +2,7 @@
 using State2Demo._3_ContextClass;
 using System;
 
-Account account = new Account("Jim Johnson");
+var account = new Account("Jim Johnson");
 // Apply financial transactions
 account.Deposit(500.0);
 account.Deposit(300.0);

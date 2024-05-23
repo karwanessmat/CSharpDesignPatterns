@@ -1,4 +1,5 @@
-﻿using AbstractFactory2Demo.Step3_Abstract_Factories;
+﻿using AbstractFactory2Demo.Step1_AbstractProducts;
+using AbstractFactory2Demo.Step3_Abstract_Factories;
 
 namespace AbstractFactory2Demo.Step5_Client;
 
@@ -7,9 +8,9 @@ public class FurnitureStore(IFurnitureFactory furnitureFactory)
 {
     public void ShowCaseFurniture()
     {
-        var chair = furnitureFactory.CreateChair();
-        var sofa = furnitureFactory.CreateSofa();
-        var coffeeTable = furnitureFactory.CreateCoffeeTable();
+        IChair? chair = furnitureFactory.CreateChair();
+        ISofa? sofa = furnitureFactory.CreateSofa();
+        ICoffeeTable? coffeeTable = furnitureFactory.CreateCoffeeTable();
 
         chair.SitOn();
         sofa.RelaxOn();

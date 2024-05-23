@@ -20,7 +20,7 @@ public class ModifyPrice
 
     public void UndoActions()
     {
-        foreach (var command in Enumerable.Reverse(_commands))
+        foreach (ICommand command in Enumerable.Reverse(_commands))
         {
             command.UndoAction();
         }

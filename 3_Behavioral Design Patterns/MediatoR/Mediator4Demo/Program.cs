@@ -9,8 +9,8 @@ var mediator = new ConcreteMediator();
 //mediator.Register(c1);
 //mediator.Register(c2);
 
-var c1 = mediator.CreateColleague<Colleague1>();
-var c2 = mediator.CreateColleague<Colleague2>();
+Colleague1? c1 = mediator.CreateColleague<Colleague1>();
+Colleague2? c2 = mediator.CreateColleague<Colleague2>();
 
 c1.SendTo("Hello, World! (from c1)");
 c2.SendTo("hi, there! (from c2)");

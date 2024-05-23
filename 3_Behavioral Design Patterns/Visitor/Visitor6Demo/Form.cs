@@ -14,7 +14,7 @@ public class Form
 
     public void Execute(IOperation operation)
     {
-        foreach(var item in _items)
+        foreach(Control? item in _items)
         {
             item.Execute(operation);
         }

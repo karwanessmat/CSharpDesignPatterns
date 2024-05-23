@@ -17,7 +17,7 @@ namespace Command4Demo._4.Invoker;
         {
             while (_commands.Count > 0)
             {
-                var command = _commands.Pop();
+                ICommand? command = _commands.Pop();
                 command.Undo();
             }
         }

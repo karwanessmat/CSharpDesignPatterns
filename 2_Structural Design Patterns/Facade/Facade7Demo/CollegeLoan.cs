@@ -11,7 +11,7 @@ public class CollegeLoan
     public bool IsEligible(Student stud, int amount)
     {
         Console.WriteLine($"{stud.Name} applies for {amount:C} loan");
-        var eligible = true;
+        bool eligible = true;
 
         // verify creditworthyness of appliction
         if (!_bank.HasSufficientSavings(stud,amount))

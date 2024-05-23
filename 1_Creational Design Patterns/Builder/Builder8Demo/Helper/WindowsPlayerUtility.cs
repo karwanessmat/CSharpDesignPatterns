@@ -11,7 +11,7 @@ internal static class WindowsPlayerUtility
     public static void ExecuteMciCommand(string commandString)
     {
         var sb = new StringBuilder();
-        var result = mciSendString(commandString, sb, 1024 * 1024, IntPtr.Zero);
+        int result = mciSendString(commandString, sb, 1024 * 1024, IntPtr.Zero);
         Console.WriteLine(result);
     }
 }

@@ -11,7 +11,7 @@ var accountNumbers = new List<string>()
 };
 
 
-foreach (var t in accountNumbers)
+foreach (string? t in accountNumbers)
 {
     CreditUnionFactory? abAbstractFactory = CreditUnionFactoryProvider.GetCreditUnionFactory(t);
     if (abAbstractFactory is null)

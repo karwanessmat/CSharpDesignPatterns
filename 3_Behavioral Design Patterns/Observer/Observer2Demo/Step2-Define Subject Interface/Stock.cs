@@ -45,7 +45,7 @@ public abstract class Stock
 
     public void Notify()
     {
-        foreach (var investor in _investors)
+        foreach (IInvestor investor in _investors)
         {
             investor.Update(this);
         }

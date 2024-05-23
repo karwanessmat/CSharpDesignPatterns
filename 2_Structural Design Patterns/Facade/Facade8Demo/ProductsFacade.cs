@@ -11,7 +11,7 @@ internal class ProductsFacade
     public List<Product> GetProductListForAccount(string name)
     {
         // find account Id
-        var accountId = _accountDataService
+        int accountId = _accountDataService
             .GetAccounts()// accounts
             .Where(a => a.Name == name)
             .Select(a => a.Id)
@@ -21,7 +21,7 @@ internal class ProductsFacade
             return [];
 
         // find type of account category
-        var accountCategory = _accountCategoryService.GetCategory(accountId);
+        AccountCategory accountCategory = _accountCategoryService.GetCategory(accountId);
 
         return _productDataService.GetProductsForCategory((int)accountCategory);
     }

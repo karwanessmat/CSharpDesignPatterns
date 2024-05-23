@@ -37,7 +37,7 @@ internal class SortedBinaryTreeIterator(SortedBinaryTreeCollection aggregate) : 
         }
         else
         {
-            var originalValue = _current.Value;
+            int originalValue = _current.Value;
 
             while (true)
             {

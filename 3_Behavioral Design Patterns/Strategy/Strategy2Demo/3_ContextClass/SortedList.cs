@@ -29,7 +29,7 @@ class SortedList
 
         // Iterate over list and display results
 
-        foreach (var name in _list)
+        foreach (string name in _list)
         {
             Console.WriteLine($" {name}");   
         }

@@ -10,7 +10,7 @@ internal class Sandwich(string bread, string meat, string cheese, string veggies
 
     public override SandwichPrototype Clone()
     {
-        var ingredientList = GetIngredientList();
+        string ingredientList = GetIngredientList();
         Console.WriteLine("Cloning sandwich with ingredients: {0}", 
             ingredientList.Remove(ingredientList.LastIndexOf(",", StringComparison.Ordinal)));
 

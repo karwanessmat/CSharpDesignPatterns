@@ -1,4 +1,5 @@
 ﻿using System;
+using Iterator1Demo.Step1_Iterator_Interface;
 using Iterator1Demo.step4_Concrete_Collection;
 
 namespace Iterator1Demo;
@@ -16,7 +17,7 @@ internal class Program
         };
 
         // Create Iterator and provide aggregate
-        var iterator  = a.CreateIterator();
+        Iterator iterator  = a.CreateIterator();
 
         Console.WriteLine("Iterating over collection:");
 

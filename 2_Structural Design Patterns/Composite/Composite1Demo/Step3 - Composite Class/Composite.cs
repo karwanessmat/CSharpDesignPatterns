@@ -24,7 +24,7 @@ public class Composite(string name) : Component(name)
     public override void Display(int depth)
     {
         Console.WriteLine(new string('-', depth) + Name);
-        foreach (var component in _children)
+        foreach (Component component in _children)
         {
             component.Display(depth + 2);
         }

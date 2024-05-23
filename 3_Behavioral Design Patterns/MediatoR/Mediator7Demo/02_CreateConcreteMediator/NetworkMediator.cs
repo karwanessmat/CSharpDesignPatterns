@@ -16,7 +16,7 @@ internal class NetworkMediator : IMediator
 
     public void SendCommand(string receiver, string sender, string command)
     {
-        if (_participants.TryGetValue(receiver, out var participant))
+        if (_participants.TryGetValue(receiver, out IParticipant? participant))
         {
             participant.ReceiveCommand(sender, command);
         }

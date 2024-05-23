@@ -16,10 +16,10 @@ ProcessFactory processFactory = new CryptoCurrencyFactory();
 var forex = new Forex(exchange, processFactory);
 
 // Get forecast data
-var forecastData = forex.GetForecastData();
+List<double>? forecastData = forex.GetForecastData();
 
 // Print the forecast data
-foreach (var data in forecastData)
+foreach (double data in forecastData)
 {
     Console.WriteLine($"name {nameof(data)}: data" );
 }

@@ -18,7 +18,7 @@ public abstract class ProcessFactory
     /// <returns></returns>
     public IProcessor GetProcessor(string exchangeName, float volume)
     {
-        var processor = CreateProcessor(exchangeName, volume);
+        IProcessor? processor = CreateProcessor(exchangeName, volume);
         if (CalculateInterest()<199)
         {
             processor.Risk = Risk.Low;

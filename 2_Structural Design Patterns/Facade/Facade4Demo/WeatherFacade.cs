@@ -19,10 +19,10 @@ public class WeatherFacade(
 
     public WeatherFacadeResults GetTempInCity(string zipCode)
     {
-        var city = geoLookUpService.GetCityForZipCode(zipCode);
-        var state = geoLookUpService.GetStateForZipCode(zipCode);
-        var tempF = weatherService.GetTempFahrenheit(city, state);
-        var tempC = converterService.ConvertFahrenheitToCelsius(tempF);
+        City? city = geoLookUpService.GetCityForZipCode(zipCode);
+        State? state = geoLookUpService.GetStateForZipCode(zipCode);
+        int tempF = weatherService.GetTempFahrenheit(city, state);
+        int tempC = converterService.ConvertFahrenheitToCelsius(tempF);
 
         var results = new WeatherFacadeResults
         {

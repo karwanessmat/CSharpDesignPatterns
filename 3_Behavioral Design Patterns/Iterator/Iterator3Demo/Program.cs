@@ -1,4 +1,5 @@
 ﻿using System;
+using Iterator3Demo.Step1_Iterator_Interface.IteratorDesignPattern;
 using Iterator3Demo.step4_Concrete_Collection.IteratorDesignPattern;
 
 namespace Iterator3Demo;
@@ -18,7 +19,7 @@ class Program
         collection.AddEmployee(new Employee("Preety", 105));
 
         // Create iterator
-        var iterator = collection.CreateIterator();
+        IAbstractIterator iterator = collection.CreateIterator();
 
         //looping iterator      
         Console.WriteLine("Iterating over collection:");

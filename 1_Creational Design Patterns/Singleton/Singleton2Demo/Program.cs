@@ -1,4 +1,4 @@
 ﻿using Singleton2Demo;
 
-Singleton instance =Singleton.GetInstance();
+var instance =Singleton.GetInstance();
 instance.DoSomething();

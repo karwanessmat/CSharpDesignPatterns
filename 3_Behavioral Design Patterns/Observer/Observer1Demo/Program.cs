@@ -10,7 +10,7 @@ class Program
     {
 
         // Configure Observer pattern
-        ConcreteSubject s = new ConcreteSubject();
+        var s = new ConcreteSubject();
         s.Attach(new ConcreteObserver(s, "X"));
         s.Attach(new ConcreteObserver(s, "Y"));
         s.Attach(new ConcreteObserver(s, "Z"));
@@ -20,7 +20,7 @@ class Program
         s.Notify();
 
         Console.WriteLine("Enter new state:");
-        var newSate = Console.ReadLine();
+        string newSate = Console.ReadLine();
         s.Attach(new ConcreteObserver(s,newSate));
         s.SubjectState = "ABC2";
         s.Notify();

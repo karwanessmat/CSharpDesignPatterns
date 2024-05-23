@@ -10,11 +10,11 @@ internal class Client
     // most cases, it is not even aware that the handler is part of a chain.
     public static void ClientCode(AbstractHandler handler)
     {
-        foreach (var food in new List<string> { "Nut", "Banana", "Cup of coffee" })
+        foreach (string food in new List<string> { "Nut", "Banana", "Cup of coffee" })
         {
             Console.WriteLine($"Client: Who wants a {food}?");
 
-            var result = handler.Handle(food);
+            object result = handler.Handle(food);
 
             if (result != null)
             {

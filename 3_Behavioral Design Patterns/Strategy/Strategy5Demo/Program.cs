@@ -6,7 +6,7 @@ using Strategy5Demo._3_ContextClass;
 double saleAmount = 100.0;
 
 // Applying seasonal discount
-DiscountContext discountContext = new DiscountContext(new SeasonalDiscountStrategy());
+var discountContext = new DiscountContext(new SeasonalDiscountStrategy());
 Console.WriteLine($"Final price with seasonal discount: ${discountContext.ApplyDiscount(saleAmount)}");
 
 // Switching to promotional discount

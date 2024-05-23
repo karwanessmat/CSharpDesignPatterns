@@ -9,7 +9,7 @@ internal static class LinuxPlayerUtility
 
     public static void StartBashProcess(string command)
     {
-        var escapedArgs = command.Replace("\"", "\\\"");
+        string? escapedArgs = command.Replace("\"", "\\\"");
 
         var process = new Process()
         {

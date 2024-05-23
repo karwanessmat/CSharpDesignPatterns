@@ -10,14 +10,14 @@ public class Bakery
         CircleCookie originalCircleCookie = new(10);
 
         // Use the shape cutter to make a new shape
-        CircleCookie clonedCircleCookie = (CircleCookie)originalCircleCookie.Clone();
+        var clonedCircleCookie = (CircleCookie)originalCircleCookie.Clone();
         Console.WriteLine($"Cloned a circle cookie with diameter: {clonedCircleCookie.Diameter}");
 
         // Create an initial square cookie
         SquareCookie originalSquareCookie = new(3);
 
         // Use the cookie cutter to make a new cookie
-        SquareCookie clonedSquareCookie = (SquareCookie)originalSquareCookie.Clone();
+        var clonedSquareCookie = (SquareCookie)originalSquareCookie.Clone();
         Console.WriteLine($"Cloned a square cookie with side length: {clonedSquareCookie.SideLength}");
 
 

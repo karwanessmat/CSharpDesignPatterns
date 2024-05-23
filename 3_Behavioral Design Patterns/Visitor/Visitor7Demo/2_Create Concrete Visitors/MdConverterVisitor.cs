@@ -16,9 +16,9 @@ internal class MdConverterVisitor : IVisitor
             { "~~", ("<del>", "</del>") }
         };
 
-        foreach (var key in tagsToReplace.Keys)
+        foreach (string? key in tagsToReplace.Keys)
         {
-            var replacementTags = tagsToReplace[key];
+            (string, string) replacementTags = tagsToReplace[key];
 
             if (CountStringOccurrences(text, key) % 2 == 0)
                 text = ApplyTagReplacement(text, key, replacementTags.Item1, replacementTags.Item2);
@@ -61,13 +61,13 @@ internal class MdConverterVisitor : IVisitor
 
             if (count % 2 != 0)
             {
-                var prepend = outputOpeningTag;
+                string? prepend = outputOpeningTag;
                 text = text.Insert(currentIndex, prepend);
                 currentIndex += prepend.Length + inputTag.Length;
             }
             else
             {
-                var append = outputClosingTag;
+                string? append = outputClosingTag;
                 text = text.Insert(currentIndex, append);
                 currentIndex += append.Length + inputTag.Length;
             }

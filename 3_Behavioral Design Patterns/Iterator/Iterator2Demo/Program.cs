@@ -1,4 +1,5 @@
 ﻿using System;
+using Iterator2Demo.Step2_Concrete_Iterator;
 using Iterator2Demo.step4_Concrete_Collection;
 
 namespace Iterator2Demo;
@@ -22,13 +23,13 @@ internal class Program
         };
 
         // Create iterator
-        var iterator = collection.CreateIterator();
+        Iterator iterator = collection.CreateIterator();
 
         // Skip every other item
         iterator.Step = 2;
         Console.WriteLine("Iterating over collection:");
 
-        for (var item = iterator.First(); !iterator.IsDone; item = iterator.Next())
+        for (Item item = iterator.First(); !iterator.IsDone; item = iterator.Next())
         {
             Console.WriteLine(item.Name);
         }

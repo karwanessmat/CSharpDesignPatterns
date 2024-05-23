@@ -14,7 +14,7 @@ internal class Program
     {
 
         // Non-adapted chemical compound
-        Compound unknown = new Compound("Unknown");
+        var unknown = new Compound("Unknown");
         unknown.Display();
 
         // Adapted chemical compounds

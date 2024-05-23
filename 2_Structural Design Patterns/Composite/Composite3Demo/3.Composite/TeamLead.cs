@@ -26,7 +26,7 @@ public class TeamLead(string name, decimal salary) : Employee(name, salary)
     public override void GetData(int indent)
     {
         Console.WriteLine($"{new string('+', indent)} Team Leader: {Name}, Salary: {Salary}");
-        foreach (var employee in _employees)
+        foreach (Employee employee in _employees)
         {
             employee.GetData(indent + 2);
         }

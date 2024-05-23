@@ -29,7 +29,7 @@ public class GClooney(string tweet) : ICelebrity
     public void Notify(string tweet1)
     {
         tweet = tweet1;
-        foreach (var fan in _fans)
+        foreach (IFan? fan in _fans)
         {
             fan.Update(this);
         }

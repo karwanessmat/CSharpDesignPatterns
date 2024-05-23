@@ -52,7 +52,7 @@ public class ProductsRepository : IProductRepository
 
     public Product FindBy(string articleId)
     {
-        if (Products.TryGetValue(articleId, out var product))
+        if (Products.TryGetValue(articleId, out (Product Product, int Stock) product))
         {
             return product.Product;
         }

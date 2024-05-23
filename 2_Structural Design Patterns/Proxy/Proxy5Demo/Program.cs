@@ -8,10 +8,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        SensitiveDocument sensitiveDoc = new SensitiveDocument("Top Secret Document Content");
+        var sensitiveDoc = new SensitiveDocument("Top Secret Document Content");
 
         // Assuming the user's security level is 4
-        SecureDocumentProxy proxy = new SecureDocumentProxy(sensitiveDoc, 4);
+        var proxy = new SecureDocumentProxy(sensitiveDoc, 4);
         Console.WriteLine(proxy.GetContent()); // Outputs: Access Denied: You do not have the necessary security clearance.
 
         // Assuming the user's security level is 5

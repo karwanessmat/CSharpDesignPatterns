@@ -9,7 +9,7 @@ class Program
     {
             
         var proxyApi = new ProxyApi(); // Instantiates the proxy class
-        var price = proxyApi.GetCurrentGoldPrices(true);
+        int price = proxyApi.GetCurrentGoldPrices(true);
 
         Console.WriteLine(price > 0 ? $"Current Gold price is: {price}" : "No call the API");
 

@@ -18,7 +18,7 @@ public class Application
                 _carDirector.ConstructSportsCar(carBuilder);
                 break;
             case CarType.SUV:
-                _carDirector.ConstructSUV(carBuilder);
+                _carDirector.ConstructSuv(carBuilder);
                 break;
             case CarType.Sedan:
                 _carDirector.ConstructSedan(carBuilder);

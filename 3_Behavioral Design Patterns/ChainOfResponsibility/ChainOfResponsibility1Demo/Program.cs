@@ -20,7 +20,7 @@ class Program
 
         int[] requests = { 2,  14,5, 22, 18, 3, 27, 20 };
 
-        foreach (var request in requests)
+        foreach (int request in requests)
         {
             h1.HandlerRequest(request);
         }

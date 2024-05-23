@@ -6,7 +6,7 @@ public class CampaignManager
 {
     public ICampaign Duplicate(ICampaign campaign)
     {
-        var newCampaign = campaign.Clone();
+        ICampaign? newCampaign = campaign.Clone();
         return newCampaign;
     }
 }

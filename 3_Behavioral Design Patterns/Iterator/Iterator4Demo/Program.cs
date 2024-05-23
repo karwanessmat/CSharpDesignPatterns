@@ -26,7 +26,7 @@ static void PrintReporters(IIterator iterator)
     iterator.First();
     while (!iterator.IsDone())
     {
-        var item = iterator.Next();
+        string? item = iterator.Next();
         Console.WriteLine(item);
     }
 

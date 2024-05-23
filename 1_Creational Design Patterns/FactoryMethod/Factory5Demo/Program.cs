@@ -2,7 +2,7 @@
 using Factory5Demo.Step3_Creator;
 using Factory5Demo.step4_Concrete_Creator;
 
-ICreditUnionFactory factory = new  SavingsAcctFactory() as ICreditUnionFactory;
+var factory = new  SavingsAcctFactory() as ICreditUnionFactory;
 SavingsAccount citiAcct = factory.GetSavingsAccount("CITI-321");
 SavingsAccount nationalAcct = factory.GetSavingsAccount("NATIONAL-987");;
 

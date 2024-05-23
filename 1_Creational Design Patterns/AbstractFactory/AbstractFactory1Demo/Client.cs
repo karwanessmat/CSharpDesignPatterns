@@ -12,10 +12,10 @@ public class Client(IAbstractFactory factory)
     {
         ProductA _productA = factory.CreateProductA();
         ProductB _productB = factory.CreateProductB();
-        var result = $"""
-                      ProductA say {_productA.FunctionA()}
-                      ProductB say {_productB.FunctionB()}
-                      """;
+        string? result = $"""
+                          ProductA say {_productA.FunctionA()}
+                          ProductB say {_productB.FunctionB()}
+                          """;
 
         return result;
     }

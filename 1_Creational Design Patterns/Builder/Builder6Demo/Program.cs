@@ -1,16 +1,14 @@
-﻿using Builder6Demo.Step3___Concrete_Builder;
+﻿using Builder6Demo.Step1_Production;
+using Builder6Demo.Step3___Concrete_Builder;
 using Builder6Demo.Step4___Directors;
 
 var director = new ComputerDirector();
 
-var desktopBuilder = new DesktopBuilder();
-var desktop = director.Construct(desktopBuilder);
+Computer? desktop = director.Construct(new DesktopBuilder());
 Console.WriteLine(desktop);
 
-var laptopBuilder = new LaptopBuilder();
-var laptop = director.Construct(laptopBuilder);
+Computer? laptop = director.Construct(new LaptopBuilder());
 Console.WriteLine(laptop);
 
-var serverBuilder = new ServerBuilder();
-var server = director.Construct(serverBuilder);
+Computer? server = director.Construct(new ServerBuilder());
 Console.WriteLine(server);

@@ -1,11 +1,11 @@
 ﻿using Visitor7Demo._2_Create_Concrete_Visitors;
 using Visitor7Demo._4__Implement_Concrete_Elements;
 
-var mdText = @"This is **first** paragraph.
+string? mdText = @"This is **first** paragraph.
 This is *second* paragraph.
 This is ~~third~~ paragraph.";
 
-var htmlText = @"<p>This is <strong>first</strong> paragraph.</p>
+string? htmlText = @"<p>This is <strong>first</strong> paragraph.</p>
 <p>This is <em>second</em> paragraph.</p>
 <p>This is <del>third</del> paragraph.</p>
 <br/>";

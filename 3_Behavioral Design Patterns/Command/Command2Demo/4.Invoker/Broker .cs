@@ -16,7 +16,7 @@ public class Broker
     public void PlaceOrders(int value)
     {
 
-        foreach (var order in _orderList)
+        foreach (IOrder order in _orderList)
         {
             order.Execute(value);
         }

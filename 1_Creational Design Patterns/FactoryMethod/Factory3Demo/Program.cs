@@ -15,7 +15,7 @@ else
 
 Console.WriteLine("Please specify the path to the file to play");
 
-var filePath = Console.ReadLine() ?? string.Empty;
+string? filePath = Console.ReadLine() ?? string.Empty;
 playerFactory.CreatePlayer().Play(filePath);
 
 Console.ReadKey();

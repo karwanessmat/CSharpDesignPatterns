@@ -15,7 +15,7 @@ public class Caretaker(Originator originator)
 
     public void Backup()
     {
-        var memento = originator.SaveStateToMemento();
+        IMemento memento = originator.SaveStateToMemento();
         _mementos.Add(memento);
         Console.WriteLine("Saved stated");
     }
@@ -48,7 +48,7 @@ public class Caretaker(Originator originator)
     {
         Console.WriteLine("Caretaker: Here's the list of mementos:");
 
-        foreach (var memento in _mementos)
+        foreach (IMemento memento in _mementos)
         {
             Console.WriteLine(memento.GetName());
         }

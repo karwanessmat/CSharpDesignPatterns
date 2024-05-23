@@ -7,7 +7,7 @@ public class PaymentsProcessor:Handler
     public override bool ExecutedTask(DomainRequest request)
     {
         Console.WriteLine("Processing payment");
-        var response = request.CreditCardInfo == "12345";
+        bool response = request.CreditCardInfo == "12345";
         return response;
     }
 }

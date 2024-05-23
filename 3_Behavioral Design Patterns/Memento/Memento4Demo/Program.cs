@@ -1,8 +1,9 @@
-﻿using Memento4Demo.Step2__Define_the_Originator_class;
+﻿using Memento4Demo.Step1__Create_the_Memento_class;
+using Memento4Demo.Step2__Define_the_Originator_class;
 using Memento4Demo.Step3__Implement_the_Caretaker_Class;
 
-Editor editor = new Editor();
-Caretaker caretaker = new Caretaker(editor);
+var editor = new Editor();
+var caretaker = new Caretaker(editor);
 
 // Simulate user typing
 editor.SetText("Hello");
@@ -21,7 +22,7 @@ editor.Display();
 caretaker.Undo();
 editor.Display();
 Console.WriteLine();
-foreach (var memento in caretaker.UndoMementos())
+foreach (Memento? memento in caretaker.UndoMementos())
 {
     Console.WriteLine($"removed: {memento.GetText()}");
 }

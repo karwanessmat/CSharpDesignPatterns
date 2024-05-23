@@ -5,11 +5,11 @@ namespace Builder6Demo.Step3___Concrete_Builder;
 
 public class DesktopBuilder : IComputerBuilder
 {
-    private Computer _computer = new Computer();
+    private readonly Computer _computer = new();
 
     public void SetType() => _computer.Type = "Desktop";
-    public void SetCPU() => _computer.CPU = "Intel Core i7";
-    public void SetRAM() => _computer.RAM = "16GB";
+    public void SetCpu() => _computer.Cpu = "Intel Core i7";
+    public void SetRam() => _computer.Ram = "16GB";
     public void SetStorage() => _computer.Storage = "1TB SSD";
     public void SetGraphicsCard() => _computer.GraphicsCard = "NVIDIA RTX 3080";
 

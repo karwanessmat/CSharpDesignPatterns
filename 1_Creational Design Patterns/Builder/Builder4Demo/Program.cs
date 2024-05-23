@@ -7,19 +7,19 @@ var director = new CarDirector();
 
 var carBuilder = new CarBuilder();
 director.ConstructSportsCar(carBuilder);
-var car = carBuilder.GetCarProduct();
+Car? car = carBuilder.GetCarProduct();
 Console.WriteLine(car);
 Console.WriteLine("");
 
 var manualCarBuilder =new CarManualBuilder();
 director.ConstructSportsCar(manualCarBuilder);
-var manualCar = manualCarBuilder.GetProduct();
+Manual? manualCar = manualCarBuilder.GetProduct();
 Console.WriteLine(manualCar);
 
 Console.WriteLine("_____________________________________________");
 Console.WriteLine();
 
-Application app = new Application();
+var app = new Application();
 Car sportCar = app.MakeCar(CarType.SportsCar);
 Console.WriteLine(CarType.SportsCar.ToString());
 Console.WriteLine(sportCar);

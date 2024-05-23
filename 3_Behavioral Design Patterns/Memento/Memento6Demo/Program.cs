@@ -1,5 +1,6 @@
 ﻿//Editor Creation
 
+using Memento6Demo.Step1__Create_the_Memento_class;
 using Memento6Demo.Step2__Define_the_Originator_class;
 using Memento6Demo.Step3__Implement_the_Caretaker_Class;
 
@@ -13,7 +14,7 @@ var editor = new Editor()
 var history = new History();
 
 editor.ShowEditor();
-var createdEditorState = editor.CreateEditorState();
+EditorState? createdEditorState = editor.CreateEditorState();
 history.Push(createdEditorState);
 
 

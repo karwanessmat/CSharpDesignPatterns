@@ -34,7 +34,7 @@ public class AddToCardCommand(
             return;
         }
 
-        var lineItem = shoppingCartRepository.Get(product.ArticleId);
+        (Product Product, int Quantity) lineItem = shoppingCartRepository.Get(product.ArticleId);
         productRepository.IncreaseStockBy(product.ArticleId,lineItem.Quantity);
         shoppingCartRepository.RemoveAll(product.ArticleId);
     }

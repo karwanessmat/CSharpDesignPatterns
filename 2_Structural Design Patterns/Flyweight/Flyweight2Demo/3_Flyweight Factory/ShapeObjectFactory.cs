@@ -17,7 +17,7 @@ internal class ShapeObjectFactory
     {
         shapeName = shapeName.ToLower().Trim();
         IShape shape = null;
-        if (_shapes.TryGetValue(shapeName, out var shapeValue))
+        if (_shapes.TryGetValue(shapeName, out IShape shapeValue))
         {
             shape = shapeValue;
         }

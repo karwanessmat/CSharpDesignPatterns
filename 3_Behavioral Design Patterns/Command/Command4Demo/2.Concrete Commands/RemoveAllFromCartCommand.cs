@@ -15,9 +15,9 @@ public class RemoveAllFromCartCommand(
 
     public void Execute()
     {
-        var items = shoppingCartRepository.All().ToArray(); // Make a local copy
+        (Product Product, int Quantity)[]? items = shoppingCartRepository.All().ToArray(); // Make a local copy
 
-        foreach (var lineItem in items)
+        foreach ((Product Product, int Quantity) lineItem in items)
         {
             productRepository.IncreaseStockBy(lineItem.Product.ArticleId, lineItem.Quantity);
 

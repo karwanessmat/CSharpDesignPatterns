@@ -2,7 +2,10 @@
 
 namespace Builder7Demo;
 
-public class InventoryReport(string titleSection="", string dimensionsSection = "", string logisticsSection = "")
+public class InventoryReport(
+    string titleSection="", 
+    string dimensionsSection = "", 
+    string logisticsSection = "")
 {
     public string TitleSection = titleSection;
     public string DimensionsSection = dimensionsSection;

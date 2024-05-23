@@ -46,7 +46,7 @@ public class Subject(string productName, double productPrice, string availabilit
     {
         Console.WriteLine($"Product Name: {ProductName}, product Price: {ProductPrice}, is now available. so notifying all registered");
         Console.WriteLine();
-        foreach (var observer in _observers)
+        foreach (IObserver observer in _observers)
         {
             observer.Update(Availability);
         }

@@ -22,7 +22,7 @@ internal class Folder(string name) : IComponent
 
     public void Remove(string name)
     {
-        var childToRemove = _children.FirstOrDefault(c => c.Name == name);
+        IComponent? childToRemove = _children.FirstOrDefault(c => c.Name == name);
 
         if (childToRemove is not null)
             _children.Remove(childToRemove);
@@ -30,7 +30,7 @@ internal class Folder(string name) : IComponent
 
     public void DisplayChildren(string path)
     {
-        foreach (var item in _children)
+        foreach (IComponent? item in _children)
         {
             item.Display(path + Name +
                          Path.DirectorySeparatorChar);

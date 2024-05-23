@@ -72,7 +72,7 @@ public class ServiceConfigurationManager
     public string? GetConfiguration(string environment, string key)
     {
         if (_serviceConfiguration.ContainsKey(environment) &&
-            _serviceConfiguration[environment].TryGetValue(key, out var value))
+            _serviceConfiguration[environment].TryGetValue(key, out string? value))
         {
             return value;
         }

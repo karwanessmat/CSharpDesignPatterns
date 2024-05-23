@@ -18,7 +18,7 @@ public class Mortgage
         Console.WriteLine("{0} applies for {1:C} loan\n",
             customer.Name, amount);
 
-        var eligible = true;
+        bool eligible = true;
 
         // Check credit worthyness of applicant
 

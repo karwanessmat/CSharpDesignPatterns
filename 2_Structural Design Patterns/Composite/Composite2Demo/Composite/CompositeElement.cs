@@ -24,7 +24,7 @@ class CompositeElement(string name) : DrawingElement(name)
     public override void Display(int indent)
     {
         Console.WriteLine(new string('-', indent)+"+ "+Name);
-        foreach (var drawingElement in _elements)
+        foreach (DrawingElement drawingElement in _elements)
         {
             drawingElement.Display(indent+1);
         }

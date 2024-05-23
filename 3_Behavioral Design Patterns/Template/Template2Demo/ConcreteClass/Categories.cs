@@ -31,7 +31,7 @@ internal class Categories : DataAccessor
     public override void Process(int top)
     {
         Console.WriteLine("Categories _____");
-        for (var i = 0; i < top; i++)
+        for (int i = 0; i < top; i++)
         {
             Console.WriteLine(_categories[i]);
         }

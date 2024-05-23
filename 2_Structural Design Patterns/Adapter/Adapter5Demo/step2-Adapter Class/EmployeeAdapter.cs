@@ -21,9 +21,9 @@ public class EmployeeAdapter :  ITarget
     public List<string> GetEmployeeList()
     {
         var employeeList = new List<string>();
-        var employees = _hrSystem.GetEmployees();
+        string[][] employees = _hrSystem.GetEmployees();
            
-        foreach (var employee in employees)
+        foreach (string[] employee in employees)
         {
             employeeList.Add(employee[0]);
             employeeList.Add(",");

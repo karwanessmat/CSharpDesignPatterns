@@ -8,7 +8,7 @@ public class CircleAreaCalculator : IAreaCalculator
 {
     public double CalculateArea(params double[] dimensions)
     {
-        var radius = dimensions[0];
+        double radius = dimensions[0];
         return Math.PI * radius * radius;
     }
 }

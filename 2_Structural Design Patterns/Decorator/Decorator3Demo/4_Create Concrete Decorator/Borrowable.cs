@@ -25,7 +25,7 @@ internal class Borrowable(LibraryItem libraryItem) : LibraryDecorator(libraryIte
     {
         base.Display();
 
-        foreach (var borrower in Borrowers)
+        foreach (string borrower in Borrowers)
         {
             Console.WriteLine("borrower: "+borrower);
         }

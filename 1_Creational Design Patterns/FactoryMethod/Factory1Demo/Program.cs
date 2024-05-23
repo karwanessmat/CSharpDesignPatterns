@@ -1,4 +1,5 @@
 ﻿using System;
+using Factory1Demo.Step1_Product_Interface;
 using Factory1Demo.step4_Concrete_Creator;
 
 namespace Factory1Demo;
@@ -9,13 +10,13 @@ internal class Program
     {
 
         var shapeFactory = new ShapeFactory();
-        var rectangle = shapeFactory.GetShape("rectangle");
+        IShape rectangle = shapeFactory.GetShape("rectangle");
         rectangle.Draw();
         Console.WriteLine();
-        var circle = shapeFactory.GetShape("circle");
+        IShape circle = shapeFactory.GetShape("circle");
         circle.Draw();
         Console.WriteLine();
-        var square = shapeFactory.GetShape("square");
+        IShape square = shapeFactory.GetShape("square");
         square.Draw();
     }
 }

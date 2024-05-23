@@ -15,9 +15,9 @@ class Program
                 Question = "Who is an edit in your team?"
             };
 
-        TeamThree teamThree = new TeamThree(null, question);
-        TeamTwo teamTwo = new TeamTwo(teamThree, question);
-        TeamOne teamOne = new TeamOne(teamTwo, question);
+        var teamThree = new TeamThree(null, question);
+        var teamTwo = new TeamTwo(teamThree, question);
+        var teamOne = new TeamOne(teamTwo, question);
 
         teamOne.HandleRequest();
         Console.ReadKey();
