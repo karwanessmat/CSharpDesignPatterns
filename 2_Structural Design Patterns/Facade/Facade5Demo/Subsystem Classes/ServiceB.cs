@@ -1,17 +1,16 @@
-namespace Facade5Demo.Subsystem_Classes
+namespace Facade5Demo.Subsystem_Classes;
+
+public class ServiceB
 {
-    public class ServiceB
+    public void Method1()
     {
-        public void Method1()
-        {
-            // do some work
-        }
+        // do some work
+    }
 
-        public string Method2()
-        {
-            // do some work
+    public string Method2()
+    {
+        // do some work
 
-            return "ServiceB";
-        }
+        return "ServiceB";
     }
 }

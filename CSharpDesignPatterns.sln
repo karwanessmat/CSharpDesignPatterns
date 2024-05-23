@@ -12,6 +12,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton1Demo", "1_Creational Design Patterns\Singleton\Singleton1Demo\Singleton1Demo.csproj", "{A9D26559-9054-46E6-AB18-FB261DEF596C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Creational Design Patterns", "1_Creational Design Patterns", "{6D989255-9BE3-48EA-8D73-83B9B87B631A}"
+	ProjectSection(SolutionItems) = preProject
+		1_Creational Design Patterns\Creational.md = 1_Creational Design Patterns\Creational.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory Method", "{F74AF1EF-71AD-457E-A929-43357516B3C0}"
 	ProjectSection(SolutionItems) = preProject
@@ -44,6 +47,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype1Demo", "1_Creational Design Patterns\Prototype\Prototype1Demo\Prototype1Demo\Prototype1Demo.csproj", "{8B9FF917-6670-4D0A-BF32-757DEEFE009D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Structural Design Patterns", "2_Structural Design Patterns", "{11C5BC1C-0FBC-43A6-BF38-0EC500B48E28}"
+	ProjectSection(SolutionItems) = preProject
+		2_Structural Design Patterns\Structural.md = 2_Structural Design Patterns\Structural.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{5B447A62-3D8B-41AF-96B4-B01AEEFBB815}"
 	ProjectSection(SolutionItems) = preProject

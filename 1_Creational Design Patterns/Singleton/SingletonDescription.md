@@ -94,12 +94,3 @@ class Program
 ## Conclusion
 
 The Singleton design pattern is a widely-used pattern for scenarios where a single instance of a class is necessary. It should be used carefully, as it introduces a global state into an application and can make unit testing difficult due to its inherent nature of not being easily replaceable with a mock implementation.
-
-## License
-
-Specify the license under which this Singleton implementation is distributed.
-
-For more information or contributions, please contact [Your Contact Information].
-```
-
-Replace the placeholder `[Your Contact Information]` with your actual contact information and `Specify the license under which this Singleton implementation is distributed` with your chosen license. This `README.md` gives a clear guide to understanding and implementing the Singleton pattern in a C# application.

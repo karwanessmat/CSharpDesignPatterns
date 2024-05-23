@@ -1,12 +1,11 @@
 ﻿using Template7Demo.AbstractClass;
 
-namespace Template7Demo
+namespace Template7Demo;
+
+public class ColdVeggiePizza : PanFood
 {
-    public class ColdVeggiePizza : PanFood
+    public ColdVeggiePizza()
     {
-        public ColdVeggiePizza()
-        {
-            RequiresBaking = false;
-        }
+        RequiresBaking = false;
     }
 }

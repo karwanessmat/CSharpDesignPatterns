@@ -1,9 +1,8 @@
-﻿namespace Factory6Demo.Models
+﻿namespace Factory6Demo.Models;
+
+public enum Risk
 {
-    public enum Risk
-    {
-        High,
-        Medium,
-        Low
-    }
+    High,
+    Medium,
+    Low
 }

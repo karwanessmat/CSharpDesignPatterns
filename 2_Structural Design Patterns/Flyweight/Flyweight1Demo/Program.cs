@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace Flyweight1Demo
+namespace Flyweight1Demo;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.WriteLine("Hello World!");
     }
 }

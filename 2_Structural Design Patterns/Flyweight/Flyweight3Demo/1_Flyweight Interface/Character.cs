@@ -1,20 +1,17 @@
-﻿namespace Flyweight3Demo._1_Flyweight_Interface
+﻿namespace Flyweight3Demo._1_Flyweight_Interface;
+
+/// <summary>
+/// The 'Flyweight' abstract class
+/// </summary>
+internal abstract class Character
+
 {
-    /// <summary>
+    protected char Symbol;
+    protected int Width;
+    protected int Height;
+    protected int Ascent;
+    protected int Descent;
+    protected int PointSize;
 
-    /// The 'Flyweight' abstract class
-
-    /// </summary>
-    internal abstract class Character
-
-    {
-        protected char Symbol;
-        protected int Width;
-        protected int Height;
-        protected int Ascent;
-        protected int Descent;
-        protected int PointSize;
-
-        public abstract void Display(int pointSize);
-    }
+    public abstract void Display(int pointSize);
 }

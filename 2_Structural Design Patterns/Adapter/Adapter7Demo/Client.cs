@@ -1,13 +1,12 @@
 ﻿using Adapter7Demo.Step1___Interface;
 
-namespace Adapter7Demo
+namespace Adapter7Demo;
+
+// Client code
+internal class Client(IAdapter adapter)
 {
-    // Client code
-    internal class Client(IAdapter adapter)
+    public void DoWork()
     {
-        public void DoWork()
-        {
-            adapter.SomeMethod();
-        }
+        adapter.SomeMethod();
     }
 }

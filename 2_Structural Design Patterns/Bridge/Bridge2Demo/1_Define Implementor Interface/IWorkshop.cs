@@ -1,8 +1,7 @@
-﻿namespace Bridge2Demo._1_Define_Implementor_Interface
+﻿namespace Bridge2Demo._1_Define_Implementor_Interface;
+
+// Implementor for bridge pattern 
+public interface IWorkshop
 {
-    // Implementor for bridge pattern 
-   public interface IWorkshop
-    {
-         public void Work();
-    }
+    public void Work();
 }

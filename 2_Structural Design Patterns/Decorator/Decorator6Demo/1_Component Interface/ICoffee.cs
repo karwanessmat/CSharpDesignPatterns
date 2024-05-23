@@ -1,7 +1,6 @@
-﻿namespace Decorator6Demo._1_Component_Interface
+﻿namespace Decorator6Demo._1_Component_Interface;
+
+public interface ICoffee
 {
-    public interface ICoffee
-    {
-        string Serve();
-    }
+    string Serve();
 }

@@ -1,19 +1,18 @@
-namespace Facade4Demo.Services
+namespace Facade4Demo.Services;
+
+public class ConverterService
 {
-    public class ConverterService
+    public int ConvertFahrenheitToCelsius(int fahrenheit)
     {
-        public int ConvertFahrenheitToCelsius(int fahrenheit)
-        {
-            double celsius = (5.0 / 9.0) * (fahrenheit - 32);
+        double celsius = (5.0 / 9.0) * (fahrenheit - 32);
             
-            return (int) celsius;
-        }
+        return (int) celsius;
+    }
         
-        public int ConvertCelsiusToFahrenheit(int celsius)
-        {
-            double fahrenheit = celsius * (1.8 + 32);
+    public int ConvertCelsiusToFahrenheit(int celsius)
+    {
+        double fahrenheit = celsius * (1.8 + 32);
             
-            return (int) fahrenheit;
-        }
+        return (int) fahrenheit;
     }
 }

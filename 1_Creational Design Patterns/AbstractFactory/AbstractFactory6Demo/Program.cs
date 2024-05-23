@@ -13,7 +13,7 @@ var accountNumbers = new List<string>()
 
 foreach (var t in accountNumbers)
 {
-    CreditUnionFactory abAbstractFactory = CreditUnionFactoryProvider.GetCreditUnionFactory(t);
+    CreditUnionFactory? abAbstractFactory = CreditUnionFactoryProvider.GetCreditUnionFactory(t);
     if (abAbstractFactory is null)
     {
         Console.WriteLine($"Sorry this credit union w/ account number {t} is invalid.");

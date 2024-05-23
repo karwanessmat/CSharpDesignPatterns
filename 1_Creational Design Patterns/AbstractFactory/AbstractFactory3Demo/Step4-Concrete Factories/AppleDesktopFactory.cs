@@ -4,23 +4,22 @@ using AbstractFactory3Demo.Step2_Concrete_Products.ComputerTypes;
 using AbstractFactory3Demo.Step2_Concrete_Products.ProcessorTypes;
 using AbstractFactory3Demo.Step3_Abstract_Factory;
 
-namespace AbstractFactory3Demo.Step4_Concrete_Factories
+namespace AbstractFactory3Demo.Step4_Concrete_Factories;
+
+public  class AppleDesktopFactory:IComputerFactory
 {
-  public  class AppleDesktopFactory:IComputerFactory
+    public IBrand Brand()
     {
-        public IBrand Brand()
-        {
-            return new Apple();
-        }
+        return new Apple();
+    }
 
-        public virtual IComputerType ComputerTypes()
-        {
-         return  new Desktop();
-        }
+    public virtual IComputerType ComputerTypes()
+    {
+        return  new Desktop();
+    }
 
-        public virtual IProcessor Processor()
-        {
-            return new ProcessorI9();
-        }
+    public virtual IProcessor Processor()
+    {
+        return new ProcessorI9();
     }
 }

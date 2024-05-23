@@ -1,8 +1,7 @@
-﻿namespace AbstractFactory3Demo.Enums
+﻿namespace AbstractFactory3Demo.Enums;
+
+public enum ComputerTypes
 {
-   public enum ComputerTypes
-    {
-        Laptop,
-        Desktop
-    }
+    Laptop,
+    Desktop
 }

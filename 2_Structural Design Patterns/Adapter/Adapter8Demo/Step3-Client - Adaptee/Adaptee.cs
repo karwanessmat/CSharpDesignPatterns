@@ -1,10 +1,9 @@
-﻿namespace Adapter8Demo.Step3_Client___Adaptee
+﻿namespace Adapter8Demo.Step3_Client___Adaptee;
+
+public class Adaptee
 {
-    public class Adaptee
+    public void IncompatibleMethod()
     {
-        public void IncompatibleMethod()
-        {
-            // Some incompatible behavior
-        }
+        // Some incompatible behavior
     }
 }

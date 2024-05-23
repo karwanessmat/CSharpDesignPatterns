@@ -1,20 +1,18 @@
 ﻿using System;
 using Mediator2Demo._03_DefineComponentBaseClass;
 
-namespace Mediator2Demo._04_CreateConcreteComponents
+namespace Mediator2Demo._04_CreateConcreteComponents;
+
+/// <summary>
+/// A 'ConcreteColleague' class
+/// </summary>
+class Group2(string name) : Participant(name)
 {
-    /// <summary>
-    /// A 'ConcreteColleague' class
-    /// </summary>
+    // Constructor
 
-    class Group2(string name) : Participant(name)
+    public override void ReceiveFrom(string from, string message)
     {
-        // Constructor
-
-        public override void ReceiveFrom(string from, string message)
-        {
-            Console.Write("To a non-Beatle: ");
-            base.ReceiveFrom(from, message);
-        }
+        Console.Write("To a non-Beatle: ");
+        base.ReceiveFrom(from, message);
     }
 }

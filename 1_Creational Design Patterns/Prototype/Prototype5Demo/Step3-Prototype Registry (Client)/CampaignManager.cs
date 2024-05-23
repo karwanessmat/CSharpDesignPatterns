@@ -1,14 +1,13 @@
 ﻿using Prototype5Demo.Step1_Prototype_interface;
 
-namespace Prototype5Demo.Step3_Prototype_Registry__Client_
+namespace Prototype5Demo.Step3_Prototype_Registry__Client_;
+
+public class CampaignManager
 {
-    public class CampaignManager
+    public ICampaign Duplicate(ICampaign campaign)
     {
-        public ICampaign Duplicate(ICampaign campaign)
-        {
-           var newCampaign = campaign.Clone();
-           return newCampaign;
-        }
+        var newCampaign = campaign.Clone();
+        return newCampaign;
     }
 }
 

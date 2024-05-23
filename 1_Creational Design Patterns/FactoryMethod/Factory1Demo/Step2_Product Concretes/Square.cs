@@ -1,13 +1,12 @@
 ﻿using System;
 using Factory1Demo.Step1_Product_Interface;
 
-namespace Factory1Demo.Step2_Product_Concretes
+namespace Factory1Demo.Step2_Product_Concretes;
+
+public class Square:IShape
 {
-   public class Square:IShape
+    public void Draw()
     {
-        public void Draw()
-        {
-            Console.WriteLine("Shape of Square");
-        }
+        Console.WriteLine("Shape of Square");
     }
 }

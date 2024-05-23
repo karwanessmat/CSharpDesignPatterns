@@ -1,31 +1,30 @@
-﻿namespace Template7Demo.Inheritance
+﻿namespace Template7Demo.Inheritance;
+
+public abstract class TemplateBase
 {
-    public abstract class TemplateBase
+    private bool _importantSetting;
+    public void Do()
     {
-        private bool _importantSetting;
-        public void Do()
-        {
-            BeforeDoing();
-            Initialize();
-            AfterDone();
-        }
-
-        public virtual void BeforeDoing()
-        { }
-
-        public abstract void AfterDone();
-
-        private void Initialize()
-        {
-            _importantSetting = true;
-        }
+        BeforeDoing();
+        Initialize();
+        AfterDone();
     }
 
-    public class TemplateChild : TemplateBase
+    public virtual void BeforeDoing()
+    { }
+
+    public abstract void AfterDone();
+
+    private void Initialize()
     {
-        public override void AfterDone()
-        {
-            // do other stuff
-        }
+        _importantSetting = true;
+    }
+}
+
+public class TemplateChild : TemplateBase
+{
+    public override void AfterDone()
+    {
+        // do other stuff
     }
 }

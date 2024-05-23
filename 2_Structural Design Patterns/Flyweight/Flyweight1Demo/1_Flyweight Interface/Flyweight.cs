@@ -1,7 +1,6 @@
-﻿namespace Flyweight1Demo._1_Flyweight_Interface
+﻿namespace Flyweight1Demo._1_Flyweight_Interface;
+
+public interface IFlyweight
 {
-    public interface IFlyweight
-    {
-        void StatefulOperation(object o);
-    }
+    void StatefulOperation(object o);
 }

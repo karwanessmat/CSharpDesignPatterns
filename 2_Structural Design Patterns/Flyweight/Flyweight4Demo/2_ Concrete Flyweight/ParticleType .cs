@@ -1,10 +1,10 @@
 ﻿using Flyweight4Demo._1_Flyweight_Abastract_Interface;
 
-namespace Flyweight4Demo._2__Concrete_Flyweight
-{
-    public class ParticleType(string color, string sprite): Flyweight
+namespace Flyweight4Demo._2__Concrete_Flyweight;
 
-    {
+public class ParticleType(string color, string sprite): Flyweight
+
+{
     public string Color { get; } = color;
     public string Sprite { get; } = sprite;
 
@@ -13,6 +13,5 @@ namespace Flyweight4Demo._2__Concrete_Flyweight
     {
         // Draw the particle at the given coordinates with its sprite
         Console.WriteLine($"Drawing particle at {coordinates} with color {Color} and sprite {Sprite}");
-    }
     }
 }

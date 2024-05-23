@@ -1,17 +1,16 @@
-﻿namespace Memento1Demo.Step1__Create_the_Memento_class
+﻿namespace Memento1Demo.Step1__Create_the_Memento_class;
+
+public class Memento
 {
-    public class Memento
+    private int _state;
+
+    public int GetState()
     {
-        private int _state;
+        return _state;
+    }
 
-        public int GetState()
-        {
-            return _state;
-        }
-
-        public void SetState(int state)
-        {
-            _state = state;
-        }
+    public void SetState(int state)
+    {
+        _state = state;
     }
 }

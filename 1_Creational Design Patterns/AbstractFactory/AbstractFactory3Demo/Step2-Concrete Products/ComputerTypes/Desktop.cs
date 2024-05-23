@@ -1,13 +1,12 @@
 ﻿using AbstractFactory3Demo.Step1_Abstract_Products;
 
 //Concrete_Products are specific implementations of the abstract products, representing different products to be created.
-namespace AbstractFactory3Demo.Step2_Concrete_Products.ComputerTypes
+namespace AbstractFactory3Demo.Step2_Concrete_Products.ComputerTypes;
+
+public  class Desktop:IComputerType
 {
-  public  class Desktop:IComputerType
+    public string GetComputerTypes()
     {
-        public string GetComputerTypes()
-        {
-            return Enums.ComputerTypes.Desktop.ToString();
-        }
+        return Enums.ComputerTypes.Desktop.ToString();
     }
 }

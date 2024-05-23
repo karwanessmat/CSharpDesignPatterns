@@ -1,17 +1,16 @@
 ﻿using AbstractFactory3Demo.Step3_Abstract_Factory;
 
-namespace AbstractFactory3Demo.Step5_Client
+namespace AbstractFactory3Demo.Step5_Client;
+
+internal class EmployeeSystemManager(IComputerFactory computerFactory)
 {
-    internal class EmployeeSystemManager(IComputerFactory computerFactory)
+    public string GetSystemDetails()
     {
-        public string GetSystemDetails()
-      {
-          var brand = computerFactory.Brand();
-          var processor = computerFactory.Processor();
-          var computerType = computerFactory.ComputerTypes();
+        var brand = computerFactory.Brand();
+        var processor = computerFactory.Processor();
+        var computerType = computerFactory.ComputerTypes();
 
 
-          return $"{brand.GetBrand()} {processor.GetProcessor()} {computerType.GetComputerTypes()}";
-      }
-  }
+        return $"{brand.GetBrand()} {processor.GetProcessor()} {computerType.GetComputerTypes()}";
+    }
 }

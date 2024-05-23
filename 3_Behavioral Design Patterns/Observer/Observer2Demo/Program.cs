@@ -2,25 +2,24 @@
 using Observer2Demo.Step3_Implement_Concrete_Subject;
 using Observer2Demo.Step4_Implement_Concrete_Observers;
 
-namespace Observer2Demo
+namespace Observer2Demo;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            var ibm = new Ibm("IBM",250);
-            ibm.Attach(new Investor("Network"));
-            ibm.Attach(new Investor("Personal Computer"));
-            ibm.Attach(new Investor("Personal test"));
+        var ibm = new Ibm("IBM",250);
+        ibm.Attach(new Investor("Network"));
+        ibm.Attach(new Investor("Personal Computer"));
+        ibm.Attach(new Investor("Personal test"));
 
-            // Fluctuating prices will notify investors
-            ibm.Price = 250.55;
-            ibm.Price = 150;
-            ibm.Price = 177.88;
-            ibm.Price = 250;
+        // Fluctuating prices will notify investors
+        ibm.Price = 250.55;
+        ibm.Price = 150;
+        ibm.Price = 177.88;
+        ibm.Price = 250;
 
-            Console.ReadKey();
-        }
+        Console.ReadKey();
     }
 }
 

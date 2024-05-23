@@ -1,9 +1,8 @@
-﻿namespace Decorator2Demo._1_Component_Interface
-{
-    public interface ICar
-    {
+﻿namespace Decorator2Demo._1_Component_Interface;
 
-        string GetDescription();
-        double GetCost();
-    }
+public interface ICar
+{
+
+    string GetDescription();
+    double GetCost();
 }

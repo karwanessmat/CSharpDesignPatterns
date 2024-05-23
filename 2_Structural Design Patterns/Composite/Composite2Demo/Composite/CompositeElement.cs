@@ -2,33 +2,31 @@
 using System.Collections.Generic;
 using Composite2Demo._1_Component;
 
-namespace Composite2Demo.Composite
+namespace Composite2Demo.Composite;
+
+/// <summary>
+/// Composite
+/// </summary>
+class CompositeElement(string name) : DrawingElement(name)
 {
+    readonly List<DrawingElement> _elements=new();
 
-    /// <summary>
-    /// Composite
-    /// </summary>
-    class CompositeElement(string name) : DrawingElement(name)
+    public override void Add(DrawingElement d)
     {
-        readonly List<DrawingElement> _elements=new();
+        _elements.Add(d);
+    }
 
-        public override void Add(DrawingElement d)
-        {
-            _elements.Add(d);
-        }
+    public override void Remove(DrawingElement d)
+    {
+        _elements.Remove(d);
+    }
 
-        public override void Remove(DrawingElement d)
+    public override void Display(int indent)
+    {
+        Console.WriteLine(new string('-', indent)+"+ "+Name);
+        foreach (var drawingElement in _elements)
         {
-            _elements.Remove(d);
-        }
-
-        public override void Display(int indent)
-        {
-            Console.WriteLine(new string('-', indent)+"+ "+Name);
-            foreach (var drawingElement in _elements)
-            {
-                drawingElement.Display(indent+1);
-            }
+            drawingElement.Display(indent+1);
         }
     }
 }

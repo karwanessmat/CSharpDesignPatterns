@@ -1,38 +1,35 @@
 ﻿using System;
 
-namespace Singleton1Demo
+namespace Singleton1Demo;
+
+public  class Singleton
 {
-   public  class Singleton
+    public static int Count;
+    private static Singleton _instance;
+    private static readonly  object Obj=new();
+    public static Singleton GetInstance
     {
-        public static int Count;
-        private static Singleton _instance;
-        private static readonly  object Obj=new();
-        public static Singleton GetInstance
+        get
         {
-            get
-            {
-                if (_instance != null) 
-                    return _instance;
-
-                lock (Obj)
-                {
-                    _instance ??= new Singleton();
-                }
-
+            if (_instance != null) 
                 return _instance;
+
+            lock (Obj)
+            {
+                _instance ??= new Singleton();
             }
-        }
-        private Singleton()
-        {
-            Count++;
-            Console.WriteLine(Count);
-        }
-        public void DisplayMessage(string msg)
-        {
-            Console.WriteLine(msg);
-        }
 
-
+            return _instance;
+        }
+    }
+    private Singleton()
+    {
+        Count++;
+        Console.WriteLine(Count);
+    }
+    public void DisplayMessage(string msg)
+    {
+        Console.WriteLine(msg);
     }
 
 

@@ -1,52 +1,51 @@
 ﻿using Template7Demo.services;
 
-namespace Template7Demo.AbstractClass
+namespace Template7Demo.AbstractClass;
+
+public abstract class PanFoodServiceBase<T> where T : PanFood, new()
 {
-    public abstract class PanFoodServiceBase<T> where T : PanFood, new()
+    protected readonly LoggerAdapter _logger;
+    protected T _item = null;
+
+    protected PanFoodServiceBase(LoggerAdapter logger)
     {
-        protected readonly LoggerAdapter _logger;
-        protected T _item = null;
+        _logger = logger;
+    }
 
-        protected PanFoodServiceBase(LoggerAdapter logger)
+    // The Template Method
+    public T Prepare()
+    {
+        _item = new T();
+
+        PrepareCrust();
+
+        AddToppings();
+
+        Cover();
+
+        if (_item.RequiresBaking)
         {
-            _logger = logger;
+            Bake();
         }
 
-        // The Template Method
-        public T Prepare()
-        {
-            _item = new T();
+        Slice();
 
-            PrepareCrust();
+        return _item;
+    }
 
-            AddToppings();
+    protected abstract void PrepareCrust();
 
-            Cover();
+    protected abstract void AddToppings();
 
-            if (_item.RequiresBaking)
-            {
-                Bake();
-            }
+    protected virtual void Bake()
+    {
+        _logger.Log("Bake the item.");
+    }
 
-            Slice();
+    protected abstract void Slice();
 
-            return _item;
-        }
-
-        protected abstract void PrepareCrust();
-
-        protected abstract void AddToppings();
-
-        protected virtual void Bake()
-        {
-            _logger.Log("Bake the item.");
-        }
-
-        protected abstract void Slice();
-
-        protected virtual void Cover()
-        {
-            // does nothing by default
-        }
+    protected virtual void Cover()
+    {
+        // does nothing by default
     }
 }

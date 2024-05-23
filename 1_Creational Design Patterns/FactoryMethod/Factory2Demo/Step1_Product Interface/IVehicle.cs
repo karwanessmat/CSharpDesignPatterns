@@ -1,7 +1,6 @@
-﻿namespace Factory2Demo.Step1_Product_Interface
+﻿namespace Factory2Demo.Step1_Product_Interface;
+
+public interface IVehicle
 {
-   public interface IVehicle
-    {
-        void Drive(int km);
-    }
+    void Drive(int km);
 }

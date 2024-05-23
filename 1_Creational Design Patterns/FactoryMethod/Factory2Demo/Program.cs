@@ -2,22 +2,21 @@
 using Factory2Demo.Step3_Creator;
 using Factory2Demo.step4_Concrete_Creator;
 
-namespace Factory2Demo
+namespace Factory2Demo;
+
+internal class Program
 {
-    internal class Program
+    private static void Main(string[] args)
     {
-        private static void Main(string[] args)
-        {
-            CreatorVehicleFactory vf = new ConcreteVehicleFactory();
+        CreatorVehicleFactory vf = new ConcreteVehicleFactory();
 
 
-            var bike = vf.GetVehicle(VehicleType.Bike);
-            bike.Drive(50);
-            Console.WriteLine();
+        var bike = vf.GetVehicle(VehicleType.Bike);
+        bike.Drive(50);
+        Console.WriteLine();
 
-            var scooter = vf.GetVehicle(VehicleType.Scooter);
-            scooter.Drive(10);
+        var scooter = vf.GetVehicle(VehicleType.Scooter);
+        scooter.Drive(10);
 
-        }
     }
 }

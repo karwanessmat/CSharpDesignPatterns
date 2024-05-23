@@ -1,13 +1,12 @@
 ﻿using Adapter8Demo.Step1___Interface;
 
-namespace Adapter8Demo
+namespace Adapter8Demo;
+
+public class Client(ITarget target)
 {
-    public class Client(ITarget target)
+    public void DoWork()
     {
-        public void DoWork()
-        {
-            target.SomeMethod();
-        }
+        target.SomeMethod();
     }
 }
 

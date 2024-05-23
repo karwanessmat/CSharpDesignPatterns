@@ -1,8 +1,7 @@
-﻿namespace Command1Demo
+﻿namespace Command1Demo;
+
+public enum PriceAction
 {
-    public enum PriceAction
-    {
-        Increase,
-        Decrease
-    }
+    Increase,
+    Decrease
 }

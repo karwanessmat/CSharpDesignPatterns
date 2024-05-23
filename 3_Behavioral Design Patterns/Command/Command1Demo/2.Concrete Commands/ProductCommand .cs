@@ -1,40 +1,37 @@
 ﻿using Command1Demo._1.Command_Interface;
 using Command1Demo._3.Receiver;
 
-namespace Command1Demo._2.Concrete_Commands
+namespace Command1Demo._2.Concrete_Commands;
+
+public class ProductCommand(Product product, PriceAction priceAction, int amount) : ICommand
 {
+    public bool IsCommandExecuted { get; private set; }
 
-    public class ProductCommand(Product product, PriceAction priceAction, int amount) : ICommand
+    public void ExecuteAction()
     {
-        public bool IsCommandExecuted { get; private set; }
-
-        public void ExecuteAction()
+        if (priceAction == PriceAction.Increase)
         {
-            if (priceAction == PriceAction.Increase)
-            {
-                product.IncreasePrice(amount);
-                IsCommandExecuted = true;
-            }
-            else
-            {
-                IsCommandExecuted = product.DecreasePrice(amount);
-            }
+            product.IncreasePrice(amount);
+            IsCommandExecuted = true;
         }
-
-        public void UndoAction()
+        else
         {
-            if (!IsCommandExecuted)
-                return;
-
-            if (priceAction == PriceAction.Increase)
-            {
-                product.DecreasePrice(amount);
-            }
-            else
-            {
-                product.IncreasePrice(amount);
-            }
+            IsCommandExecuted = product.DecreasePrice(amount);
         }
     }
 
+    public void UndoAction()
+    {
+        if (!IsCommandExecuted)
+            return;
+
+        if (priceAction == PriceAction.Increase)
+        {
+            product.DecreasePrice(amount);
+        }
+        else
+        {
+            product.IncreasePrice(amount);
+        }
+    }
 }

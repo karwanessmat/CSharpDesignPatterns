@@ -1,8 +1,7 @@
-﻿namespace Factory2Demo
+﻿namespace Factory2Demo;
+
+public enum VehicleType
 {
-    public enum VehicleType
-    {
-        Bike=1,
-        Scooter
-    }
+    Bike=1,
+    Scooter
 }

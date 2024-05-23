@@ -1,7 +1,6 @@
-﻿namespace Proxy2Demo._1._Subject_Interface
+﻿namespace Proxy2Demo._1._Subject_Interface;
+
+public interface IPrice
 {
-   public interface IPrice
-   {
-       int GetPrice();
-   }
+    int GetPrice();
 }

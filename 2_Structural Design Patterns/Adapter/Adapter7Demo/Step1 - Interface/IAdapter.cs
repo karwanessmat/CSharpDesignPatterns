@@ -1,8 +1,7 @@
-﻿namespace Adapter7Demo.Step1___Interface
+﻿namespace Adapter7Demo.Step1___Interface;
+
+// Adapter interface
+public interface IAdapter
 {
-    // Adapter interface
-    public interface IAdapter
-    {
-        void SomeMethod();
-    }
+    void SomeMethod();
 }

@@ -1,7 +1,6 @@
-namespace Facade5Demo
+namespace Facade5Demo;
+
+public interface IServiceFacade
 {
-    public interface IServiceFacade
-    {
-        Tuple<int, double, string> CallFacade();
-    }
+    Tuple<int, double, string> CallFacade();
 }

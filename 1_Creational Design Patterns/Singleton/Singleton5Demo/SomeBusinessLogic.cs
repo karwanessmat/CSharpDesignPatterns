@@ -1,12 +1,11 @@
-﻿namespace Singleton5Demo
+﻿namespace Singleton5Demo;
+
+public class SomeBusinessLogic
 {
-    public class SomeBusinessLogic
+    public void Process()
     {
-        public void Process()
-        {
-            Logger.Instance.Log("Process started");
-            Console.WriteLine("process is running");
-            Logger.Instance.Log("Process finished successfully.");
-        }
+        Logger.Instance.Log("Process started");
+        Console.WriteLine("process is running");
+        Logger.Instance.Log("Process finished successfully.");
     }
 }

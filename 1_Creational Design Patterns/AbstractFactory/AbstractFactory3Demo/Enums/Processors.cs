@@ -1,10 +1,9 @@
-﻿namespace AbstractFactory3Demo.Enums
+﻿namespace AbstractFactory3Demo.Enums;
+
+public enum Processors
 {
-    public enum Processors
-    {
-        i3,
-        i5,
-        i7,
-        i9
-    }
+    i3,
+    i5,
+    i7,
+    i9
 }

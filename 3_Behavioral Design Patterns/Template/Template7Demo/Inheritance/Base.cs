@@ -1,24 +1,23 @@
-﻿namespace Template7Demo.Inheritance
-{
-    public abstract class Base
-    {
-        private bool _importantSetting;
-        public virtual void Do()
-        {
-            Initialize();
-        }
+﻿namespace Template7Demo.Inheritance;
 
-        private void Initialize()
-        {
-            _importantSetting = true;
-        }
+public abstract class Base
+{
+    private bool _importantSetting;
+    public virtual void Do()
+    {
+        Initialize();
     }
 
-    public class Child : Base
+    private void Initialize()
     {
-        public override void Do()
-        {
-            // do other stuff
-        }
+        _importantSetting = true;
+    }
+}
+
+public class Child : Base
+{
+    public override void Do()
+    {
+        // do other stuff
     }
 }

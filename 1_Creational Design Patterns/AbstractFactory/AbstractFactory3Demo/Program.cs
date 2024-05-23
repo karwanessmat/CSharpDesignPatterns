@@ -2,20 +2,19 @@
 using AbstractFactory3Demo.Step4_Concrete_Factories;
 using AbstractFactory3Demo.Step5_Client;
 
-namespace AbstractFactory3Demo
+namespace AbstractFactory3Demo;
+
+internal class Program
 {
-    internal class Program
+    private static void Main()
     {
-        private static void Main()
-        {
 
-            var employeeSystemFactory = new EmployeeSystemFactory().Create(2, "win.dev");
-            var employeeSystemManage = new EmployeeSystemManager(employeeSystemFactory);
-           var getDetails= employeeSystemManage.GetSystemDetails();
-           Console.WriteLine(getDetails);
+        var employeeSystemFactory = new EmployeeSystemFactory().Create(2, "win.dev");
+        var employeeSystemManage = new EmployeeSystemManager(employeeSystemFactory);
+        var getDetails= employeeSystemManage.GetSystemDetails();
+        Console.WriteLine(getDetails);
 
 
-           Console.ReadLine();
-        }
+        Console.ReadLine();
     }
 }

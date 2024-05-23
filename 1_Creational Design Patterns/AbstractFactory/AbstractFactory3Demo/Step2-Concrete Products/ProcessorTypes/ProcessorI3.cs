@@ -2,13 +2,12 @@
 using AbstractFactory3Demo.Step1_Abstract_Products;
 
 //Concrete_Products are specific implementations of the abstract products, representing different products to be created.
-namespace AbstractFactory3Demo.Step2_Concrete_Products.ProcessorTypes
+namespace AbstractFactory3Demo.Step2_Concrete_Products.ProcessorTypes;
+
+public class ProcessorI3:IProcessor
 {
-   public class ProcessorI3:IProcessor
+    public string GetProcessor()
     {
-        public string GetProcessor()
-        {
-            return Processors.i3.ToString();
-        }
+        return Processors.i3.ToString();
     }
 }

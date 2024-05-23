@@ -1,12 +1,11 @@
 ﻿using Factory5Demo.Step1_Product_Interface;
 
-namespace Factory5Demo.Step2_Product_Concretes
+namespace Factory5Demo.Step2_Product_Concretes;
+
+public class CitiSavingsAcct:SavingsAccount
 {
-    public class CitiSavingsAcct:SavingsAccount
+    public CitiSavingsAcct()
     {
-        public CitiSavingsAcct()
-        {
-            Balance = 5000;
-        }
+        Balance = 5000;
     }
 }

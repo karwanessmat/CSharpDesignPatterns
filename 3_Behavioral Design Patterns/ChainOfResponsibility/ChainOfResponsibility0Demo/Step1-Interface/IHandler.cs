@@ -1,8 +1,7 @@
-﻿namespace ChainOfResponsibility0Demo.Step1_Interface
+﻿namespace ChainOfResponsibility0Demo.Step1_Interface;
+
+public interface IHandler
 {
-    public interface IHandler
-    {
-        IHandler SetNext(IHandler handler);
-        void HandleRequest(string request);
-    }
+    IHandler SetNext(IHandler handler);
+    void HandleRequest(string request);
 }

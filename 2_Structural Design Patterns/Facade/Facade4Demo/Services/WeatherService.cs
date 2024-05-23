@@ -1,14 +1,13 @@
 using Facade4Demo.Entities;
 
-namespace Facade4Demo.Services
+namespace Facade4Demo.Services;
+
+public class WeatherService
 {
-    public class WeatherService
+    public int GetTempFahrenheit(City city, State state)
     {
-        public int GetTempFahrenheit(City city, State state)
-        {
-            // call to service or db would go here
+        // call to service or db would go here
             
-            return 53;
-        }
+        return 53;
     }
 }

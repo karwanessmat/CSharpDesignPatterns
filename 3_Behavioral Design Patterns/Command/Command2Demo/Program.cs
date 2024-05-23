@@ -3,26 +3,25 @@ using Command2Demo._2.Concrete_Commands;
 using Command2Demo._3.Receiver;
 using Command2Demo._4.Invoker;
 
-namespace Command2Demo
+namespace Command2Demo;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
 
-            var abcStock = new Stock();
+        var abcStock = new Stock();
 
-            var buyStockOrder = new BuyStock(abcStock);
-            var sellStockOrder = new SellStock(abcStock);
+        var buyStockOrder = new BuyStock(abcStock);
+        var sellStockOrder = new SellStock(abcStock);
 
-            Broker broker = new Broker();
-            broker.TakeOrder(buyStockOrder);
-            broker.TakeOrder(sellStockOrder);
+        Broker broker = new Broker();
+        broker.TakeOrder(buyStockOrder);
+        broker.TakeOrder(sellStockOrder);
 
-            broker.PlaceOrders(50);
+        broker.PlaceOrders(50);
 
 
-            Console.ReadLine();
-        }
+        Console.ReadLine();
     }
 }

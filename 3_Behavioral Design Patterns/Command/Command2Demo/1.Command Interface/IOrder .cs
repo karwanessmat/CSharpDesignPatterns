@@ -1,7 +1,6 @@
-﻿namespace Command2Demo._1.Command_Interface
+﻿namespace Command2Demo._1.Command_Interface;
+
+public interface IOrder
 {
-    public interface IOrder
-    {
-        void Execute(int value);
-    }
+    void Execute(int value);
 }

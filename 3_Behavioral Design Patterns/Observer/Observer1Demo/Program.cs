@@ -2,35 +2,33 @@
 using Observer1Demo.Step3_Implement_Concrete_Subject;
 using Observer1Demo.Step4_Implement_Concrete_Observers;
 
-namespace Observer1Demo
+namespace Observer1Demo;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
 
-            // Configure Observer pattern
-            ConcreteSubject s = new ConcreteSubject();
-            s.Attach(new ConcreteObserver(s, "X"));
-            s.Attach(new ConcreteObserver(s, "Y"));
-            s.Attach(new ConcreteObserver(s, "Z"));
+        // Configure Observer pattern
+        ConcreteSubject s = new ConcreteSubject();
+        s.Attach(new ConcreteObserver(s, "X"));
+        s.Attach(new ConcreteObserver(s, "Y"));
+        s.Attach(new ConcreteObserver(s, "Z"));
        
-            // Change subject and notify observers
-            s.SubjectState = "ABC";
-            s.Notify();
+        // Change subject and notify observers
+        s.SubjectState = "ABC";
+        s.Notify();
 
-            Console.WriteLine("Enter new state:");
-            var newSate = Console.ReadLine();
-            s.Attach(new ConcreteObserver(s,newSate));
-            s.SubjectState = "ABC2";
-            s.Notify();
+        Console.WriteLine("Enter new state:");
+        var newSate = Console.ReadLine();
+        s.Attach(new ConcreteObserver(s,newSate));
+        s.SubjectState = "ABC2";
+        s.Notify();
 
-            // Wait for user
-            Console.ReadKey();
-        }
+        // Wait for user
+        Console.ReadKey();
     }
 }
-
 
 
 //### Example Scenario and Result

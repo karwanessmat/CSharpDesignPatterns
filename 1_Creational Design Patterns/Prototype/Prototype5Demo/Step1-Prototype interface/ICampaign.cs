@@ -1,13 +1,12 @@
-﻿namespace Prototype5Demo.Step1_Prototype_interface
+﻿namespace Prototype5Demo.Step1_Prototype_interface;
+
+public interface ICampaign
 {
-    public interface ICampaign
-    {
-        decimal TotalBudget { get; set; }
-        string CampaignName { get; set; }
+    decimal TotalBudget { get; set; }
+    string CampaignName { get; set; }
 
-        void StartCampaign();
-        void PrintData();
+    void StartCampaign();
+    void PrintData();
 
-        ICampaign Clone();
-    }
+    ICampaign Clone();
 }

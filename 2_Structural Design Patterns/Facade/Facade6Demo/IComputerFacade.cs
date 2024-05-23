@@ -1,8 +1,7 @@
-﻿namespace Facade6Demo
+﻿namespace Facade6Demo;
+
+public interface IComputerFacade
 {
-    public interface IComputerFacade
-    {
-        void Start();
-        void ShutDown();
-    }
+    void Start();
+    void ShutDown();
 }

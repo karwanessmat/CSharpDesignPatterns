@@ -2,23 +2,22 @@
 using Builder2Demo.Step3_ConcreteBuilder;
 using Builder2Demo.step4_Director;
 
-namespace Builder2Demo
+namespace Builder2Demo;
+
+internal class Program
 {
-    internal class Program
+    private static void Main()
     {
-        private static void Main()
-        {
 
-            var hondaVehicle = new VehicleCreator(new HondaBuilder());
-            hondaVehicle.BuildVehicle();
-            Console.WriteLine(hondaVehicle.GetVehicle());
+        var hondaVehicle = new VehicleCreator(new HondaBuilder());
+        hondaVehicle.BuildVehicle();
+        Console.WriteLine(hondaVehicle.GetVehicle());
 
-            Console.WriteLine();
+        Console.WriteLine();
 
 
-            var heroVehicle= new VehicleCreator(new FordBuilder());
-            heroVehicle.BuildVehicle();
-            Console.WriteLine(heroVehicle.GetVehicle());
-        }
+        var heroVehicle= new VehicleCreator(new FordBuilder());
+        heroVehicle.BuildVehicle();
+        Console.WriteLine(heroVehicle.GetVehicle());
     }
 }

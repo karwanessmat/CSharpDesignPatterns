@@ -1,7 +1,6 @@
-﻿namespace Adapter8Demo.Step1___Interface
+﻿namespace Adapter8Demo.Step1___Interface;
+
+public interface ITarget
 {
-    public interface ITarget
-    {
-        void SomeMethod();
-    }
+    void SomeMethod();
 }

@@ -1,6 +1,5 @@
-﻿namespace AbstractFactory6Demo.step1_AbstractProduct
+﻿namespace AbstractFactory6Demo.step1_AbstractProduct;
+
+public interface ILoanAccount
 {
-    public interface ILoanAccount
-    {
-    }
 }

@@ -1,9 +1,8 @@
-﻿namespace AbstractFactory3Demo.Enums
+﻿namespace AbstractFactory3Demo.Enums;
+
+public enum Brands
 {
-    public enum Brands
-    {
-        Apple,
-        Dell,
-        MSI
-    }
+    Apple,
+    Dell,
+    MSI
 }

@@ -1,7 +1,6 @@
-﻿namespace Decorator5Demo._1_Component_Interface
+﻿namespace Decorator5Demo._1_Component_Interface;
+
+public interface INotifier
 {
-    public interface INotifier
-    {
-        void Send(string message);
-    }
+    void Send(string message);
 }

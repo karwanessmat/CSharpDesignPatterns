@@ -1,7 +1,6 @@
-﻿namespace Adapter2Demo.step1___Client_Interface
+﻿namespace Adapter2Demo.step1___Client_Interface;
+
+public interface ITarget
 {
-    public interface ITarget
-    {
-        string Request();
-    }
+    string Request();
 }

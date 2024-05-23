@@ -1,7 +1,6 @@
-﻿namespace Bridge3Demo._1_Define_Implementor_Interface
+﻿namespace Bridge3Demo._1_Define_Implementor_Interface;
+
+public interface IColor
 {
-   public interface IColor
-   {
-       void Color();
-   }
+    void Color();
 }

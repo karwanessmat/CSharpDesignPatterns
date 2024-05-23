@@ -1,39 +1,38 @@
-﻿namespace Singleton5Demo
+﻿namespace Singleton5Demo;
+
+public class Logger
 {
-    public class Logger
+    private static Logger? _instance;
+    private static readonly object _lockObj = new object();
+
+    private readonly StreamWriter _logStream;
+
+    private Logger()
     {
-        private static Logger? _instance;
-        private static readonly object _lockObj = new object();
-
-        private readonly StreamWriter _logStream;
-
-        private Logger()
+        _logStream = new StreamWriter("app.log", append: true)
         {
-            _logStream = new StreamWriter("app.log", append: true)
-            {
-                AutoFlush = true
-            };
-        }
+            AutoFlush = true
+        };
+    }
 
-        public static Logger? Instance
+    public static Logger? Instance
+    {
+        get
         {
-            get
+            lock (_lockObj)
             {
-                lock (_lockObj)
-                {
-                    _instance ??= new Logger();
-                }
+                _instance ??= new Logger();
+            }
         
 
-                return _instance;
-            }
+            return _instance;
         }
+    }
 
-        public void Log(string message)
-        {
+    public void Log(string message)
+    {
 
-            _logStream.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
-            Console.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
-        }
+        _logStream.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
+        Console.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
     }
 }

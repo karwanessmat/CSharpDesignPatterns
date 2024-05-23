@@ -1,21 +1,19 @@
 ﻿using Decorator2Demo._1_Component_Interface;
 
-namespace Decorator2Demo._2_Create_a_Concrete_Component
+namespace Decorator2Demo._2_Create_a_Concrete_Component;
+
+/// <summary>
+/// Concrete Component
+/// </summary>
+public  class EconomyCar:ICar
 {
-
-    /// <summary>
-    /// Concrete Component
-    /// </summary>
-  public  class EconomyCar:ICar
+    public string GetDescription()
     {
-        public string GetDescription()
-        {
-            return "Economy Car";
-        }
+        return "Economy Car";
+    }
 
-        public double GetCost()
-        {
-            return 450000.0;
-        }
+    public double GetCost()
+    {
+        return 450000.0;
     }
 }

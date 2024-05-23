@@ -1,54 +1,53 @@
 ﻿using Iterator1Demo.Step1_Iterator_Interface;
 using Iterator1Demo.step4_Concrete_Collection;
 
-namespace Iterator1Demo.Step2_Concrete_Iterator
+namespace Iterator1Demo.Step2_Concrete_Iterator;
+
+/// <summary>
+/// The 'ConcreteIterator' class
+/// </summary>
+internal class ConcreteIterator(ConcreteAggregate aggregate) : Iterator
+
 {
-    /// <summary>
-    /// The 'ConcreteIterator' class
-    /// </summary>
-    internal class ConcreteIterator(ConcreteAggregate aggregate) : Iterator
+    private int _current;
 
+    // Constructor
+
+    // Gets first iteration item
+    public override object First()
     {
-        private int _current;
+        return aggregate[0];
+    }
 
-        // Constructor
+    // Gets next iteration item
+    public override object Next()
+    {
+        return HasNext() ? aggregate[_current++] : null;
 
-        // Gets first iteration item
-        public override object First()
+
+        object ret = null;
+        if (_current < aggregate.Count - 1)
         {
-            return aggregate[0];
+            ret = aggregate[++_current];
         }
 
-        // Gets next iteration item
-        public override object Next()
-        {
-            return HasNext() ? aggregate[_current++] : null;
+        return ret;
+    }
 
+    // Gets current iteration item
+    public override object CurrentItem()
+    {
+        return aggregate[_current];
+    }
 
-            object ret = null;
-            if (_current < aggregate.Count - 1)
-            {
-                ret = aggregate[++_current];
-            }
+    public override bool HasNext()
+    {
+        return _current < aggregate.Count;
+    }
 
-            return ret;
-        }
-
-        // Gets current iteration item
-        public override object CurrentItem()
-        {
-            return aggregate[_current];
-        }
-
-        public override bool HasNext()
-        {
-            return _current < aggregate.Count;
-        }
-
-        // Gets whether iterations are complete
-        public override bool IsDone()
-        {
-            return _current >= aggregate.Count;
-        }
+    // Gets whether iterations are complete
+    public override bool IsDone()
+    {
+        return _current >= aggregate.Count;
     }
 }

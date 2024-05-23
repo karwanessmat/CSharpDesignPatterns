@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace Facade1Demo.Subsystem_Classes
+namespace Facade1Demo.Subsystem_Classes;
+
+public  class SubSystemOne
 {
-  public  class SubSystemOne
+    public void SystemOneMethodOne()
     {
-        public void SystemOneMethodOne()
-        {
-            Console.WriteLine("System One Method One");
-        }
+        Console.WriteLine("System One Method One");
     }
 }

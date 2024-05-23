@@ -1,7 +1,6 @@
-﻿namespace Proxy6Demo._1._Subject_Interface
+﻿namespace Proxy6Demo._1._Subject_Interface;
+
+public interface ISharedFolder
 {
-    public interface ISharedFolder
-    {
-        void PerformReadWriteOperations();
-    }
+    void PerformReadWriteOperations();
 }

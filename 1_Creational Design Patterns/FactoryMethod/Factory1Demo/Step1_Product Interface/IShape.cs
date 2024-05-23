@@ -1,7 +1,6 @@
-﻿namespace Factory1Demo.Step1_Product_Interface
+﻿namespace Factory1Demo.Step1_Product_Interface;
+
+public interface IShape
 {
-   public interface IShape
-   {
-       void Draw();
-   }
+    void Draw();
 }

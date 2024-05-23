@@ -2,18 +2,17 @@
 using AbstractFactory5Demo.Step2_Concrete_Products;
 using AbstractFactory5Demo.Step3_Abstract_Factories;
 
-namespace AbstractFactory5Demo.Step4_Concrete_Factories
-{
-    public class LightThemeFactory:IThemeFactory
-    {
-        public IButton CreateButton()
-        {
-            return new LightButton();
-        }
+namespace AbstractFactory5Demo.Step4_Concrete_Factories;
 
-        public ITextBox CreateTextBox()
-        {
-            return new LightTextBox();
-        }
+public class LightThemeFactory:IThemeFactory
+{
+    public IButton CreateButton()
+    {
+        return new LightButton();
+    }
+
+    public ITextBox CreateTextBox()
+    {
+        return new LightTextBox();
     }
 }

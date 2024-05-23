@@ -1,45 +1,44 @@
 ﻿using Memento1Demo.Step1__Create_the_Memento_class;
 
-namespace Memento1Demo
+namespace Memento1Demo;
+
+public class Calculator
 {
-    public class Calculator
+    private int _result;
+
+
+    public void SetResult(int i = 0)
     {
-        private int _result;
+        _result = i;
+    }
 
+    public void Add(int x)
+    {
+        _result += x;
+    }
 
-        public void SetResult(int i = 0)
-        {
-            _result = i;
-        }
+    public void Subtract(int x)
+    {
+        _result -= x;
+    }
 
-        public void Add(int x)
-        {
-            _result += x;
-        }
-
-        public void Subtract(int x)
-        {
-            _result -= x;
-        }
-
-        public int GetResult()
-        {
-            return _result;
-        }
+    public int GetResult()
+    {
+        return _result;
+    }
 
 
 
-        public Memento CreateMemento()
-        {
-            var memento = new Memento();
-            memento.SetState(_result);
-            return memento;
-        }
+    public Memento CreateMemento()
+    {
+        var memento = new Memento();
+        memento.SetState(_result);
+        return memento;
+    }
 
 
-        public void SaveState(Memento memento)
-        {
-            _result = memento.GetState();
-        }
+    public void SaveState(Memento memento)
+    {
+        _result = memento.GetState();
     }
 }
