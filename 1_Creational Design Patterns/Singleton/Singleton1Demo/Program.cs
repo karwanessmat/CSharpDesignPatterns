@@ -19,7 +19,8 @@ internal class Program
         });
 
          
-
+        Singleton ss1 = Singleton.GetInstance;
+        ss1.DisplayMessage("Msg");
 
     }
 

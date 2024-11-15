@@ -7,6 +7,10 @@ public  class Singleton
     public static int Count;
     private static Singleton _instance;
     private static readonly  object Obj=new();
+    private Singleton()
+    {
+  
+    }
     public static Singleton GetInstance
     {
         get
@@ -22,14 +26,10 @@ public  class Singleton
             return _instance;
         }
     }
-    private Singleton()
-    {
-        Count++;
-        Console.WriteLine(Count);
-    }
+
     public void DisplayMessage(string msg)
     {
-        Console.WriteLine(msg);
+        Console.WriteLine($"{Count}: {msg}");
     }
 
 
