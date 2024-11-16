@@ -1,10 +1,19 @@
 ﻿using Singleton6Demo;
 
-string? environment = "Development";
-string? getSettings = ServiceConfigurationManager.Instance.GetConfiguration(environment, "EmailServiceUrl");
-Console.WriteLine(getSettings);
-Console.WriteLine();
+// get as test of result development 
+const string environment = "Development";
+var apiKeyDevelopmentEnvironment = 
+    ServiceConfigurationManager.Instance.GetConfiguration(environment, "PaymentGatewayApiKey");
 
-string currentEnvironment = "Production";
+var emailDevelopmentEnvironment =
+    ServiceConfigurationManager.Instance.GetConfiguration(environment, "EmailServiceUrl");
+
+Console.WriteLine(apiKeyDevelopmentEnvironment);
+Console.WriteLine(emailDevelopmentEnvironment);
+
+Console.WriteLine();
+Console.WriteLine("The payment service to process");
+// using the paymentService to process
+const string currentEnvironment = "Production";
 var paymentService = new PaymentService(currentEnvironment);
 paymentService.ProcessPayment();

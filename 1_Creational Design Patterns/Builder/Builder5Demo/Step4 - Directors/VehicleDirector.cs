@@ -13,4 +13,12 @@ public class VehicleDirector(IVehicleBuilder builder)
         builder.SetColor();
         return builder.Build();
     }
+    /// <summary>
+    /// we are using this method when we do not return Vehicle with Construct() Method
+    /// </summary>
+    /// <returns></returns>
+    public Vehicle VehicleMaker()
+    {
+        return builder.Build();
+    }
 }

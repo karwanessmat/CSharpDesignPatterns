@@ -4,7 +4,8 @@ public class SomeBusinessLogic
 {
     public void Process()
     {
-        Logger.Instance.Log("Process started");
+        var logger =Logger.Instance;
+        logger.Log("Process started");
         Console.WriteLine("process is running");
         Logger.Instance.Log("Process finished successfully.");
     }
