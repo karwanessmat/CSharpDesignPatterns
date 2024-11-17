@@ -8,7 +8,7 @@ internal class Assemble:IWorkshop
 {
     public void Work()
     {
-        Console.Write("and ");
+        Console.Write(" and ");
         Console.WriteLine("Assembled");
     }
 }

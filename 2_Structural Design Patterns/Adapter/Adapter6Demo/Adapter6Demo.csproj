@@ -8,9 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Step1 - Interface\" />
-    <Folder Include="step2-Adapter Class\" />
-    <Folder Include="Step3-Client - Adaptee\" />
+    <Compile Remove="Step1 - Interface\**" />
+    <Compile Remove="step2-Adapter Class\**" />
+    <Compile Remove="Step3-Client - Adaptee\**" />
+    <EmbeddedResource Remove="Step1 - Interface\**" />
+    <EmbeddedResource Remove="step2-Adapter Class\**" />
+    <EmbeddedResource Remove="Step3-Client - Adaptee\**" />
+    <None Remove="Step1 - Interface\**" />
+    <None Remove="step2-Adapter Class\**" />
+    <None Remove="Step3-Client - Adaptee\**" />
   </ItemGroup>
 
 </Project>

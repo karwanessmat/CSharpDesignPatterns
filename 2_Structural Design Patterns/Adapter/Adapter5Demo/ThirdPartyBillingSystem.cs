@@ -19,6 +19,5 @@ public class ThirdPartyBillingSystem(ITarget employeeSource)
         {
             Console.Write(item);
         }
-
     }
 }

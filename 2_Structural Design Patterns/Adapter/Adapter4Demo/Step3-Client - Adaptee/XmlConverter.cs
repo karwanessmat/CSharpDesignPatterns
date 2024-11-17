@@ -6,7 +6,7 @@ using System.Xml.Linq;
 namespace Adapter4Demo.Step3_Client___Adaptee;
 
 /// <summary>
-/// Adaptee - we can say it is translate 
+/// Adaptee - we can say it is translate (source can be translated) 
 /// </summary>
 public class XmlConverter
 {

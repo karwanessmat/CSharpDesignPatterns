@@ -8,7 +8,7 @@ public class JsonConverter(IEnumerable<Manufacturer> manufacturers)
 {
     public void ConvertToJson()
     {
-        string jsonManufacturers = JsonConvert.SerializeObject(manufacturers, Formatting.Indented);
+        var jsonManufacturers = JsonConvert.SerializeObject(manufacturers, Formatting.Indented);
         Console.WriteLine("\nPrinting JSON list\n");
         Console.WriteLine(jsonManufacturers);
     }

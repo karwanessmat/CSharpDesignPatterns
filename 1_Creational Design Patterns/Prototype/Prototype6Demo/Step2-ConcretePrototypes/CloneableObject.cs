@@ -1,4 +1,4 @@
-﻿using Prototype6Demo.Step1_Prototype_interface;
+﻿ using Prototype6Demo.Step1_Prototype_interface;
 
 namespace Prototype6Demo.Step2_ConcretePrototypes;
 

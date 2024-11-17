@@ -12,6 +12,4 @@ public static class ManufacturerDataProvider
         new(){ City = "Japan", Name = "Subaru", Year = 2016 },
         new(){ City = "Germany", Name = "BMW", Year = 2015 }
     ];
-
-
 }

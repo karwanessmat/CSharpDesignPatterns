@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Security.Cryptography;
 using Bridge3Demo._2_Create_Concrete_Implementations;
 using Bridge3Demo._3_Define_Abstraction;
 using Bridge3Demo._4_Create_Refined_Abstraction;
@@ -21,7 +23,18 @@ class Program
         rectangle.SetColor();
 
 
-        Console.ReadKey();
+        Console.WriteLine("______");
+        
+        List<Shape> shapes = new List<Shape>()
+        {
+            new Circle(new RedColor()),
+            new Circle(new GreenColor()),
+            new Square(new GreenColor()),
+            new Rectangle(new RedColor())
+        };
 
+
+        shapes.ForEach(shape=> shape.SetColor());
+        Console.ReadKey();
     }
 }

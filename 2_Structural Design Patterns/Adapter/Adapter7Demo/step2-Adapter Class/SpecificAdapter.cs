@@ -11,3 +11,13 @@ public class SpecificAdapter(Adaptee adaptee):IAdapter
         adaptee.IncompatibleMethod();
     }
 }
+
+public class SpecificAdapter2 : IAdapter
+{
+    private readonly Adaptee _adaptee = new();
+
+    public void SomeMethod()
+    {
+        _adaptee.IncompatibleMethod();
+    }
+}
