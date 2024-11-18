@@ -87,6 +87,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite3Demo", "2_Structural Design Patterns\Composite\Composite3Demo\Composite3Demo.csproj", "{2A5E269C-73D9-4BC7-8238-75CE1135D1A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{B02ACDD1-47B2-4719-A171-A4D32BA4FCA9}"
+	ProjectSection(SolutionItems) = preProject
+		2_Structural Design Patterns\Decorator\DecoratorExplain.md = 2_Structural Design Patterns\Decorator\DecoratorExplain.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator3Demo", "2_Structural Design Patterns\Decorator\Decorator3Demo\Decorator3Demo.csproj", "{C67E9067-45E4-47FA-864E-38333F007049}"
 EndProject
@@ -431,7 +434,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator1Demo", "3_Behavior
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator2Demo", "3_Behavioral Design Patterns\MediatoR\Mediator2Demo\Mediator2Demo.csproj", "{05466553-1D32-426D-85DB-34CC20F8D0C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge7Demo", "2_Structural Design Patterns\Bridge\Bridge7Demo\Bridge7Demo.csproj", "{A9B426AD-D032-454D-BBAE-A2EE8DD1125E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge7Demo", "2_Structural Design Patterns\Bridge\Bridge7Demo\Bridge7Demo.csproj", "{A9B426AD-D032-454D-BBAE-A2EE8DD1125E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
