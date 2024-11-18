@@ -2,5 +2,14 @@
 using Bridge4Demo._3_Define_Abstraction;
 using Bridge4Demo._4_Create_Refined_Abstraction;
 
-IShape circleArea = new Rectangle(2,4,new RectangleAreaCalculator());
-Console.WriteLine($"Area: {circleArea.CalculateArea()}");
+// Using RectangleAreaCalculator with a Rectangle
+IShape rectangle = new Rectangle(5, 10, new RectangleAreaCalculator());
+Console.WriteLine($"Rectangle Area: {rectangle.CalculateArea()}");
+
+// Using CircleAreaCalculator with a Circle
+IShape circle = new Circle(7, new CircleAreaCalculator());
+Console.WriteLine($"Circle Area: {circle.CalculateArea()}");
+
+// Using SquareAreaCalculator with a Square
+IShape square = new Square(4, new SquareAreaCalculator());
+Console.WriteLine($"Square Area: {square.CalculateArea()}");
