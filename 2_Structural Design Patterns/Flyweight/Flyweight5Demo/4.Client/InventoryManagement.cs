@@ -9,7 +9,12 @@ public class InventoryManagement
     private readonly ProductFactory _productFactory = new();
     private readonly List<Product> _products = new();
 
-    public void AddProduct(string sku, decimal price, int quantityInStock, string description, string specifications, List<string> reviews)
+    public void AddProduct(string sku, 
+                           decimal price, 
+                           int quantityInStock,
+                           string description, 
+                           string specifications,
+                           List<string> reviews)
     {
         ProductDescription? productDescription = _productFactory.GetProductDescription(description, specifications, reviews);
         var product = new Product(sku, price, quantityInStock, productDescription);

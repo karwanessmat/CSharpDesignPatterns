@@ -11,7 +11,6 @@ public abstract class CarAccessoriesDecorator(ICar car) : ICar
     {
         return car.GetDescription();
     }
-
     public virtual double GetCost()
     {
         return car.GetCost();

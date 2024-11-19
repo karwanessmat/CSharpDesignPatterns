@@ -11,7 +11,6 @@ public  class EconomyCar:ICar
     {
         return "Economy Car";
     }
-
     public double GetCost()
     {
         return 450000.0;

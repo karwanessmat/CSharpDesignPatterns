@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Subsystem Classes\" />
+    <Compile Remove="Subsystem Classes\**" />
+    <EmbeddedResource Remove="Subsystem Classes\**" />
+    <None Remove="Subsystem Classes\**" />
   </ItemGroup>
 
 </Project>

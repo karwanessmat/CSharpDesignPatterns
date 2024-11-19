@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using ChainOfResponsibility2Demo.Step1_Interface;
 
-namespace ChainOfResponsibility2Demo;
+namespace ChainOfResponsibility2Demo.Step3_Set_Up_Client_;
 
 internal class Client
 {

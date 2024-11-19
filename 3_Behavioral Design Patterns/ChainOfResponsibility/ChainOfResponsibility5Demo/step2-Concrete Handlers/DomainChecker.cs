@@ -7,6 +7,12 @@ namespace ChainOfResponsibility5Demo.step2_Concrete_Handlers;
         {
             Console.WriteLine("Checking domain availability");
             bool response = request.Domain == "domain.com";
-            return response;
+            if (response)
+            {
+                Console.WriteLine("Domain is available");
+                Console.WriteLine("_________");
+
+}
+        return response;
         }
     }

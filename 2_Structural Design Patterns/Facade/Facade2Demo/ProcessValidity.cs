@@ -6,7 +6,7 @@ namespace Facade2Demo;
 /// <summary>
 /// The 'Facade' class
 /// </summary>
-public class Mortgage
+public class ProcessValidity
 
 {
     private readonly Bank _bank = new();

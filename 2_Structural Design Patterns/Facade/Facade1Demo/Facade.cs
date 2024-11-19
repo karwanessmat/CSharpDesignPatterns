@@ -1,4 +1,5 @@
-﻿using Facade1Demo.Subsystem_Classes;
+﻿using System.Threading.Tasks;
+using Facade1Demo.Subsystem_Classes;
 
 namespace Facade1Demo;
 
@@ -12,10 +13,13 @@ public   class Facade
     private readonly SubSystemTwo _subSystemTwo = new();
 
 
-    public void CallSubSystemsMethod()
+    public  void CallSubSystemsMethod()
     {
-        _subSystemOne.SystemOneMethodOne();
-        _subSystemThree.SystemOneMethodThree();
-        _subSystemTwo.SystemOneMethodTow();
+        Task.Run(() =>
+        {
+            _subSystemOne.SystemOneMethodOne();
+            _subSystemThree.SystemOneMethodThree();
+            _subSystemTwo.SystemOneMethodTow();
+        });
     }
 }

@@ -8,7 +8,6 @@ class LuxuryCar:ICar
     {
         return "Luxury Car";
     }
-
     public double GetCost()
     {
         return 1000 - 000.0;

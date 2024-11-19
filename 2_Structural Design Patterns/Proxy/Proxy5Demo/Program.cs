@@ -10,6 +10,7 @@ class Program
     {
         var sensitiveDoc = new SensitiveDocument("Top Secret Document Content");
 
+        // proxy
         // Assuming the user's security level is 4
         var proxy = new SecureDocumentProxy(sensitiveDoc, 4);
         Console.WriteLine(proxy.GetContent()); // Outputs: Access Denied: You do not have the necessary security clearance.

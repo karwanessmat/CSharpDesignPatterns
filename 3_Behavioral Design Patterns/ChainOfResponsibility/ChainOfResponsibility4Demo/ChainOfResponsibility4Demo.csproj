@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Step3-Set Up%28Client%29\" />
+    <Compile Remove="Step3-Set Up%28Client%29\**" />
+    <EmbeddedResource Remove="Step3-Set Up%28Client%29\**" />
+    <None Remove="Step3-Set Up%28Client%29\**" />
   </ItemGroup>
 
 </Project>

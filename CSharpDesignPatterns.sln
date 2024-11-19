@@ -105,6 +105,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade2Demo", "2_Structural Design Patterns\Facade\Facade2Demo\Facade2Demo.csproj", "{3AEC0CDF-936D-44FE-91B7-A7AFE05923CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{A7B36C16-635B-4AA7-8397-206BF6AD969B}"
+	ProjectSection(SolutionItems) = preProject
+		2_Structural Design Patterns\Flyweight\FlyWeight.md = 2_Structural Design Patterns\Flyweight\FlyWeight.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight1Demo", "2_Structural Design Patterns\Flyweight\Flyweight1Demo\Flyweight1Demo.csproj", "{5D247A09-29D8-4B2E-AEE0-CC2E15F4DA85}"
 EndProject
@@ -142,8 +145,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{D7E4B63D-6E8C-44BB-823F-747BEED5B15A}"
 	ProjectSection(SolutionItems) = preProject
-		Command.md = Command.md
-		Steps implementation.md = Steps implementation.md
+		3_Behavioral Design Patterns\Command\Command Steps implementation.md = 3_Behavioral Design Patterns\Command\Command Steps implementation.md
+		3_Behavioral Design Patterns\Command\Command.md = 3_Behavioral Design Patterns\Command\Command.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command1Demo", "3_Behavioral Design Patterns\Command\Command1Demo\Command1Demo.csproj", "{5CCED48F-182D-4656-9E7D-C9164AE42808}"
@@ -434,7 +437,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator1Demo", "3_Behavior
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator2Demo", "3_Behavioral Design Patterns\MediatoR\Mediator2Demo\Mediator2Demo.csproj", "{05466553-1D32-426D-85DB-34CC20F8D0C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge7Demo", "2_Structural Design Patterns\Bridge\Bridge7Demo\Bridge7Demo.csproj", "{A9B426AD-D032-454D-BBAE-A2EE8DD1125E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge7Demo", "2_Structural Design Patterns\Bridge\Bridge7Demo\Bridge7Demo.csproj", "{A9B426AD-D032-454D-BBAE-A2EE8DD1125E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1065,7 +1068,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{02DA5B95-AEF6-43EA-9011-8E9D139F7717} = {6D989255-9BE3-48EA-8D73-83B9B87B631A}
 		{A9D26559-9054-46E6-AB18-FB261DEF596C} = {02DA5B95-AEF6-43EA-9011-8E9D139F7717}
-		{F74AF1EF-71AD-457E-A929-43357516B3C0} = {7B206C8D-CC2F-4883-8A7E-74C35255E228}
+		{F74AF1EF-71AD-457E-A929-43357516B3C0} = {6D989255-9BE3-48EA-8D73-83B9B87B631A}
 		{3236773B-85D3-4FCC-B146-F127B9FF4856} = {F74AF1EF-71AD-457E-A929-43357516B3C0}
 		{1770BC95-1052-453B-AFA7-782E276912A5} = {F74AF1EF-71AD-457E-A929-43357516B3C0}
 		{7B206C8D-CC2F-4883-8A7E-74C35255E228} = {6D989255-9BE3-48EA-8D73-83B9B87B631A}

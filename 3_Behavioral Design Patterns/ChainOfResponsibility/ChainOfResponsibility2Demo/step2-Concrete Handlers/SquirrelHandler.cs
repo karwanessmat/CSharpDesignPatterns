@@ -1,6 +1,6 @@
 ﻿using ChainOfResponsibility2Demo.Step1_Interface;
 
-namespace ChainOfResponsibility2Demo;
+namespace ChainOfResponsibility2Demo.step2_Concrete_Handlers;
 
 // Squirrel سمۆره‌
 internal class SquirrelHandler : AbstractHandler

@@ -5,16 +5,6 @@
 
 This project demonstrates the implementation of the Chain of Responsibility design pattern in C#. The pattern allows an object to send a command without knowing which object will handle the request. This creates a chain of objects that can act upon the request.
 
-## Prerequisites
-
-- .NET SDK (version 6.0 or later)
-
-## How to Run
-
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Build the project using the .NET CLI command: `dotnet build`.
-4. Run the project using the command: `dotnet run`.
 
 ## Implementation Details
 

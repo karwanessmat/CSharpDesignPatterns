@@ -12,8 +12,7 @@ internal class DataServiceProxy : IDataService
     {
         Console.WriteLine($"{DateTime.Now} - Started data query.");
 
-        if (_localCache is null)
-            _localCache = await _dataService.GetData();
+        _localCache ??= await _dataService.GetData();
 
         Console.WriteLine($"{DateTime.Now} - Data has been retrieved.");
         return _localCache;

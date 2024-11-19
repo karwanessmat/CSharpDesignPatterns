@@ -5,7 +5,7 @@ using System;
 using Facade2Demo.Subsystem_Classes;
 
 // Facade
-var mortgage = new Mortgage();
+var mortgage = new ProcessValidity();
 
 // Evaluate mortgage eligibility for customer
 var customer = new Customer("Ann McKinsey");

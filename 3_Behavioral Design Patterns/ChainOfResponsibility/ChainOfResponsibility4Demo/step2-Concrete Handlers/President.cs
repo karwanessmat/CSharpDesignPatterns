@@ -16,7 +16,6 @@ public class President(Approver successor) : Approver(successor)
                 this.GetType().Name, purchase.Number);
         }
         else
-
         {
             Console.WriteLine(
                 "Request# {0} requires an executive meeting!",

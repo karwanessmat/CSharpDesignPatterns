@@ -7,7 +7,7 @@
 
 ## Overview
 
-The Flyweight design pattern is a structural pattern designed to reduce memory usage and enhance performance by efficiently sharing common parts of an object's state among multiple instances. This approach is beneficial in environments where a vast number of objects are created, and each object's memory footprint is significant. The Flyweight pattern minimizes resource consumption by reusing object instances, thereby increasing efficiency, especially in scenarios where similar objects are instantiated multiple times.
+The Flyweight design pattern is,Also known as: Cache, a structural pattern designed to reduce memory usage and enhance performance by efficiently sharing common parts of an object's state among multiple instances. This approach is beneficial in environments where a vast number of objects are created, and each object's memory footprint is significant. The Flyweight pattern minimizes resource consumption by reusing object instances, thereby increasing efficiency, especially in scenarios where similar objects are instantiated multiple times.
 
 ## Definition
 
@@ -15,6 +15,8 @@ The Flyweight pattern facilitates the sharing of state among a multitude of fine
 
 - **Intrinsic State**: The immutable shared state common across multiple objects, stored in the flyweight.
 - **Extrinsic State**: The mutable state that varies between objects and is not shared, passed to the flyweight when required.
+
+# Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
 
 ## Implementation Steps
 

@@ -8,6 +8,11 @@ public class PaymentsProcessor:Handler
     {
         Console.WriteLine("Processing payment");
         bool response = request.CreditCardInfo == "12345";
+        if (response)
+        {
+            Console.WriteLine("We verified Credit card");
+            Console.WriteLine("_________");
+        }
         return response;
     }
 }
