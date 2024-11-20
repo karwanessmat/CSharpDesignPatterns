@@ -16,5 +16,6 @@ market.AddStock("GOOGL", 190);
 
 Console.WriteLine("===== Updating MSFT =====");
 market.Update("MSFT", 21.99);
+
 Console.WriteLine("===== Updating GOOGL =====");
 market.Update("GOOGL", 44.68);

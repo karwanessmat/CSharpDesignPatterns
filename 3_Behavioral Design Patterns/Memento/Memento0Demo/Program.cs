@@ -30,3 +30,9 @@ Console.WriteLine("First saved State: " + originator.GetState());
 // Restoring to the second saved state
 originator.GetStateFromMemento(caretaker.Get(1));
 Console.WriteLine("Second saved State: " + originator.GetState());
+
+
+
+// Go to the third saved state
+originator.GetStateFromMemento(caretaker.Get(2));
+Console.WriteLine("Third saved State: " + originator.GetState());
