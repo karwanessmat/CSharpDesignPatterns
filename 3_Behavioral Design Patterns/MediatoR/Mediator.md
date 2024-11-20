@@ -115,7 +115,3 @@ colleague2.Send("Hello back!");
 
 ## 🌟 Conclusion
 The Mediator Pattern helps in decoupling the communication between objects, making it easier to manage, extend, and maintain. By centralizing the communication, changes in the communication logic are made only in the mediator, improving the flexibility and scalability of the application.
-
----
-
-This README.md provides a step-by-step guide to implementing the Mediator Design Pattern in C#. It's a simple and effective way to manage complex communications in your software design.

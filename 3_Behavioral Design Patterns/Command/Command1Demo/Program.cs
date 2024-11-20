@@ -10,18 +10,18 @@ internal class Program
 {
     private static void Main()
     {
-        var modifyPrice2 = new ModifyPrice();
-        var product2 = new Product("Phone", 500);
+        var modifyPrice = new ModifyPrice();
+        var product = new Product("Phone", 500);
 
-        Execute(product2, modifyPrice2, new ProductCommand(product2, PriceAction.Increase, 100));
-        Execute(product2, modifyPrice2, new ProductCommand(product2, PriceAction.Increase, 50));
-        Execute(product2, modifyPrice2, new ProductCommand(product2, PriceAction.Decrease, 70));
+        Execute(product, modifyPrice, new ProductCommand(product, PriceAction.Increase, 100));
+        Execute(product, modifyPrice, new ProductCommand(product, PriceAction.Increase, 50));
+        Execute(product, modifyPrice, new ProductCommand(product, PriceAction.Decrease, 70));
 
-        Console.WriteLine(product2);
+        Console.WriteLine(product);
         Console.WriteLine();
 
-        modifyPrice2.UndoActions();
-        Console.WriteLine(product2);
+        modifyPrice.UndoActions();
+        Console.WriteLine(product);
 
         Console.ReadLine();
     }

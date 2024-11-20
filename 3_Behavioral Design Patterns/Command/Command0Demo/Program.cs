@@ -7,7 +7,7 @@ openCommand.Click();
 var saveCommand = new CoolButton(new SaveCommand());
 saveCommand.Click();
 
-var deleteCommand = new CoolButton(new Command(() =>
+var deleteCommand = new CoolButton(new CoolButtonCommand(() =>
 {
     Console.WriteLine("//Logic");
     var command = new DeleteCommand();

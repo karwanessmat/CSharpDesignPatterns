@@ -17,10 +17,12 @@ public class ChangeQuantityCommand(
                 productRepository.IncreaseStockBy(product.ArticleId, 1);
                 shoppingCartRepository.DecreaseQuantity(product.ArticleId);
                 break;
+
             case Operation.Increase:
                 productRepository.DecreaseStockBy(product.ArticleId, 1);
                 shoppingCartRepository.IncreaseQuantity(product.ArticleId);
                 break;
+
             default:
                 throw new ArgumentOutOfRangeException();
         }

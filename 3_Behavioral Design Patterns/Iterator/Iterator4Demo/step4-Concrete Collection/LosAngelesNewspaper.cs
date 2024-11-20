@@ -13,7 +13,7 @@ public class LosAngelesNewspaper:INewspaper
         "Nishtiman - LA",
         "Baran - LA",
         "Lewan - LA",
-        "Maylan - LA"
+        "Lelan - LA"
     ];
 
     public IIterator CreateIterator()

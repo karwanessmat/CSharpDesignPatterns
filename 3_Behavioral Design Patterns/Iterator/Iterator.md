@@ -55,5 +55,3 @@ Ideal for complex data structures requiring a uniform traversal interface while 
 - **Visitor**: To perform operations during iteration.
 
 In conclusion, the Iterator pattern is a powerful tool in object-oriented design, offering a robust solution for navigating complex collections efficiently and flexibly.
-```
-This Markdown document uses emojis to highlight key aspects and make the information more engaging and easier to navigate.

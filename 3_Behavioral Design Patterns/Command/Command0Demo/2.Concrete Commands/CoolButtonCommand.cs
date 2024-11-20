@@ -6,7 +6,7 @@ namespace Command0Demo._2.Concrete_Commands;
 /// a special one to invoke action
 /// </summary>
 /// <param name="action"></param>
-public class Command(Action action):ICommand
+public class CoolButtonCommand(Action action):ICommand
 {
     public void Execute()
     {

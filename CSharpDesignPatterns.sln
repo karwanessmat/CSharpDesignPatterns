@@ -157,7 +157,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command3Demo", "3_Behaviora
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{F8CF19FE-EF65-4717-B099-6481489FB79C}"
 	ProjectSection(SolutionItems) = preProject
-		Iterator.md = Iterator.md
+		3_Behavioral Design Patterns\Iterator\Iterator.md = 3_Behavioral Design Patterns\Iterator\Iterator.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator1Demo", "3_Behavioral Design Patterns\Iterator\Iterator1Demo\Iterator1Demo.csproj", "{EF0BE807-B55E-4264-9F5F-EB2CC2FB2441}"
@@ -438,6 +438,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator2Demo", "3_Behavioral Design Patterns\MediatoR\Mediator2Demo\Mediator2Demo.csproj", "{05466553-1D32-426D-85DB-34CC20F8D0C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge7Demo", "2_Structural Design Patterns\Bridge\Bridge7Demo\Bridge7Demo.csproj", "{A9B426AD-D032-454D-BBAE-A2EE8DD1125E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator9Demo", "3_Behavioral Design Patterns\MediatoR\Mediator9Demo\Mediator9Demo.csproj", "{539B85F6-1CCC-4361-AA39-651874CE8E4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1061,6 +1063,10 @@ Global
 		{A9B426AD-D032-454D-BBAE-A2EE8DD1125E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B426AD-D032-454D-BBAE-A2EE8DD1125E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B426AD-D032-454D-BBAE-A2EE8DD1125E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539B85F6-1CCC-4361-AA39-651874CE8E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539B85F6-1CCC-4361-AA39-651874CE8E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539B85F6-1CCC-4361-AA39-651874CE8E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539B85F6-1CCC-4361-AA39-651874CE8E4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1242,6 +1248,7 @@ Global
 		{D79886B6-D24B-4299-9BAA-E3B2A5D2976B} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
 		{05466553-1D32-426D-85DB-34CC20F8D0C0} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
 		{A9B426AD-D032-454D-BBAE-A2EE8DD1125E} = {0ED96CD5-7161-4FE2-811D-213E5720C8E8}
+		{539B85F6-1CCC-4361-AA39-651874CE8E4C} = {37D93528-AD00-49BD-9D05-588FF84ADC8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05AE38FD-0D6F-41E1-9FFC-784B01BAD24C}

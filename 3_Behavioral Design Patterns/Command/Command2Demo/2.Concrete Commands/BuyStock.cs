@@ -8,11 +8,11 @@ namespace Command2Demo._2.Concrete_Commands;
 ///  concrete classes
 /// Stock is a Receiver
 /// </summary>
-/// <param name="abcStock"></param>
-public class BuyStock(Stock abcStock) : IOrder
+/// <param name="stock"></param>
+public class BuyStock(Stock stock) : IOrder
 {
     public void Execute(int value)
     {
-        abcStock.Buy(value);
+        stock.Buy(value);
     }
 }
