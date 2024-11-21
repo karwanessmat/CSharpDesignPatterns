@@ -3,8 +3,6 @@
 namespace Strategy3Demo._3_ContextClass;
 public class PaymentContext(IPaymentStrategy strategy)
 {
-
-
     public void SetPaymentStrategy(IPaymentStrategy paymentStrategy)
     {
         strategy = paymentStrategy;

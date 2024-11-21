@@ -2,7 +2,7 @@
 
 namespace State8Demo._2_ImplementConcreteStates;
 
-
+// the current state is played
 public class PlayingState : PlayerState
 {
     public override void Play()

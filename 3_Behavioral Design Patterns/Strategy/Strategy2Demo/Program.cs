@@ -10,12 +10,12 @@ class Program
     {
 
         var studentRecords = new SortedList();
-        studentRecords.Add("Karwan");
-        studentRecords.Add("Nishtiman");
-        studentRecords.Add("Baran");
-        studentRecords.Add("Lewan");
-        studentRecords.Add("Vivek");
-        studentRecords.Add("Anna");
+        studentRecords.Add("a");
+        studentRecords.Add("b");
+        studentRecords.Add("aa");
+        studentRecords.Add("c");
+        studentRecords.Add("bb");
+        studentRecords.Add("ba");
 
         studentRecords.SetSortStrategy(new QuickSort());
         studentRecords.Sort();

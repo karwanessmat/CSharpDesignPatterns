@@ -2,6 +2,7 @@
 
 namespace State8Demo._2_ImplementConcreteStates;
 
+// the current state is Paused
 public class PausedState : PlayerState
 {
 

@@ -2,6 +2,7 @@
 
 namespace State8Demo._2_ImplementConcreteStates;
 
+// the current state is Stopped
 public class StoppedState : PlayerState
 {
     public override void Play()

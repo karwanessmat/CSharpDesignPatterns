@@ -8,7 +8,7 @@ public class GreenLight : ITrafficLightState
     public void Handle(TrafficLight context)
     {
         Console.WriteLine("Green light - go!");
-        Thread.Sleep(3000); // Green light for 5 seconds
+        Thread.Sleep(5000); // Green light for 5 seconds
         context.SetState(new YellowLight());
     }
 }

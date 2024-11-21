@@ -10,7 +10,7 @@ namespace Strategy2Demo._3_ContextClass;
 class SortedList
 {
     private readonly List<string> _list = new();
-    private SortStrategy _sortStrategy;
+    private SortStrategy _sortStrategy; // = new SortStrategy() // we can not because we can not create instance for abstract class or interface
 
     public void SetSortStrategy(SortStrategy sortStrategy)
     {
